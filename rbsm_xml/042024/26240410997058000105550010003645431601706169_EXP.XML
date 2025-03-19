@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="26240410997058000105550010003645431601706169" versao="4.00"><ide><cUF>26</cUF><cNF>60170616</cNF><natOp>Venda para revenda</natOp><mod>55</mod><serie>1</serie><nNF>364543</nNF><dEmi>22/04/24</dEmi><dSaiEnt>23/04/24</dSaiEnt><tpNF>1</tpNF><idDest>1</idDest><cMunFG>2601706</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>9</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><indIntermed>1</indIntermed><procEmi>0</procEmi><verProc>Teseus 4.00.0159
+</verProc></ide>
+<emit><CNPJ>10997058000105</CNPJ><xNome>IMPACTO DIST. DE SALG. LTDA.</xNome><xFant>IMPACTO DISTRIBUIDORA</xFant><enderEmit><xLgr>AV JULIA RODRIGUES TORRES, 1106</xLgr><nro>1106</nro><xCpl></xCpl><xBairro>COHAB I</xBairro><cMun>2601706</cMun><xMun>2601706</xMun><UF>PE</UF><CEP>55158815</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>0 </fone></enderEmit></emit>
+<dest><CNPJ>12023966005435</CNPJ><xNome>BONANZA SUPERMERCADOS LTDA</xNome><xFant>BONANZA SUPERMERCADOS LTDA</xFant><enderDest><xLgr>AV PORTUGAL</xLgr><nro>897</nro><xBairro>UNIVERSITARIO</xBairro><cMun>2604106</cMun><xMun>CARUARU</xMun><UF>PE</UF><CEP>55016400</CEP><cPais>1058</cPais><xPais>Brasil</xPais><fone></fone></enderDest><IE>1</IE><ISUF>091573289</ISUF><email>;;nfe@bonanza.com.br
+</email></dest>
+<det nItem="1"><prod><cProd>7701</cProd><cEAN>7798040469064</cEAN><xProd>OVO PASTILHA MINIONS 18dp x 9und</xProd><NCM>17049020</NCM><NVE></NVE><CEST>2806200</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>DP</uCom><qCom>4.0000</qCom><vUnCom>22.43</vUnCom><vProd>89.72</vProd><cEANTrib>7798040469064</cEANTrib><qTrib>4.0000</qTrib><vUnTrib>DP</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>89.72</pRedBC><vBC>20.5000</vBC><pICMS>18.39</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="2"><prod><cProd></cProd><cEAN></cEAN><xProd></xProd><NCM></NCM><NVE>1</NVE><CEST>159191</CEST><indEscala>01</indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI>
+3100</EXTIPI><CFOP>0</CFOP><uCom>00</uCom><qCom>3</qCom><vUnCom>89.72</vUnCom><vProd>20.5000</vProd><cEANTrib>18.39</cEANTrib><qTrib>
+3200</qTrib><vUnTrib></vUnTrib><vFrete>71.33</vFrete><vSeg>1.6500</vSeg><vDesc>1.6500</vDesc><vOutro>1.18
+3300</vOutro><indTotal>01</indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>109.56</pRedBC><vBC>20.5000</vBC><pICMS>22.46</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="3"><prod><cProd>7719</cProd><cEAN>7798040469637</cEAN><xProd>PIR.RING POP TRADICION 18dp x 24und</xProd><NCM>17049020</NCM><NVE></NVE><CEST>2806200</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>DP</uCom><qCom>4.0000</qCom><vUnCom>27.39</vUnCom><vProd>109.56</vProd><cEANTrib>7798040469637</cEANTrib><qTrib>4.0000</qTrib><vUnTrib>DP</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>26.40</pRedBC><vBC>20.5000</vBC><pICMS>5.41</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="4"><prod><cProd>6200</cProd><cEAN>7896286614290</cEAN><xProd>BISCOITO TRADICIONAL DIMEL 24X350G</xProd><NCM>19059020</NCM><NVE></NVE><CEST>2899900</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5403</CFOP><uCom>PC</uCom><qCom>24.0000</qCom><vUnCom>4.12</vUnCom><vProd>98.88</vProd><cEANTrib>7896286614290</cEANTrib><qTrib>24.0000</qTrib><vUnTrib>PC</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>25.76</pRedBC><vBC>20.5000</vBC><pICMS>5.28</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="5"><prod><cProd>6292</cProd><cEAN>7896286620239</cEAN><xProd>DROPS ICEKISS TENTACAO MELAO 36X12X29G</xProd><NCM>17049020</NCM><NVE></NVE><CEST>2806200</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>DP</uCom><qCom>4.0000</qCom><vUnCom>6.60</vUnCom><vProd>26.40</vProd><cEANTrib>7896286620239</cEANTrib><qTrib>4.0000</qTrib><vUnTrib>DP</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>26.40</pRedBC><vBC>20.5000</vBC><pICMS>5.41</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="6"><prod><cProd>6287</cProd><cEAN>7896286620369</cEAN><xProd>DROPS ICEKISS TENTACAO MOR 36X12X29G</xProd><NCM>17049020</NCM><NVE></NVE><CEST>2806200</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>DP</uCom><qCom>4.0000</qCom><vUnCom>6.44</vUnCom><vProd>25.76</vProd><cEANTrib>7896286620369</cEANTrib><qTrib>4.0000</qTrib><vUnTrib>DP</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>26.40</pRedBC><vBC>20.5000</vBC><pICMS>5.41</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="7"><prod><cProd>6294</cProd><cEAN>7896286620635</cEAN><xProd>DROPS ICEKISS TENTACAO CEREJA 36X12X29G</xProd><NCM>17049020</NCM><NVE></NVE><CEST>2806200</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>DP</uCom><qCom>4.0000</qCom><vUnCom>6.60</vUnCom><vProd>26.40</vProd><cEANTrib>7896286620635</cEANTrib><qTrib>4.0000</qTrib><vUnTrib>DP</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>26.40</pRedBC><vBC>20.5000</vBC><pICMS>5.41</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="8"><prod><cProd>6288</cProd><cEAN>7896286620208</cEAN><xProd>DROPS ICEKISS MENTA 36X12X29G</xProd><NCM>17049020</NCM><NVE></NVE><CEST>2806200</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>DP</uCom><qCom>4.0000</qCom><vUnCom>6.60</vUnCom><vProd>26.40</vProd><cEANTrib>7896286620208</cEANTrib><qTrib>4.0000</qTrib><vUnTrib>DP</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>26.40</pRedBC><vBC>20.5000</vBC><pICMS>5.41</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="9"><prod><cProd>6286</cProd><cEAN>7896286620253</cEAN><xProd>DROPS ICEKISS AZEDINHA MOR 36X12X29G</xProd><NCM>17049020</NCM><NVE></NVE><CEST>2806200</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>DP</uCom><qCom>4.0000</qCom><vUnCom>6.60</vUnCom><vProd>26.40</vProd><cEANTrib>7896286620253</cEANTrib><qTrib>4.0000</qTrib><vUnTrib>DP</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>41.40</pRedBC><vBC>20.5000</vBC><pICMS>8.49</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="10"><prod><cProd>6289</cProd><cEAN>7896286620260</cEAN><xProd>DROPS ICEKISS AZEDINHA UVA 36X12X29G</xProd><NCM>17049020</NCM><NVE></NVE><CEST>2806200</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>DP</uCom><qCom>4.0000</qCom><vUnCom>6.60</vUnCom><vProd>26.40</vProd><cEANTrib>7896286620260</cEANTrib><qTrib>4.0000</qTrib><vUnTrib>DP</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>41.40</pRedBC><vBC>20.5000</vBC><pICMS>8.49</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="11"><prod><cProd>6269</cProd><cEAN>7896286619981</cEAN><xProd>DROPS MAST LILITH FRAMBOESA 18X15X35G</xProd><NCM>17049020</NCM><NVE></NVE><CEST>2806200</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>DP</uCom><qCom>4.0000</qCom><vUnCom>10.35</vUnCom><vProd>41.40</vProd><cEANTrib>7896286619981</cEANTrib><qTrib>4.0000</qTrib><vUnTrib>DP</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>41.40</pRedBC><vBC>20.5000</vBC><pICMS>8.49</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="12"><prod><cProd>6270</cProd><cEAN>7896286619271</cEAN><xProd>DROPS MAST AZEDINHA MORANGO 18X15X35G</xProd><NCM>17049020</NCM><NVE></NVE><CEST>2806200</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>DP</uCom><qCom>4.0000</qCom><vUnCom>10.35</vUnCom><vProd>41.40</vProd><cEANTrib>7896286619271</cEANTrib><qTrib>4.0000</qTrib><vUnTrib>DP</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>41.40</pRedBC><vBC>20.5000</vBC><pICMS>8.49</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="13"><prod><cProd>6282</cProd><cEAN>7896286620345</cEAN><xProd>DROPS MAST AZED IOGURTE 18X15X35G</xProd><NCM>17049020</NCM><NVE></NVE><CEST>2806200</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>DP</uCom><qCom>4.0000</qCom><vUnCom>10.35</vUnCom><vProd>41.40</vProd><cEANTrib>7896286620345</cEANTrib><qTrib>4.0000</qTrib><vUnTrib>DP</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS><PISAliq><CST>01</CST><vBC>32.91</vBC><pPIS>1.6500</pPIS><vPIS>0.54
+3300</vPIS></PISAliq></PIS><COFINS><COFINSAliq><CST>01</CST><vBC>32.91</vBC><pCOFINS>7.6000</pCOFINS><vCOFINS></vCOFINS></COFINSAliq></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="14"><prod><cProd>6298</cProd><cEAN>7896286620611</cEAN><xProd>DROPS MAST CHITA ABACAXI 18X15X35G</xProd><NCM>17049020</NCM><NVE></NVE><CEST>2806200</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>DP</uCom><qCom>4.0000</qCom><vUnCom>10.35</vUnCom><vProd>41.40</vProd><cEANTrib>7896286620611</cEANTrib><qTrib>4.0000</qTrib><vUnTrib>DP</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="15"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240410997058000105550010003645431601706169
+2100</CEST><indEscala>0</indEscala><CNPJFab>60170616</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>364543</uCom><qCom>2024-04-22T09:42:27-03:00</qCom><vUnCom>2024-04-23T08:55:34-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2601706</vUnTrib><vFrete>9</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="16"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240410997058000105550010003645431601706169
+2100</CEST><indEscala>0</indEscala><CNPJFab>60170616</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>364543</uCom><qCom>2024-04-22T09:42:27-03:00</qCom><vUnCom>2024-04-23T08:55:34-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2601706</vUnTrib><vFrete>9</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="17"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240410997058000105550010003645431601706169
+2100</CEST><indEscala>0</indEscala><CNPJFab>60170616</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>364543</uCom><qCom>2024-04-22T09:42:27-03:00</qCom><vUnCom>2024-04-23T08:55:34-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2601706</vUnTrib><vFrete>9</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="18"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240410997058000105550010003645431601706169
+2100</CEST><indEscala>0</indEscala><CNPJFab>60170616</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>364543</uCom><qCom>2024-04-22T09:42:27-03:00</qCom><vUnCom>2024-04-23T08:55:34-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2601706</vUnTrib><vFrete>9</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="19"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240410997058000105550010003645431601706169
+2100</CEST><indEscala>0</indEscala><CNPJFab>60170616</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>364543</uCom><qCom>2024-04-22T09:42:27-03:00</qCom><vUnCom>2024-04-23T08:55:34-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2601706</vUnTrib><vFrete>9</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="20"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240410997058000105550010003645431601706169
+2100</CEST><indEscala>0</indEscala><CNPJFab>60170616</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>364543</uCom><qCom>2024-04-22T09:42:27-03:00</qCom><vUnCom>2024-04-23T08:55:34-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2601706</vUnTrib><vFrete>9</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="21"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240410997058000105550010003645431601706169
+2100</CEST><indEscala>0</indEscala><CNPJFab>60170616</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>364543</uCom><qCom>2024-04-22T09:42:27-03:00</qCom><vUnCom>2024-04-23T08:55:34-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2601706</vUnTrib><vFrete>9</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="22"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240410997058000105550010003645431601706169
+2100</CEST><indEscala>0</indEscala><CNPJFab>60170616</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>364543</uCom><qCom>2024-04-22T09:42:27-03:00</qCom><vUnCom>2024-04-23T08:55:34-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2601706</vUnTrib><vFrete>9</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="23"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240410997058000105550010003645431601706169
+2100</CEST><indEscala>0</indEscala><CNPJFab>60170616</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>364543</uCom><qCom>2024-04-22T09:42:27-03:00</qCom><vUnCom>2024-04-23T08:55:34-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2601706</vUnTrib><vFrete>9</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="24"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240410997058000105550010003645431601706169
+2100</CEST><indEscala>0</indEscala><CNPJFab>60170616</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>364543</uCom><qCom>2024-04-22T09:42:27-03:00</qCom><vUnCom>2024-04-23T08:55:34-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2601706</vUnTrib><vFrete>9</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="25"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240410997058000105550010003645431601706169
+2100</CEST><indEscala>0</indEscala><CNPJFab>60170616</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>364543</uCom><qCom>2024-04-22T09:42:27-03:00</qCom><vUnCom>2024-04-23T08:55:34-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2601706</vUnTrib><vFrete>9</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="26"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240410997058000105550010003645431601706169
+2100</CEST><indEscala>0</indEscala><CNPJFab>60170616</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>364543</uCom><qCom>2024-04-22T09:42:27-03:00</qCom><vUnCom>2024-04-23T08:55:34-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2601706</vUnTrib><vFrete>9</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="27"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240410997058000105550010003645431601706169
+2100</CEST><indEscala>0</indEscala><CNPJFab>60170616</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>364543</uCom><qCom>2024-04-22T09:42:27-03:00</qCom><vUnCom>2024-04-23T08:55:34-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2601706</vUnTrib><vFrete>9</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="28"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240410997058000105550010003645431601706169
+2100</CEST><indEscala>0</indEscala><CNPJFab>60170616</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>364543</uCom><qCom>2024-04-22T09:42:27-03:00</qCom><vUnCom>2024-04-23T08:55:34-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2601706</vUnTrib><vFrete>9</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="29"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240410997058000105550010003645431601706169
+2100</CEST><indEscala>0</indEscala><CNPJFab>60170616</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>364543</uCom><qCom>2024-04-22T09:42:27-03:00</qCom><vUnCom>2024-04-23T08:55:34-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2601706</vUnTrib><vFrete>9</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="30"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240410997058000105550010003645431601706169
+2100</CEST><indEscala>0</indEscala><CNPJFab>60170616</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>364543</uCom><qCom>2024-04-22T09:42:27-03:00</qCom><vUnCom>2024-04-23T08:55:34-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2601706</vUnTrib><vFrete>9</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<total><ICMSTot><vBC></vBC><vICMS></vICMS><vICMSDeson></vICMSDeson><vFCPUFDest></vFCPUFDest><vICMSUFRemet></vICMSUFRemet><vFCP></vFCP><vST></vST><vFCPST></vFCPST><vFCPSTRet></vFCPSTRet><vProd></vProd><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vII></vII><vIPI></vIPI><vIPIDevol></vIPIDevol><vPIS></vPIS><vCOFINS></vCOFINS><vOutro></vOutro><vNF></vNF></ICMSTot><ISSQNtot><vServ></vServ><vBC></vBC><vISS></vISS><vPIS></vPIS><vCOFINS></vCOFINS></ISSQNtot><retTrib><vRetPIS></vRetPIS><vRetCOFINS></vRetCOFINS><vRetCSLL></vRetCSLL><vBCIRRF></vBCIRRF><vIRRF></vIRRF><vBCRetPrev></vBCRetPrev><vRetPrev></vRetPrev></retTrib></total></infNFe>
+<transp><modFrete>0</modFrete><transporta><CNPJ></CNPJ><xNome></xNome><IE></IE><xEnder></xEnder><xMun></xMun><UF></UF></transporta><veicTransp><placa></placa><UF></UF><RNTC></RNTC></veicTransp><reboque><placa></placa><UF></UF><RNTC></RNTC></reboque><vol><qVol></qVol><esp></esp><marca></marca><nVol></nVol><pesoL></pesoL><pesoB></pesoB></vol><lacres></lacres></transp>
+<cobr><fat><nFat></nFat><vOrig></vOrig><vDesc></vDesc><vLiq></vLiq></fat><dup><nDup></nDup><dVenc></dVenc><vDup></vDup></dup></cobr>
+<infAdic><infAdFisco>;Codigo Cliente: 4952
+9000;;159191;
+</infAdFisco></infAdic>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe26240410997058000105550010003645431601706169"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>2ZdKf1yxlNCzdAJC9Km+U5fh13E=</DigestValue></Reference></SignedInfo><SignatureValue>xxxxxxxxxxxxxxxxxxxxxxxxxx</SignatureValue><KeyInfo><X509Data><X509Certificate>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</X509Certificate></X509Data></KeyInfo></Signature></NFe>

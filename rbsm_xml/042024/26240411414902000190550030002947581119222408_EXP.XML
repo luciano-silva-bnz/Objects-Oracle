@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="26240411414902000190550030002947581119222408" versao="4.00"><ide><cUF>26</cUF><cNF>11922240</cNF><natOp>VENDA DE MERC. ADQUIRIDA OU RECEBIDA DE TERCEIROS</natOp><mod>55</mod><serie>3</serie><nNF>294758</nNF><dEmi>16/04/24</dEmi><dSaiEnt>17/04/24</dSaiEnt><tpNF>1</tpNF><idDest>1</idDest><cMunFG>2604106</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>8</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><indIntermed>1</indIntermed><procEmi>0</procEmi><verProc>1.3.233.019
+</verProc></ide>
+<emit><CNPJ>11414902000190</CNPJ><xNome>MAX DISTRIBUIDORA DE ALIMENTOS LTDA</xNome><xFant>MAX DISTRIBUIDORA</xFant><enderEmit><xLgr>AV. JOSE MARQUES FONTES</xLgr><nro>665</nro><xCpl></xCpl><xBairro>INDIANOPOLIS</xBairro><cMun>2604106</cMun><xMun>2604106</xMun><UF>PE</UF><CEP>55026530</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>0 </fone></enderEmit></emit>
+<dest><CNPJ>12023966003572</CNPJ><xNome>BONANZA SUPERMERCADOS LTDA</xNome><xFant>BONANZA SUPERMERCADOS LTDA</xFant><enderDest><xLgr>R. QUINZE DED NOVEMBRO</xLgr><nro>214</nro><xBairro>SANTO ANTONIO</xBairro><cMun>2606002</cMun><xMun>GARANHUNS</xMun><UF>PE</UF><CEP>55293310</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>8737627020</fone></enderDest><IE>1</IE><ISUF>030638364</ISUF><email>;;nfe@bonanza.com.br
+</email></dest>
+<det nItem="1"><prod><cProd>6584</cProd><cEAN>7899970400902</cEAN><xProd>BARRA SP DRK 4X12X85G HERSHEY</xProd><NCM>18063210</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>12.0000</qCom><vUnCom>7.9700000000</vUnCom><vProd>95.64</vProd><cEANTrib>7899970400902</cEANTrib><qTrib>12.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>95.64</pRedBC><vBC>20.5000</vBC><pICMS>19.61</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="2"><prod><cProd>6709</cProd><cEAN>7899970401657</cEAN><xProd>BARRA SP DRK 73% 4X12X85G HERSHEY</xProd><NCM>18063220</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>12.0000</qCom><vUnCom>8.9900000000</vUnCom><vProd>107.88</vProd><cEANTrib>7899970401657</cEANTrib><qTrib>12.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>107.88</pRedBC><vBC>20.5000</vBC><pICMS>22.12</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="3"><prod><cProd>7100</cProd><cEAN>7899970402692</cEAN><xProd>BARRA SP DRK 80% 4X12X85G HERSHEY</xProd><NCM>18063220</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>12.0000</qCom><vUnCom>10.2300000000</vUnCom><vProd>122.76</vProd><cEANTrib>7899970402692</cEANTrib><qTrib>12.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>122.76</pRedBC><vBC>20.5000</vBC><pICMS>25.17</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="4"><prod><cProd>6631</cProd><cEAN>7899970401008</cEAN><xProd>BARRA SP DRK CAR SALG 4X12X85G HERSHEY</xProd><NCM>18063210</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>12.0000</qCom><vUnCom>7.9400000000</vUnCom><vProd>95.28</vProd><cEANTrib>7899970401008</cEANTrib><qTrib>12.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>95.28</pRedBC><vBC>20.5000</vBC><pICMS>19.53</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="5"><prod><cProd>7217</cProd><cEAN>7899970402869</cEAN><xProd>BARRA CHOC CNCHOC 4X18X77G HERSHEY</xProd><NCM>18063210</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>36.0000</qCom><vUnCom>5.2700000000</vUnCom><vProd>189.72</vProd><cEANTrib>7899970402869</cEANTrib><qTrib>36.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>189.72</pRedBC><vBC>20.5000</vBC><pICMS>38.89</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="6"><prod><cProd>7216</cProd><cEAN>7899970402876</cEAN><xProd>BARRA CHOC OVOMALTINE 4X18X77G HERSHEY</xProd><NCM>18063210</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>36.0000</qCom><vUnCom>5.2700000000</vUnCom><vProd>189.72</vProd><cEANTrib>7899970402876</cEANTrib><qTrib>36.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>189.72</pRedBC><vBC>20.5000</vBC><pICMS>38.89</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="7"><prod><cProd>7220</cProd><cEAN>7899970402814</cEAN><xProd>BARRA CHOC AO LEITE 4X18X82G HERSHEY</xProd><NCM>18063210</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>18.0000</qCom><vUnCom>5.2700000000</vUnCom><vProd>94.86</vProd><cEANTrib>7899970402814</cEANTrib><qTrib>18.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>94.86</pRedBC><vBC>20.5000</vBC><pICMS>19.45</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="8"><prod><cProd>7049</cProd><cEAN>7899970402456</cEAN><xProd>IOIO MIX 48X41,9G HERSHEY</xProd><NCM>18069000</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>48.0000</qCom><vUnCom>3.3800000000</vUnCom><vProd>162.24</vProd><cEANTrib>7899970402456</cEANTrib><qTrib>48.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>162.24</pRedBC><vBC>20.5000</vBC><pICMS>33.26</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="9"><prod><cProd>7076</cProd><cEAN>7898970071082</cEAN><xProd>ESPONJA MULTIUSO L4P3 FD C/48</xProd><NCM>68053090</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>FD</uCom><qCom>1.0000</qCom><vUnCom>105.6000000000</vUnCom><vProd>105.60</vProd><cEANTrib>7898970071082</cEANTrib><qTrib>1.0000</qTrib><vUnTrib>FD</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>105.60</pRedBC><vBC>20.5000</vBC><pICMS>21.65</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="10"><prod><cProd>7074</cProd><cEAN>17898970071027</cEAN><xProd>ESPONJA MULTIUSO UNITARIA FD C/60</xProd><NCM>68053090</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>FD</uCom><qCom>3.0000</qCom><vUnCom>23.4000000000</vUnCom><vProd>70.20</vProd><cEANTrib>17898970071027</cEANTrib><qTrib>3.0000</qTrib><vUnTrib>FD</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>70.20</pRedBC><vBC>20.5000</vBC><pICMS>14.39</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="11"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240411414902000190550030002947581119222408
+2100</CEST><indEscala>0</indEscala><CNPJFab>11922240</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>3</CFOP><uCom>294758</uCom><qCom>2024-04-16T17:32:00-03:00</qCom><vUnCom>2024-04-17T17:32:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>8</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="12"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240411414902000190550030002947581119222408
+2100</CEST><indEscala>0</indEscala><CNPJFab>11922240</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>3</CFOP><uCom>294758</uCom><qCom>2024-04-16T17:32:00-03:00</qCom><vUnCom>2024-04-17T17:32:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>8</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="13"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240411414902000190550030002947581119222408
+2100</CEST><indEscala>0</indEscala><CNPJFab>11922240</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>3</CFOP><uCom>294758</uCom><qCom>2024-04-16T17:32:00-03:00</qCom><vUnCom>2024-04-17T17:32:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>8</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="14"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240411414902000190550030002947581119222408
+2100</CEST><indEscala>0</indEscala><CNPJFab>11922240</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>3</CFOP><uCom>294758</uCom><qCom>2024-04-16T17:32:00-03:00</qCom><vUnCom>2024-04-17T17:32:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>8</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="15"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240411414902000190550030002947581119222408
+2100</CEST><indEscala>0</indEscala><CNPJFab>11922240</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>3</CFOP><uCom>294758</uCom><qCom>2024-04-16T17:32:00-03:00</qCom><vUnCom>2024-04-17T17:32:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>8</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="16"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240411414902000190550030002947581119222408
+2100</CEST><indEscala>0</indEscala><CNPJFab>11922240</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>3</CFOP><uCom>294758</uCom><qCom>2024-04-16T17:32:00-03:00</qCom><vUnCom>2024-04-17T17:32:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>8</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="17"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240411414902000190550030002947581119222408
+2100</CEST><indEscala>0</indEscala><CNPJFab>11922240</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>3</CFOP><uCom>294758</uCom><qCom>2024-04-16T17:32:00-03:00</qCom><vUnCom>2024-04-17T17:32:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>8</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<total><ICMSTot><vBC>2676.06</vBC><vICMS>548.61</vICMS><vICMSDeson>0.00</vICMSDeson><vFCPUFDest></vFCPUFDest><vICMSUFRemet></vICMSUFRemet><vFCP>0.00</vFCP><vST>0.00</vST><vFCPST>0.00</vFCPST><vFCPSTRet>0.00</vFCPSTRet><vProd>2676.06</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>35.12</vPIS><vCOFINS>161.68</vCOFINS><vOutro>0.00</vOutro><vNF>2676.06</vNF></ICMSTot><ISSQNtot><vServ></vServ><vBC></vBC><vISS></vISS><vPIS></vPIS><vCOFINS></vCOFINS></ISSQNtot><retTrib><vRetPIS></vRetPIS><vRetCOFINS></vRetCOFINS><vRetCSLL></vRetCSLL><vBCIRRF></vBCIRRF><vIRRF></vIRRF><vBCRetPrev></vBCRetPrev><vRetPrev></vRetPrev></retTrib></total></infNFe>
+<transp><modFrete>4</modFrete><transporta><CNPJ></CNPJ><xNome></xNome><IE></IE><xEnder></xEnder><xMun></xMun><UF></UF></transporta><veicTransp><placa>KGJ3431</placa><UF>PE</UF><RNTC>
+5700</RNTC></veicTransp><reboque><placa></placa><UF></UF><RNTC></RNTC></reboque><vol><qVol>538</qVol><esp></esp><marca></marca><nVol></nVol><pesoL></pesoL><pesoB></pesoB></vol><lacres></lacres></transp>
+<cobr><fat><nFat>12.87
+3600</nFat><vOrig>PERC.PARC.FCI: 0 - N. FCI: 8BD7D3CB-5F4E-49A1-9170-BAFC51826904
+3000</vOrig><vDesc>6482</vDesc><vLiq>7891098000163</vLiq></fat><dup><nDup>001</nDup><dVenc>2024-05-27</dVenc><vDup>2676.06</vDup></dup></cobr>
+<infAdic><infAdFisco>;Fantasia: BONANZA LOJA 28//Cod. Cliente.: 1308//NR. Pedido: 220001212////Num. Trans.: 427274//Num. Carreg.: 36336//Cod. Cob.: 4221//Prazo: 40 DIAS//RCA: 220//ROTA: 4//REPRESENTANTE: EMERSON FABIANO SILVA//WOLKSWAGEM 8.150//24 VOL//9165//9165//MOTORISTA:JOSE HIAGO MOTA DA SILVA//EXCLUSAO DO ICMS NA BASE DE CALCULO DO PIS E COFINS CONFORME PROCESSO/MAND.SEGU N. DE 12/07/2022 VALOR EXCLUIDO DA BASE DE CALCULO R$ 548.61//000 - TRIBUTADO
+</infAdFisco></infAdic>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe26240411414902000190550030002947581119222408"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>2ZdKf1yxlNCzdAJC9Km+U5fh13E=</DigestValue></Reference></SignedInfo><SignatureValue>xxxxxxxxxxxxxxxxxxxxxxxxxx</SignatureValue><KeyInfo><X509Data><X509Certificate>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</X509Certificate></X509Data></KeyInfo></Signature></NFe>

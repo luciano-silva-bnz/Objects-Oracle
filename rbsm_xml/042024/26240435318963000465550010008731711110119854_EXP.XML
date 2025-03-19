@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="26240435318963000465550010008731711110119854" versao="4.00"><ide><cUF>26</cUF><cNF>11011985</cNF><natOp>VENDA DE MERCADORIA</natOp><mod>55</mod><serie>1</serie><nNF>873171</nNF><dEmi>15/04/24</dEmi><dSaiEnt>15/04/24</dSaiEnt><tpNF>1</tpNF><idDest>1</idDest><cMunFG>2604106</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>4</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><indIntermed>1</indIntermed><procEmi>0</procEmi><verProc>4.0.0
+</verProc></ide>
+<emit><CNPJ>35318963000465</CNPJ><xNome>GONCALVES SILVESTRE E CIA LTDA</xNome><xFant>GONSIL FILIAL</xFant><enderEmit><xLgr>RUA ANTONIO JULIAO RAMOS</xLgr><nro>70</nro><xCpl>PDSA-MODULO II</xCpl><xBairro>DISTRITO INDUSTRIAL</xBairro><cMun>2604106</cMun><xMun>2604106</xMun><UF>PE</UF><CEP>55045045</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>0 </fone></enderEmit></emit>
+<dest><CNPJ>12023966005273</CNPJ><xNome>9610 - BONANZA SUPERMERCADOS LTDA EM RECUPERACAO JUDICIAL</xNome><xFant>9610 - BONANZA SUPERMERCADOS LTDA EM RECUPERACAO JUDICIAL</xFant><enderDest><xLgr>RUA MONTEIRO LOBATO</xLgr><nro>105</nro><xBairro>FRANCISCO SIMAO DOS SANTOS FIGUEIRA</xBairro><cMun>2606002</cMun><xMun>GARANHUNS</xMun><UF>PE</UF><CEP>55292600</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>81992123559</fone></enderDest><IE>1</IE><ISUF>077317360</ISUF><email>;;nfe@bonanza.com.br
+</email></dest>
+<det nItem="1"><prod><cProd>12342555</cProd><cEAN>7891000248546</cEAN><xProd>NESTLE IOGURTE NATURAL 28X170G</xProd><NCM>04032000</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>24.0000</qCom><vUnCom>3.1600000000</vUnCom><vProd>75.84</vProd><cEANTrib>7891000248546</cEANTrib><qTrib>24.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>75.84</pRedBC><vBC>20.50</vBC><pICMS>15.55</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="2"><prod><cProd>12334185</cProd><cEAN>SEM GTIN</cEAN><xProd>NESTLE IOGURTE MORANGO 24X170GR</xProd><NCM>04032000</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>12.0000</qCom><vUnCom>1.9900000000</vUnCom><vProd>23.88</vProd><cEANTrib>SEM GTIN</cEANTrib><qTrib>12.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>23.88</pRedBC><vBC>20.50</vBC><pICMS>4.90</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="3"><prod><cProd>12354550</cProd><cEAN>7891000252819</cEAN><xProd>CHAMYTO GO IOG LIQ MORANGO 24X100G</xProd><NCM>04032000</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>12.0000</qCom><vUnCom>2.1400000000</vUnCom><vProd>25.68</vProd><cEANTrib>7891000252819</cEANTrib><qTrib>12.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>25.68</pRedBC><vBC>20.50</vBC><pICMS>5.26</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="4"><prod><cProd>12354539</cProd><cEAN>7891000252833</cEAN><xProd>CHAMYTO GO IOG LIQ VITAMINA 24X100G BR</xProd><NCM>04032000</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>12.0000</qCom><vUnCom>2.1400000000</vUnCom><vProd>25.68</vProd><cEANTrib>7891000252833</cEANTrib><qTrib>12.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>25.68</pRedBC><vBC>20.50</vBC><pICMS>5.26</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="5"><prod><cProd>12383027</cProd><cEAN>7891000261484</cEAN><xProd>NINHO POUCH IOGLIQ MACABANANA 24X100GBR</xProd><NCM>04032000</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>12.0000</qCom><vUnCom>2.1400000000</vUnCom><vProd>25.68</vProd><cEANTrib>7891000261484</cEANTrib><qTrib>12.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>25.68</pRedBC><vBC>20.50</vBC><pICMS>5.26</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="6"><prod><cProd>12381968</cProd><cEAN>7891000261026</cEAN><xProd>POLPA NINHO 6X540G BR</xProd><NCM>04032000</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>72.0000</qCom><vUnCom>5.7100000000</vUnCom><vProd>411.12</vProd><cEANTrib>7891000261026</cEANTrib><qTrib>72.0000</qTrib><vUnTrib>BD</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>1</modBC><pRedBC>411.12</pRedBC><vBC>20.50</vBC><pICMS>84.28</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="7"><prod><cProd>12555518</cProd><cEAN>7891000379547</cEAN><xProd>CHAMYTO LEI FERM TRDL TETRA 5X480G</xProd><NCM>04039000</NCM><NVE></NVE><CEST>1702100</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>10.0000</qCom><vUnCom>4.9300000000</vUnCom><vProd>49.30</vProd><cEANTrib>7891000379547</cEANTrib><qTrib>10.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>49.30</pRedBC><vBC>20.50</vBC><pICMS>10.11</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="8"><prod><cProd>12343045</cProd><cEAN>7891000070444</cEAN><xProd>CHAMYTO LEITE FERM. TRAD 21 6X75G</xProd><NCM>04039000</NCM><NVE></NVE><CEST>1702100</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>PC</uCom><qCom>21.0000</qCom><vUnCom>6.3600000000</vUnCom><vProd>133.56</vProd><cEANTrib>7891000070444</cEANTrib><qTrib>21.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>133.56</pRedBC><vBC>20.50</vBC><pICMS>27.38</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="9"><prod><cProd>12342863</cProd><cEAN>7891000027974</cEAN><xProd>CHAMYTO LEITE FERM. BIG 21 6X120G BR</xProd><NCM>04039000</NCM><NVE></NVE><CEST>1702100</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>PC</uCom><qCom>21.0000</qCom><vUnCom>9.4400000000</vUnCom><vProd>198.24</vProd><cEANTrib>7891000027974</cEANTrib><qTrib>21.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>198.24</pRedBC><vBC>20.50</vBC><pICMS>40.64</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="10"><prod><cProd>12334187</cProd><cEAN>7891000103937</cEAN><xProd>CHAMBINHO PETIT MORANGO 16X320GR</xProd><NCM>04061090</NCM><NVE></NVE><CEST>1702404</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>6.0000</qCom><vUnCom>7.5500000000</vUnCom><vProd>45.30</vProd><cEANTrib>7891000103937</cEANTrib><qTrib>6.0000</qTrib><vUnTrib>BD</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>45.30</pRedBC><vBC>20.50</vBC><pICMS>9.29</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="11"><prod><cProd>12342565</cProd><cEAN>7891000084663</cEAN><xProd>NESTLE REQUEIJAO CREMOSO LIGHT 15X200GB</xProd><NCM>04061090</NCM><NVE></NVE><CEST>1702300</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>30.0000</qCom><vUnCom>5.6400000000</vUnCom><vProd>169.20</vProd><cEANTrib>7891000084663</cEANTrib><qTrib>30.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>169.20</pRedBC><vBC>20.50</vBC><pICMS>34.69</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="12"><prod><cProd>12342566</cProd><cEAN>7891000248584</cEAN><xProd>NESTLE REQUEIJAO CREMOSO 15X200G BR</xProd><NCM>04061090</NCM><NVE></NVE><CEST>1702300</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>75.0000</qCom><vUnCom>5.6400000000</vUnCom><vProd>423.00</vProd><cEANTrib>7891000248584</cEANTrib><qTrib>75.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>1</modBC><pRedBC>423.00</pRedBC><vBC>20.50</vBC><pICMS>86.72</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="13"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240435318963000465550010008731711110119854
+2100</CEST><indEscala>0</indEscala><CNPJFab>11011985</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>873171</uCom><qCom>2024-04-15T00:00:00-03:00</qCom><vUnCom>2024-04-15T19:31:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>4</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="14"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240435318963000465550010008731711110119854
+2100</CEST><indEscala>0</indEscala><CNPJFab>11011985</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>873171</uCom><qCom>2024-04-15T00:00:00-03:00</qCom><vUnCom>2024-04-15T19:31:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>4</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="15"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240435318963000465550010008731711110119854
+2100</CEST><indEscala>0</indEscala><CNPJFab>11011985</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>873171</uCom><qCom>2024-04-15T00:00:00-03:00</qCom><vUnCom>2024-04-15T19:31:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>4</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="16"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240435318963000465550010008731711110119854
+2100</CEST><indEscala>0</indEscala><CNPJFab>11011985</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>873171</uCom><qCom>2024-04-15T00:00:00-03:00</qCom><vUnCom>2024-04-15T19:31:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>4</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="17"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240435318963000465550010008731711110119854
+2100</CEST><indEscala>0</indEscala><CNPJFab>11011985</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>873171</uCom><qCom>2024-04-15T00:00:00-03:00</qCom><vUnCom>2024-04-15T19:31:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>4</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="18"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240435318963000465550010008731711110119854
+2100</CEST><indEscala>0</indEscala><CNPJFab>11011985</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>873171</uCom><qCom>2024-04-15T00:00:00-03:00</qCom><vUnCom>2024-04-15T19:31:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>4</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="19"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240435318963000465550010008731711110119854
+2100</CEST><indEscala>0</indEscala><CNPJFab>11011985</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>873171</uCom><qCom>2024-04-15T00:00:00-03:00</qCom><vUnCom>2024-04-15T19:31:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>4</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="20"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240435318963000465550010008731711110119854
+2100</CEST><indEscala>0</indEscala><CNPJFab>11011985</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>873171</uCom><qCom>2024-04-15T00:00:00-03:00</qCom><vUnCom>2024-04-15T19:31:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>4</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<total><ICMSTot><vBC>1873.85</vBC><vICMS>384.16</vICMS><vICMSDeson>0.00</vICMSDeson><vFCPUFDest>0.00</vFCPUFDest><vICMSUFRemet>0.00</vICMSUFRemet><vFCP>0.00</vFCP><vST>0.00</vST><vFCPST>0.00</vFCPST><vFCPSTRet>0.00</vFCPSTRet><vProd>1873.85</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>0.34</vPIS><vCOFINS>1.55</vCOFINS><vOutro>0.00</vOutro><vNF>1873.85</vNF></ICMSTot><ISSQNtot><vServ></vServ><vBC></vBC><vISS></vISS><vPIS></vPIS><vCOFINS></vCOFINS></ISSQNtot><retTrib><vRetPIS></vRetPIS><vRetCOFINS></vRetCOFINS><vRetCSLL></vRetCSLL><vBCIRRF></vBCIRRF><vIRRF></vIRRF><vBCRetPrev></vBCRetPrev><vRetPrev></vRetPrev></retTrib></total></infNFe>
+<transp><modFrete>3</modFrete><transporta><CNPJ></CNPJ><xNome>GONCALVES SILVESTRE E CIA LTDA</xNome><IE>038890682</IE><xEnder>RUA ANTONIO JULIAO RAMOS, 70 - PDSA-MODULO II</xEnder><xMun>CARUARU</xMun><UF>PE
+5700</UF></transporta><veicTransp><placa></placa><UF></UF><RNTC></RNTC></veicTransp><reboque><placa></placa><UF></UF><RNTC></RNTC></reboque><vol><qVol></qVol><esp>VOLUME(S)</esp><marca></marca><nVol></nVol><pesoL></pesoL><pesoB></pesoB></vol><lacres></lacres></transp>
+<cobr><fat><nFat>873171</nFat><vOrig>1873.85</vOrig><vDesc>0.00</vDesc><vLiq>1873.85
+6100</vLiq></fat><dup><nDup>001</nDup><dVenc>2024-05-13</dVenc><vDup>1873.85</vDup></dup></cobr>
+<infAdic><infAdFisco>;PEDIDO:1365036 CODIGO VENDEDOR:400 ROTEIRO:53061 COND. PGTO:A PRAZO 28 DIAS CLIENTE:9610 NOME FANTASIA:BONANZA LJ 45 FORMA DE PGTO:BANCO BRADESCO S/A MOTORISTA:JOSE ZITO DA CRUZ|NUMERO DO PEDIDO: 155679/L
+</infAdFisco></infAdic>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe26240435318963000465550010008731711110119854"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>2ZdKf1yxlNCzdAJC9Km+U5fh13E=</DigestValue></Reference></SignedInfo><SignatureValue>xxxxxxxxxxxxxxxxxxxxxxxxxx</SignatureValue><KeyInfo><X509Data><X509Certificate>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</X509Certificate></X509Data></KeyInfo></Signature></NFe>

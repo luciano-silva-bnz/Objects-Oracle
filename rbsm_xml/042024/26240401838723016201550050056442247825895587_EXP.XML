@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="26240401838723016201550050056442247825895587" versao="4.00"><ide><cUF>26</cUF><cNF>82589558</cNF><natOp>Venda merc.adq.receb.de terceiros / Vnd.mer.adq.rec.ter.mer</natOp><mod>55</mod><serie>5</serie><nNF>5644224</nNF><dEmi>21/04/24</dEmi><dSaiEnt>21/04/24</dSaiEnt><tpNF>1</tpNF><idDest>1</idDest><cMunFG>2616407</cMunFG><tpImp>2</tpImp><tpEmis>7</tpEmis><cDV>7</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><indIntermed>1</indIntermed><procEmi>0</procEmi><verProc>GRC 10.0
+2180;2024-</verProc></ide>
+<emit><CNPJ>01838723016201</CNPJ><xNome>BRF S.A.</xNome><xFant>BRF S.A.</xFant><enderEmit><xLgr>ROD PE 050 KM 2 SL 3 PREDIO 2</xLgr><nro>S/N</nro><xCpl></xCpl><xBairro>DISTRITO INDUSTRIAL</xBairro><cMun>2616407</cMun><xMun>2616407</xMun><UF>PE</UF><CEP>55613900</CEP><cPais></cPais><xPais>Brasil</xPais><fone>0 </fone></enderEmit></emit>
+<dest><CNPJ>12023966000123</CNPJ><xNome>BONANZA SUPERMERCADOS LTDA EM RECUP</xNome><xFant>BONANZA SUPERMERCADOS LTDA EM RECUP</xFant><enderDest><xLgr>R ANTONIO MARTINS</xLgr><nro>15</nro><xBairro>SANTA ROSA</xBairro><cMun>2604106</cMun><xMun>CARUARU</xMun><UF>PE</UF><CEP>55026333</CEP><cPais>1058</cPais><xPais>Brasil</xPais><fone>8137017000</fone></enderDest><IE>1</IE><ISUF>000964158</ISUF><email>;;
+</email></dest>
+<det nItem="1"><prod><cProd>677510</cProd><cEAN>17891515475540</cEAN><xProd>BATATA PALITO PRE-FRITA CONG SD FS 2KG</xProd><NCM>20041000</NCM><NVE></NVE><CEST>1709101</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>161.0000000000</vUnCom><vProd>161.00</vProd><cEANTrib>7891515547554</cEANTrib><qTrib>10.0000</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal><rastro><nLote>LTT3338</nLote><qLote>1.000</qLote><dFab>2023-12-04</dFab><dVal>2025-02-26</dVal><cAgreg>
+3100</cAgreg></rastro></prod>
+<imposto><ICMS>
+<ICMS0><orig>1</orig><CST>00</CST><modBC>3</modBC><pRedBC>161.00</pRedBC><vBC>20.5000</vBC><pICMS>33.01</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="2"><prod><cProd>640751</cProd><cEAN>17891515329188</cEAN><xProd>PIZZA BRASILEIRA CONGELADA 460G PERDIGAO</xProd><NCM>19059090</NCM><NVE></NVE><CEST>1706201</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5405</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>135.1800000000</vUnCom><vProd>135.18</vProd><cEANTrib>7891515532918</cEANTrib><qTrib>5.5200</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal><rastro><nLote>3314094</nLote><qLote>1.000</qLote><dFab>2024-04-04</dFab><dVal>2024-10-01</dVal><cAgreg>
+3120</cAgreg></rastro></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>191.70</pRedBC><vBC>20.5000</vBC><pICMS>39.30</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="3"><prod><cProd>766869</cProd><cEAN>17891515660632</cEAN><xProd>MACN CHEESE BACON CONG 300G SD</xProd><NCM>19023000</NCM><NVE></NVE><CEST>1704800</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5405</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>59.7200000000</vUnCom><vProd>59.72</vProd><cEANTrib>7891515606312</cEANTrib><qTrib>2.7000</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal><rastro><nLote>3754071</nLote><qLote>1.000</qLote><dFab>2024-03-12</dFab><dVal>2024-09-08</dVal><cAgreg>
+3120</cAgreg></rastro></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>106.70</pRedBC><vBC>20.5000</vBC><pICMS>21.87</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="4"><prod><cProd></cProd><cEAN>1704800</cEAN><xProd>S</xProd><NCM></NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab>CX</CNPJFab><cBenef></cBenef><EXTIPI>59.7200000000</EXTIPI><CFOP>59.72</CFOP><uCom>7891515606312</uCom><qCom>KG</qCom><vUnCom>2.7000</vUnCom><vProd>22.1185185185</vProd><cEANTrib></cEANTrib><qTrib></qTrib><vUnTrib></vUnTrib><vFrete>1</vFrete><vSeg>158130/M</vSeg><vDesc>158130/M</vDesc><vOutro></vOutro><indTotal></indTotal><rastro><nLote>3924086</nLote><qLote>1.000</qLote><dFab>2024-03-27</dFab><dVal>2024-09-23</dVal><cAgreg>
+3120</cAgreg></rastro></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>104.48</pRedBC><vBC>20.5000</vBC><pICMS>21.42</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="5"><prod><cProd>476791</cProd><cEAN>27891515026336</cEAN><xProd>YAKISOBA SADIA BDJ 600G</xProd><NCM>19023000</NCM><NVE></NVE><CEST>1704800</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5405</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>99.0400000000</vUnCom><vProd>99.04</vProd><cEANTrib>7893000902633</cEANTrib><qTrib>3.6000</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal><rastro><nLote>3764091</nLote><qLote>3.000</qLote><dFab>2024-04-01</dFab><dVal>2024-07-30</dVal><cAgreg>
+3100</cAgreg></rastro></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>116.94</pRedBC><vBC>20.5000</vBC><pICMS>23.97</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="6"><prod><cProd></cProd><cEAN>1704800</cEAN><xProd>S</xProd><NCM></NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab>CX</CNPJFab><cBenef></cBenef><EXTIPI>99.0400000000</EXTIPI><CFOP>99.04</CFOP><uCom>7893000902633</uCom><qCom>KG</qCom><vUnCom>3.6000</vUnCom><vProd>27.5111111111</vProd><cEANTrib></cEANTrib><qTrib></qTrib><vUnTrib></vUnTrib><vFrete>1</vFrete><vSeg>158130/M</vSeg><vDesc>158130/M</vDesc><vOutro></vOutro><indTotal></indTotal><rastro><nLote>3124070</nLote><qLote>1.000</qLote><dFab>2024-03-11</dFab><dVal>2024-09-07</dVal><cAgreg>
+3100</cAgreg></rastro></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="7"><prod><cProd>339657</cProd><cEAN>17891515473218</cEAN><xProd>STEAK FGO EMP CONG IWP 100G SD</xProd><NCM>16023230</NCM><NVE></NVE><CEST>1707900</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>3.0000</qCom><vUnCom>63.9000000000</vUnCom><vProd>191.70</vProd><cEANTrib>7891515474737</cEANTrib><qTrib>13.5000</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal><rastro><nLote>3554086</nLote><qLote>1.000</qLote><dFab>2024-03-27</dFab><dVal>2025-03-27</dVal><cAgreg>
+3100</cAgreg></rastro></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="8"><prod><cProd>573210</cProd><cEAN>17891515177796</cEAN><xProd>TIRINHAS FGO TRAD CONG PT 300G PD</xProd><NCM>16023230</NCM><NVE></NVE><CEST>1707900</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>106.7000000000</vUnCom><vProd>106.70</vProd><cEANTrib>7891515517779</cEANTrib><qTrib>4.5000</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal><rastro><nLote>3124059</nLote><qLote>1.000</qLote><dFab>2024-02-28</dFab><dVal>2024-08-26</dVal><cAgreg>
+3100</cAgreg></rastro></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="9"><prod><cProd>500736</cProd><cEAN>17893000488875</cEAN><xProd>ASA 1JTA DRUMETTE FGO CONG SADIA PT 1KG</xProd><NCM>02071400</NCM><NVE></NVE><CEST>1708700</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>104.4800000000</vUnCom><vProd>104.48</vProd><cEANTrib>7893000488878</cEANTrib><qTrib>8.0000</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="10"><prod><cProd>460543</cProd><cEAN>17891515855359</cEAN><xProd>MINI CHICKEN FGO QJO CONG PT 275G PD</xProd><NCM>16023230</NCM><NVE></NVE><CEST>1707900</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>116.9400000000</vUnCom><vProd>116.94</vProd><cEANTrib>7891515485535</cEANTrib><qTrib>4.1250</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="11"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240401838723016201550050056442247825895587
+2100</CEST><indEscala>0</indEscala><CNPJFab>82589558</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>5</CFOP><uCom>5644224</uCom><qCom>2024-04-21T06:41:26-03:00</qCom><vUnCom>2024-04-21T06:41:26-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>2</qTrib><vUnTrib>2616407</vUnTrib><vFrete>7</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<total><ICMSTot><vBC>856.41</vBC><vICMS>175.57</vICMS><vICMSDeson>0.00</vICMSDeson><vFCPUFDest></vFCPUFDest><vICMSUFRemet></vICMSUFRemet><vFCP>0.00</vFCP><vST>0.00</vST><vFCPST>0.00</vFCPST><vFCPSTRet>1.06</vFCPSTRet><vProd>1150.35</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>12.08</vPIS><vCOFINS>55.71</vCOFINS><vOutro>0.00</vOutro><vNF>1150.35</vNF></ICMSTot><ISSQNtot><vServ></vServ><vBC></vBC><vISS></vISS><vPIS></vPIS><vCOFINS></vCOFINS></ISSQNtot><retTrib><vRetPIS></vRetPIS><vRetCOFINS></vRetCOFINS><vRetCSLL></vRetCSLL><vBCIRRF></vBCIRRF><vIRRF></vIRRF><vBCRetPrev></vBCRetPrev><vRetPrev></vRetPrev></retTrib></total></infNFe>
+<transp><modFrete>0</modFrete><transporta><CNPJ>30654963000170</CNPJ><xNome>NASCIMENTO E ARAUJO TRANSPORTES LTD</xNome><IE>077711343</IE><xEnder>R JOSE HORACIO CARNEIRO LEAO 175</xEnder><xMun>VITORIA DE SANTO ANTAO</xMun><UF>PE
+5300</UF></transporta><veicTransp><placa>PCF7J86</placa><UF>PE</UF><RNTC>
+5700</RNTC></veicTransp><reboque><placa></placa><UF></UF><RNTC></RNTC></reboque><vol><qVol>15</qVol><esp>CX</esp><marca></marca><nVol></nVol><pesoL></pesoL><pesoB></pesoB></vol><lacres></lacres></transp>
+<cobr><fat><nFat>10.61
+4000</nFat><vOrig>856.41</vOrig><vDesc>175.57</vDesc><vLiq>0.00</vLiq></fat><dup><nDup></nDup><dVenc></dVenc><vDup></vDup></dup></cobr>
+<infAdic><infAdFisco>22.1185185185;;;;;1;158130/M;;;;
+3008;3754071;1.000;2024-03-12;2024-09-08;
+3120;0;60;55.46;18.0000;5.50;55.46;1.0000;0.55;;;;;4.48
+3180;;;;;999
+3190;51
+3220;06
+3320;06
+3000;476791;27891515026336;YAKISOBA SADIA BDJ 600G;19023000;;1704800;S;;;;5405;CX;1.0000;99.0400000000;99.04;7893000902633;KG;3.6000;27.5111111111;;;;;1;158130/M;;;;
+3008;3924086;1.000;2024-03-27;2024-09-23;
+3120;0;60;50.76;18.0000;4.89;50.76;1.0000;0.51;;;;;4.25
+3180;;;;;999
+3190;51
+3220;06
+3320;06
+3000;339657;17891515473218;STEAK FGO EMP CONG IWP 100G SD;16023230;;1707900;S;;;;5102;CX;3.0000;63.9000000000;191.70;7891515474737;KG;13.5000;14.2000000000;;;;;1;158130/M;;;;
+3008;3764091;3.000;2024-04-01;2024-07-30;
+3100;0;00;3;191.70;20.5000;39.30;;
+3180;;;;;999
+3190;51
+3200;01;152.40;1.6500;2.51
+3300;01;152.40;7.6000;11.58
+3000;573210;17891515177796;TIRINHAS FGO TRAD CONG PT 300G PD;16023230;;1707900;S;;</infAdFisco></infAdic>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe26240401838723016201550050056442247825895587"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>2ZdKf1yxlNCzdAJC9Km+U5fh13E=</DigestValue></Reference></SignedInfo><SignatureValue>xxxxxxxxxxxxxxxxxxxxxxxxxx</SignatureValue><KeyInfo><X509Data><X509Certificate>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</X509Certificate></X509Data></KeyInfo></Signature></NFe>

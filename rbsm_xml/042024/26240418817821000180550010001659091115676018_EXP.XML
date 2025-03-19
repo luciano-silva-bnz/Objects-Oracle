@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="26240418817821000180550010001659091115676018" versao="4.00"><ide><cUF>26</cUF><cNF>11567601</cNF><natOp>VENDA DE MERC. ADQUIRIDA OU RECEBIDA DE TERCEIROS</natOp><mod>55</mod><serie>1</serie><nNF>165909</nNF><dEmi>06/04/24</dEmi><dSaiEnt>08/04/24</dSaiEnt><tpNF>1</tpNF><idDest>1</idDest><cMunFG>2606002</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>8</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><indIntermed>1</indIntermed><procEmi>0</procEmi><verProc>1.3.231.021
+</verProc></ide>
+<emit><CNPJ>18817821000180</CNPJ><xNome>DISTRIBUIDORA POPULAR ALIMENTICIA LTDA</xNome><xFant>POPULAR DISTRIBUIDOR</xFant><enderEmit><xLgr>RUA NOEL ROSA</xLgr><nro>0</nro><xCpl>GALPAO B</xCpl><xBairro>SEVERIANO M. FILHO</xBairro><cMun>2606002</cMun><xMun>2606002</xMun><UF>PE</UF><CEP>55290000</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>0 </fone></enderEmit></emit>
+<dest><CNPJ>12023966004706</CNPJ><xNome>BONANZA SUPERMERCADOS LTDA</xNome><xFant>BONANZA SUPERMERCADOS LTDA</xFant><enderDest><xLgr>ROD. BR-232</xLgr><nro>0</nro><xBairro>DISTRITO INDUSTRIAL</xBairro><cMun>2604106</cMun><xMun>CARUARU</xMun><UF>PE</UF><CEP>55000000</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>812103179825</fone></enderDest><IE>1</IE><ISUF>046339620</ISUF><email>;;cdbonanza@bonanza.com.br
+</email></dest>
+<det nItem="1"><prod><cProd>70</cProd><cEAN>7898029654730</cEAN><xProd>BANANADA POLY 250G 24X250G QTD. 10.00 CX</xProd><NCM>20079990</NCM><NVE></NVE><CEST>1709400</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>240.0000</qCom><vUnCom>3.8599166667</vUnCom><vProd>926.38</vProd><cEANTrib>7898029654730</cEANTrib><qTrib>240.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>926.38</pRedBC><vBC>20.5000</vBC><pICMS>189.91</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="2"><prod><cProd>31886</cProd><cEAN>SEM GTIN</cEAN><xProd>DOCE GOIABADA MEDIA 400G 16X400G QTD. 3.00 CX</xProd><NCM>20079990</NCM><NVE></NVE><CEST>1709400</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>48.0000</qCom><vUnCom>4.5200000000</vUnCom><vProd>216.96</vProd><cEANTrib>SEM GTIN</cEANTrib><qTrib>48.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>216.96</pRedBC><vBC>20.5000</vBC><pICMS>44.48</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="3"><prod><cProd>46754</cProd><cEAN>7898029657380</cEAN><xProd>DOCE 680G SABOR LEITE COM GOIABA 3X680G QTD. 4.00 PC</xProd><NCM>19019090</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>PT</uCom><qCom>12.0000</qCom><vUnCom>13.7700000000</vUnCom><vProd>165.24</vProd><cEANTrib>7898029657380</cEANTrib><qTrib>12.0000</qTrib><vUnTrib>PT</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>165.24</pRedBC><vBC>20.5000</vBC><pICMS>33.87</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="4"><prod><cProd>46751</cProd><cEAN>7898029657403</cEAN><xProd>DOCE 680G SABOR LEITE CREMOSO 3X680G QTD. 15.00 PC</xProd><NCM>19019090</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>PT</uCom><qCom>45.0000</qCom><vUnCom>14.4400000000</vUnCom><vProd>649.80</vProd><cEANTrib>7898029657403</cEANTrib><qTrib>45.0000</qTrib><vUnTrib>PT</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>649.80</pRedBC><vBC>20.5000</vBC><pICMS>133.21</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="5"><prod><cProd>32</cProd><cEAN>7898029650572</cEAN><xProd>FONDANT DE LEITE 350G 14X350G QTD. 3.00 CX</xProd><NCM>19019090</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>PC</uCom><qCom>42.0000</qCom><vUnCom>7.5000000000</vUnCom><vProd>315.00</vProd><cEANTrib>7898029650572</cEANTrib><qTrib>42.0000</qTrib><vUnTrib>PC</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>315.00</pRedBC><vBC>20.5000</vBC><pICMS>64.58</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="6"><prod><cProd>43370</cProd><cEAN>7898029659131</cEAN><xProd>LANCHE DOCE BANANA 345G (18 UN) 18X345G QTD. 5.00 CX</xProd><NCM>20079990</NCM><NVE></NVE><CEST>1709400</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>PC</uCom><qCom>90.0000</qCom><vUnCom>4.9800000000</vUnCom><vProd>448.20</vProd><cEANTrib>7898029659131</cEANTrib><qTrib>90.0000</qTrib><vUnTrib>PC</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>448.20</pRedBC><vBC>20.5000</vBC><pICMS>91.88</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="7"><prod><cProd>43374</cProd><cEAN>7898029659162</cEAN><xProd>LANCHE DOCE GOIABA 345G (18 UN) 18x345G QTD. 15.00 CX</xProd><NCM>20079990</NCM><NVE></NVE><CEST>1709400</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>PC</uCom><qCom>270.0000</qCom><vUnCom>4.7200000000</vUnCom><vProd>1274.40</vProd><cEANTrib>7898029659162</cEANTrib><qTrib>270.0000</qTrib><vUnTrib>PC</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>1274.40</pRedBC><vBC>20.5000</vBC><pICMS>261.25</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="8"><prod><cProd>27</cProd><cEAN>7898029656673</cEAN><xProd>LANCHINHO GOIABINHA 25G 20X25G QTD. 10.00 DP</xProd><NCM>19059020</NCM><NVE></NVE><CEST>1705602</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5405</CFOP><uCom>DP</uCom><qCom>10.0000</qCom><vUnCom>15.8000000000</vUnCom><vProd>158.00</vProd><cEANTrib>7898029656673</cEANTrib><qTrib>10.0000</qTrib><vUnTrib>DP</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>1184.40</pRedBC><vBC>20.5000</vBC><pICMS>242.80</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="9"><prod><cProd>48901</cProd><cEAN>7898029657366</cEAN><xProd>PACOCA PACOCROC 300G 18X300G QTD. 10.00 CX</xProd><NCM>20081100</NCM><NVE></NVE><CEST>1709500</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>PT</uCom><qCom>180.0000</qCom><vUnCom>6.5800000000</vUnCom><vProd>1184.40</vProd><cEANTrib>7898029657366</cEANTrib><qTrib>180.0000</qTrib><vUnTrib>PT</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>981.40</pRedBC><vBC>20.5000</vBC><pICMS>201.19</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="10"><prod><cProd>33</cProd><cEAN>7898029653955</cEAN><xProd>PE DE MOLEQUE CROCANTE 320G 14X320G QTD. 10.00 CX</xProd><NCM>20079990</NCM><NVE></NVE><CEST>1709400</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>PC</uCom><qCom>140.0000</qCom><vUnCom>7.0100000000</vUnCom><vProd>981.40</vProd><cEANTrib>7898029653955</cEANTrib><qTrib>140.0000</qTrib><vUnTrib>PC</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS><PISAliq><CST>01</CST><vBC>780.21</vBC><pPIS>1.6500</pPIS><vPIS>12.87
+3300</vPIS></PISAliq></PIS><COFINS><COFINSAliq><CST>01</CST><vBC>780.21</vBC><pCOFINS>7.6000</pCOFINS><vCOFINS></vCOFINS></COFINSAliq></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="11"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240418817821000180550010001659091115676018
+2100</CEST><indEscala>0</indEscala><CNPJFab>11567601</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>165909</uCom><qCom>2024-04-06T12:04:00-03:00</qCom><vUnCom>2024-04-08T12:04:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2606002</vUnTrib><vFrete>8</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="12"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240418817821000180550010001659091115676018
+2100</CEST><indEscala>0</indEscala><CNPJFab>11567601</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>165909</uCom><qCom>2024-04-06T12:04:00-03:00</qCom><vUnCom>2024-04-08T12:04:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2606002</vUnTrib><vFrete>8</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="13"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240418817821000180550010001659091115676018
+2100</CEST><indEscala>0</indEscala><CNPJFab>11567601</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>165909</uCom><qCom>2024-04-06T12:04:00-03:00</qCom><vUnCom>2024-04-08T12:04:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2606002</vUnTrib><vFrete>8</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="14"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240418817821000180550010001659091115676018
+2100</CEST><indEscala>0</indEscala><CNPJFab>11567601</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>165909</uCom><qCom>2024-04-06T12:04:00-03:00</qCom><vUnCom>2024-04-08T12:04:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2606002</vUnTrib><vFrete>8</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="15"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240418817821000180550010001659091115676018
+2100</CEST><indEscala>0</indEscala><CNPJFab>11567601</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>165909</uCom><qCom>2024-04-06T12:04:00-03:00</qCom><vUnCom>2024-04-08T12:04:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2606002</vUnTrib><vFrete>8</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="16"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240418817821000180550010001659091115676018
+2100</CEST><indEscala>0</indEscala><CNPJFab>11567601</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>165909</uCom><qCom>2024-04-06T12:04:00-03:00</qCom><vUnCom>2024-04-08T12:04:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2606002</vUnTrib><vFrete>8</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="17"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240418817821000180550010001659091115676018
+2100</CEST><indEscala>0</indEscala><CNPJFab>11567601</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>165909</uCom><qCom>2024-04-06T12:04:00-03:00</qCom><vUnCom>2024-04-08T12:04:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2606002</vUnTrib><vFrete>8</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="18"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240418817821000180550010001659091115676018
+2100</CEST><indEscala>0</indEscala><CNPJFab>11567601</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>165909</uCom><qCom>2024-04-06T12:04:00-03:00</qCom><vUnCom>2024-04-08T12:04:00-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2606002</vUnTrib><vFrete>8</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<total><ICMSTot><vBC>8575.89</vBC><vICMS>1758.07</vICMS><vICMSDeson>0.00</vICMSDeson><vFCPUFDest></vFCPUFDest><vICMSUFRemet></vICMSUFRemet><vFCP>0.00</vFCP><vST>0.00</vST><vFCPST>0.00</vFCPST><vFCPSTRet>0.00</vFCPSTRet><vProd>8733.89</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>115.12</vPIS><vCOFINS>530.16</vCOFINS><vOutro>0.00</vOutro><vNF>8733.89</vNF></ICMSTot><ISSQNtot><vServ></vServ><vBC></vBC><vISS></vISS><vPIS></vPIS><vCOFINS></vCOFINS></ISSQNtot><retTrib><vRetPIS></vRetPIS><vRetCOFINS></vRetCOFINS><vRetCSLL></vRetCSLL><vBCIRRF></vBCIRRF><vIRRF></vIRRF><vBCRetPrev></vBCRetPrev><vRetPrev></vRetPrev></retTrib></total></infNFe>
+<transp><modFrete>2</modFrete><transporta><CNPJ>19653622000147</CNPJ><xNome>DISTRIBUIDORA POPULAR DE ALIMENTOS LTDA</xNome><IE></IE><xEnder></xEnder><xMun></xMun><UF></UF></transporta><veicTransp><placa>RGR0C24</placa><UF>AL</UF><RNTC>
+5700</RNTC></veicTransp><reboque><placa></placa><UF></UF><RNTC></RNTC></reboque><vol><qVol>1465</qVol><esp></esp><marca></marca><nVol></nVol><pesoL></pesoL><pesoB></pesoB></vol><lacres></lacres></transp>
+<cobr><fat><nFat>59.30
+3000</nFat><vOrig>35</vOrig><vDesc>7898029653948</vDesc><vLiq>PE DE MOLEQUE PRETO 350G 14X350G QTD. 5.00 CX</vLiq></fat><dup><nDup>001</nDup><dVenc>2024-05-08</dVenc><vDup>4366.94</vDup></dup></cobr>
+<infAdic><infAdFisco>;N PEDIDO: 2950007121 - N CARREG.: 90528 - N TRANSACAO: 12267590 - BANCO ITAU (BK) - PRAZO MEDIO: 37 DIAS//NOME FANTASIA: BONANZA SUPERMERCADOS LTDA (COD.: 439)//PONTO REF.://VEND: 295 - CAMILA RAFAELA DE OLIVEIRA - 081 996472367//SUPERV: 130 - DJEISON STEFFANE SILVA DE LIMA -//MOTORISTA: ALDEVANIO JOSE DA SILVA FERREIRA//OBS: / / ///EXCLUSAO DO ICMS NA BASE DE CALCULO DO PIS E COFINS CONFORME PROCESSO/MAND.SEGU N. DE VALOR EXCLUIDO DA BASE DE CALCULO R$ 1758.07
+</infAdFisco></infAdic>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe26240418817821000180550010001659091115676018"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>2ZdKf1yxlNCzdAJC9Km+U5fh13E=</DigestValue></Reference></SignedInfo><SignatureValue>xxxxxxxxxxxxxxxxxxxxxxxxxx</SignatureValue><KeyInfo><X509Data><X509Certificate>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</X509Certificate></X509Data></KeyInfo></Signature></NFe>

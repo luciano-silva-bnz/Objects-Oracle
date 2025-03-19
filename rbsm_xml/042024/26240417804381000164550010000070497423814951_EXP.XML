@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="26240417804381000164550010000070497423814951" versao="4.00"><ide><cUF>26</cUF><cNF>42381495</cNF><natOp>Venda de Mercadorias / Produtos</natOp><mod>55</mod><serie>1</serie><nNF>7049</nNF><dEmi>21/04/24</dEmi><dSaiEnt>21/04/24</dSaiEnt><tpNF>1</tpNF><idDest>1</idDest><cMunFG>2604106</cMunFG><tpImp>1</tpImp><tpEmis>7</tpEmis><cDV>1</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><indIntermed>1</indIntermed><procEmi>0</procEmi><verProc>1.0-SNAPSHOT
+2180;2</verProc></ide>
+<emit><CNPJ>17804381000164</CNPJ><xNome>A F Q DA SILVA</xNome><xFant>AFQ DA SILVA</xFant><enderEmit><xLgr>Rua Presidente Cafe Filho</xLgr><nro>00</nro><xCpl>L38</xCpl><xBairro>Jardim Panorama</xBairro><cMun>2604106</cMun><xMun>2604106</xMun><UF>PE</UF><CEP>55044010</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>0 </fone></enderEmit></emit>
+<dest><CNPJ>12023966004706</CNPJ><xNome>BONANZA SUPERMERCADOS LTDA</xNome><xFant>BONANZA SUPERMERCADOS LTDA</xFant><enderDest><xLgr>RODOVIA BR-232</xLgr><nro>S/N</nro><xBairro>DISTRITO INDUSTRIAL</xBairro><cMun>2604106</cMun><xMun>Caruaru</xMun><UF>PE</UF><CEP>55002970</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>812103170025</fone></enderDest><IE>1</IE><ISUF>046339620</ISUF><email>;;loja41@bonanza.com.br
+</email></dest>
+<det nItem="1"><prod><cProd>400178</cProd><cEAN>7896030800597</cEAN><xProd>CR-002 BANDEJA EPS PRETA 210X140X18 MM LINHA PREMIUM 400X01 UNID</xProd><NCM>39231090</NCM><NVE></NVE><CEST>0100400</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>FD</uCom><qCom>50.0000</qCom><vUnCom>61.9000000000</vUnCom><vProd>3095.00</vProd><cEANTrib>7896030800597</cEANTrib><qTrib>50.0000</qTrib><vUnTrib>FD</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI><qSelo></qSelo><cEnq>999
+3181</cEnq><IPITrib><CST>99</CST><vBC>0.00</vBC><pIPI>0.0000</pIPI><vIPI>0.00
+3230</vIPI></IPITrib></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.0000</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.0000</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="2"><prod><cProd>BAN-0002</cProd><cEAN>17896030899253</cEAN><xProd>CRL-002 BANDEJA EPS BRANCA -  210X140X18 MM - 400 UN</xProd><NCM>39231090</NCM><NVE></NVE><CEST>2804000</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>FD</uCom><qCom>50.0000</qCom><vUnCom>43.2000000000</vUnCom><vProd>2160.00</vProd><cEANTrib>17896030899253</cEANTrib><qTrib>50.0000</qTrib><vUnTrib>FD</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.0000</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.0000</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="3"><prod><cProd>BAN-0003</cProd><cEAN>7896030800603</cEAN><xProd>CRL-003 BANDEJA EPS BRANCA -  235X180X16 MM - 400 UN</xProd><NCM>39239090</NCM><NVE></NVE><CEST>2804000</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>FD</uCom><qCom>50.0000</qCom><vUnCom>87.8000000000</vUnCom><vProd>4390.00</vProd><cEANTrib>7896030800603</cEANTrib><qTrib>50.0000</qTrib><vUnTrib>FD</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.0000</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.0000</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="4"><prod><cProd>BAN-0004</cProd><cEAN>SEM GTIN</cEAN><xProd>CRL-004 BANDEJA EPS BRANCA - 275X150X14 MM - 400 UN</xProd><NCM>39239090</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>FD</uCom><qCom>50.0000</qCom><vUnCom>89.7000000000</vUnCom><vProd>4485.00</vProd><cEANTrib>SEM GTIN</cEANTrib><qTrib>50.0000</qTrib><vUnTrib>FD</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.0000</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.0000</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="5"><prod><cProd>PRA-0001</cProd><cEAN>7896030899386</cEAN><xProd>PN-002 BANDEJA -PRANCHA EPS 210X140 MM 400 UN</xProd><NCM>39239090</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>FD</uCom><qCom>20.0000</qCom><vUnCom>82.5000000000</vUnCom><vProd>1650.00</vProd><cEANTrib>7896030899386</cEANTrib><qTrib>20.0000</qTrib><vUnTrib>FD</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.0000</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.0000</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="6"><prod><cProd>FIT-0001</cProd><cEAN>7898316522391</cEAN><xProd>FITA PP ALLTAPE TR 45MMX100M (01 UN)</xProd><NCM>39191010</NCM><NVE></NVE><CEST>1000800</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>50.0000</qCom><vUnCom>8.9000000000</vUnCom><vProd>445.00</vProd><cEANTrib>7898316522391</cEANTrib><qTrib>50.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.0000</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.0000</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="7"><prod><cProd>7898439722524</cProd><cEAN>7898439722524</cEAN><xProd>MANGA P/ CONFEITAR DESCARTAVEL G - C/ 20 PCT C/50 UND</xProd><NCM>39232190</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>2.0000</qCom><vUnCom>1184.0000000000</vUnCom><vProd>2368.00</vProd><cEANTrib>7898439722524</cEANTrib><qTrib>2.0000</qTrib><vUnTrib>CX</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.0000</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.0000</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="8"><prod><cProd>4851</cProd><cEAN>7898439722531</cEAN><xProd>MANGA P/ CONFEITAR DESCARTAVEL M - C/ 20 PCT C/ 50 UNID.</xProd><NCM>39232190</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>5.0000</qCom><vUnCom>768.0000000000</vUnCom><vProd>3840.00</vProd><cEANTrib>7898439722531</cEANTrib><qTrib>5.0000</qTrib><vUnTrib>CX</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.0000</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.0000</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="9"><prod><cProd>MAS-0001</cProd><cEAN>SEM GTIN</cEAN><xProd>MASCARA DESCARTAVEL - PCT</xProd><NCM>63079010</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>PCT</uCom><qCom>30.0000</qCom><vUnCom>9.4500000000</vUnCom><vProd>283.50</vProd><cEANTrib>SEM GTIN</cEANTrib><qTrib>30.0000</qTrib><vUnTrib>PCT</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.0000</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.0000</pCOFINS><vCOFINS></vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="10"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240417804381000164550010000070497423814951
+2100</CEST><indEscala>0</indEscala><CNPJFab>42381495</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>7049</uCom><qCom>2024-04-21T20:42:17-03:00</qCom><vUnCom>2024-04-21T20:42:17-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>1</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<total><ICMSTot><vBC>0.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vFCPUFDest></vFCPUFDest><vICMSUFRemet></vICMSUFRemet><vFCP>0.00</vFCP><vST>0.00</vST><vFCPST>0.00</vFCPST><vFCPSTRet>0.00</vFCPSTRet><vProd>24516.50</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>24516.50</vNF></ICMSTot><ISSQNtot><vServ></vServ><vBC></vBC><vISS></vISS><vPIS></vPIS><vCOFINS></vCOFINS></ISSQNtot><retTrib><vRetPIS></vRetPIS><vRetCOFINS></vRetCOFINS><vRetCSLL></vRetCSLL><vBCIRRF></vBCIRRF><vIRRF></vIRRF><vBCRetPrev></vBCRetPrev><vRetPrev></vRetPrev></retTrib></total></infNFe>
+<transp><modFrete>3</modFrete><transporta><CNPJ></CNPJ><xNome></xNome><IE></IE><xEnder></xEnder><xMun></xMun><UF></UF></transporta><veicTransp><placa></placa><UF></UF><RNTC></RNTC></veicTransp><reboque><placa></placa><UF></UF><RNTC></RNTC></reboque><vol><qVol>230</qVol><esp>VOLUMES</esp><marca></marca><nVol></nVol><pesoL></pesoL><pesoB></pesoB></vol><lacres></lacres></transp>
+<cobr><fat><nFat>7049</nFat><vOrig>24516.50</vOrig><vDesc>0.00</vDesc><vLiq>24516.50
+6100</vLiq></fat><dup><nDup>001</nDup><dVenc>2024-05-12</dVenc><vDup>4086.08</vDup></dup></cobr>
+<infAdic><infAdFisco>;CODIGO DO PEDIDO: 159799#DOCUMENTO EMITIDO POR ME OU EPP OPTANTE PELO SIMPLES NACIONAL.#NAO GERA DIREITO A CREDITO FISCAL DE IPI.
+</infAdFisco></infAdic>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe26240417804381000164550010000070497423814951"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>2ZdKf1yxlNCzdAJC9Km+U5fh13E=</DigestValue></Reference></SignedInfo><SignatureValue>xxxxxxxxxxxxxxxxxxxxxxxxxx</SignatureValue><KeyInfo><X509Data><X509Certificate>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</X509Certificate></X509Data></KeyInfo></Signature></NFe>

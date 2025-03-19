@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="26240301838723016201550050056179871686435033" versao="4.00"><ide><cUF>26</cUF><cNF>68643503</cNF><natOp>Venda merc.adq.receb.de terceiros / Vnd.mer.adq.rec.ter.mer</natOp><mod>55</mod><serie>5</serie><nNF>5617987</nNF><dEmi>31/03/24</dEmi><dSaiEnt>31/03/24</dSaiEnt><tpNF>1</tpNF><idDest>1</idDest><cMunFG>2616407</cMunFG><tpImp>2</tpImp><tpEmis>1</tpEmis><cDV>3</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><indIntermed>1</indIntermed><procEmi>0</procEmi><verProc>GRC 10.0
+</verProc></ide>
+<emit><CNPJ>01838723016201</CNPJ><xNome>BRF S.A.</xNome><xFant>BRF S.A.</xFant><enderEmit><xLgr>ROD PE 050 KM 2 SL 3 PREDIO 2</xLgr><nro>S/N</nro><xCpl></xCpl><xBairro>DISTRITO INDUSTRIAL</xBairro><cMun>2616407</cMun><xMun>2616407</xMun><UF>PE</UF><CEP>55613900</CEP><cPais></cPais><xPais>Brasil</xPais><fone>0 </fone></enderEmit></emit>
+<dest><CNPJ>12023966000557</CNPJ><xNome>BONANZA SUPERMERCADOS LTDA EM RECUP</xNome><xFant>BONANZA SUPERMERCADOS LTDA EM RECUP</xFant><enderDest><xLgr>PC DESEMBARGADOR JOAO PAES</xLgr><nro>186</nro><xBairro>CENTRO</xBairro><cMun>2601706</cMun><xMun>BELO JARDIM</xMun><UF>PE</UF><CEP>55150001</CEP><cPais>1058</cPais><xPais>Brasil</xPais><fone>8137261033</fone></enderDest><IE>1</IE><ISUF>016684559</ISUF><email>;;
+</email></dest>
+<det nItem="1"><prod><cProd>326118</cProd><cEAN>17891515472433</cEAN><xProd>STEAK FGO EMP CONG IWP 100G PD</xProd><NCM>16023230</NCM><NVE></NVE><CEST>1707900</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>63.9000000000</vUnCom><vProd>63.90</vProd><cEANTrib>7891515474126</cEANTrib><qTrib>4.5000</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal><rastro><nLote>3124080</nLote><qLote>1.000</qLote><dFab>2024-03-21</dFab><dVal>2024-06-19</dVal><cAgreg>
+3100</cAgreg></rastro></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>63.90</pRedBC><vBC>20.5000</vBC><pICMS>13.10</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="2"><prod><cProd>239703</cProd><cEAN>17891515430150</cEAN><xProd>MORTADELA MISTA PERDIGAO CX 6KG</xProd><NCM>16010000</NCM><NVE></NVE><CEST>1707800</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>62.2200000000</vUnCom><vProd>62.22</vProd><cEANTrib>7891515430153</cEANTrib><qTrib>6.0000</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal><rastro><nLote>3314073</nLote><qLote>1.000</qLote><dFab>2024-03-14</dFab><dVal>2024-05-13</dVal><cAgreg>
+3100</cAgreg></rastro></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>62.22</pRedBC><vBC>20.5000</vBC><pICMS>12.76</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="3"><prod><cProd>597975</cProd><cEAN>17891515313316</cEAN><xProd>FIGADO FGO CONG PT 1KG PD 16 KG</xProd><NCM>02071400</NCM><NVE></NVE><CEST>1708700</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>61.7600000000</vUnCom><vProd>61.76</vProd><cEANTrib>7891515531331</cEANTrib><qTrib>16.0000</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal><rastro><nLote>8794037</nLote><qLote>1.000</qLote><dFab>2024-02-06</dFab><dVal>2025-02-05</dVal><cAgreg>
+3100</cAgreg></rastro></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>61.76</pRedBC><vBC>20.5000</vBC><pICMS>12.66</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="4"><prod><cProd>597946</cProd><cEAN>17891515311572</cEAN><xProd>FILE PEITO FGO TEMP CONG SOPC SF IQ SD</xProd><NCM>02071400</NCM><NVE></NVE><CEST>1708700</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>244.2000000000</vUnCom><vProd>244.20</vProd><cEANTrib>7891515531157</cEANTrib><qTrib>12.0000</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal><rastro><nLote>3214071</nLote><qLote>1.000</qLote><dFab>2024-03-12</dFab><dVal>2025-03-12</dVal><cAgreg>
+3100</cAgreg></rastro></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>244.20</pRedBC><vBC>20.5000</vBC><pICMS>50.06</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="5"><prod><cProd>44601</cProd><cEAN>17893000445984</cEAN><xProd>CARNE DE SUI CONG SO SADIA FILE MIGNON</xProd><NCM>02032900</NCM><NVE></NVE><CEST>1708701</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>131.7000000000</vUnCom><vProd>131.70</vProd><cEANTrib>7893000445987</cEANTrib><qTrib>10.0000</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal><rastro><nLote>3284044</nLote><qLote>1.000</qLote><dFab>2024-02-13</dFab><dVal>2025-02-12</dVal><cAgreg>
+3113</cAgreg></rastro></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>196.14</pRedBC><vBC>20.5000</vBC><pICMS>40.21</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="6"><prod><cProd>761681</cProd><cEAN>17891515591936</cEAN><xProd>QUEIJO MUSSARELA FATIADO 150G SADIA</xProd><NCM>04061010</NCM><NVE></NVE><CEST>1702401</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>196.1400000000</vUnCom><vProd>196.14</vProd><cEANTrib>7891515591939</cEANTrib><qTrib>4.2000</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal><rastro><nLote>LTT4068</nLote><qLote>1.000</qLote><dFab>2024-03-09</dFab><dVal>2024-05-28</dVal><cAgreg>
+3100</cAgreg></rastro></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>150.00</pRedBC><vBC>20.5000</vBC><pICMS>30.75</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="7"><prod><cProd>764021</cProd><cEAN>17891515600614</cEAN><xProd>FUSILLI MOL BCO BROCBACON 300G SD CONG</xProd><NCM>19023000</NCM><NVE></NVE><CEST>1704800</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5405</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>59.7200000000</vUnCom><vProd>59.72</vProd><cEANTrib>7891515600617</cEANTrib><qTrib>2.7000</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal><rastro><nLote>3924063</nLote><qLote>1.000</qLote><dFab>2024-03-04</dFab><dVal>2024-08-31</dVal><cAgreg>
+3120</cAgreg></rastro></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="8"><prod><cProd></cProd><cEAN>1704800</cEAN><xProd>S</xProd><NCM></NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab>CX</CNPJFab><cBenef></cBenef><EXTIPI>59.7200000000</EXTIPI><CFOP>59.72</CFOP><uCom>7891515600617</uCom><qCom>KG</qCom><vUnCom>2.7000</vUnCom><vProd>22.1185185185</vProd><cEANTrib></cEANTrib><qTrib></qTrib><vUnTrib></vUnTrib><vFrete>1</vFrete><vSeg>144353/L</vSeg><vDesc>144353/L</vDesc><vOutro></vOutro><indTotal></indTotal><rastro><nLote>3924366</nLote><qLote>1.000</qLote><dFab>2024-02-29</dFab><dVal>2024-08-27</dVal><cAgreg>
+3100</cAgreg></rastro></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="9"><prod><cProd>506488</cProd><cEAN>17891515929395</cEAN><xProd>PAO DE QUEIJO TRADIC PERDIGAO</xProd><NCM>19012010</NCM><NVE></NVE><CEST>1704615</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>150.0000000000</vUnCom><vProd>150.00</vProd><cEANTrib>7891515492939</cEANTrib><qTrib>7.5000</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal><rastro><nLote>3874052</nLote><qLote>1.000</qLote><dFab>2024-02-21</dFab><dVal>2024-11-17</dVal><cAgreg>
+3113</cAgreg></rastro></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="10"><prod><cProd>496577</cProd><cEAN>17891515891067</cEAN><xProd>LOMBO SUINO TEMP ASSA FACIL SADIA</xProd><NCM>02032900</NCM><NVE></NVE><CEST>1708701</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>88.3500000000</vUnCom><vProd>88.35</vProd><cEANTrib>7891515489106</cEANTrib><qTrib>6.1100</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="11"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240301838723016201550050056179871686435033
+2100</CEST><indEscala>0</indEscala><CNPJFab>68643503</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>5</CFOP><uCom>5617987</uCom><qCom>2024-03-31T20:18:48-03:00</qCom><vUnCom>2024-03-31T20:18:48-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>2</qTrib><vUnTrib>2616407</vUnTrib><vFrete>3</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<total><ICMSTot><vBC>778.22</vBC><vICMS>159.54</vICMS><vICMSDeson>0.00</vICMSDeson><vFCPUFDest></vFCPUFDest><vICMSUFRemet></vICMSUFRemet><vFCP>0.00</vFCP><vST>0.00</vST><vFCPST>0.00</vFCPST><vFCPSTRet>0.00</vFCPSTRet><vProd>1128.87</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>3.63</vPIS><vCOFINS>16.68</vCOFINS><vOutro>0.00</vOutro><vNF>1128.87</vNF></ICMSTot><ISSQNtot><vServ></vServ><vBC></vBC><vISS></vISS><vPIS></vPIS><vCOFINS></vCOFINS></ISSQNtot><retTrib><vRetPIS>R B CONCEICAO II 160A</vRetPIS><vRetCOFINS>VITORIA DE SANTO ANTAO</vRetCOFINS><vRetCSLL>PE
+5300</vRetCSLL><vBCIRRF>QGO8605</vBCIRRF><vIRRF>PE</vIRRF><vBCRetPrev>
+5700</vBCRetPrev><vRetPrev>10</vRetPrev></retTrib></total></infNFe>
+<transp><modFrete>3</modFrete><transporta><CNPJ>10879456000208</CNPJ><xNome>FRIOSERVICE TRANSPORTES LTDA</xNome><IE>042814200</IE><xEnder>R B CONCEICAO II 160A</xEnder><xMun></xMun><UF></UF></transporta><veicTransp><placa>QGO8605</placa><UF>PE</UF><RNTC>
+5700</RNTC></veicTransp><reboque><placa></placa><UF></UF><RNTC></RNTC></reboque><vol><qVol>10</qVol><esp>CX</esp><marca></marca><nVol></nVol><pesoL></pesoL><pesoB></pesoB></vol><lacres></lacres></transp>
+<cobr><fat><nFat>9.06
+3000</nFat><vOrig>496577</vOrig><vDesc>17891515891067</vDesc><vLiq>LOMBO SUINO TEMP ASSA FACIL SADIA</vLiq></fat><dup><nDup></nDup><dVenc></dVenc><vDup></vDup></dup></cobr>
+<infAdic><infAdFisco>22.1185185185;;;;;1;144353/L;;;;
+3008;3924063;1.000;2024-03-04;2024-08-31;
+3120;0;60;62.51;18.0000;5.77;;;;;;;;5.48
+3180;;;;;999
+3190;51
+3220;06
+3320;06
+3000;506488;17891515929395;PAO DE QUEIJO TRADIC PERDIGAO;19012010;;1704615;S;;;;5102;CX;1.0000;150.0000000000;150.00;7891515492939;KG;7.5000;20.0000000000;;;;;1;144353/L;;;;
+3008;3924366;1.000;2024-02-29;2024-08-27;
+3100;0;00;3;150.00;20.5000;30.75;;
+3180;;;;;999
+3190;51
+3200;01;119.25;1.6500;1.97
+3300;01;119.25;7.6000;9.06
+3000;496577;17891515891067;LOMBO SUINO TEMP ASSA FACIL SADIA;02032900;;1708701;S;;;;5102;CX;1.0000;88.3500000000;88.35;7891515489106;KG;6.1100;14.4599018003;;;;;1;144353/L;;;;
+3008;3874052;1.000;2024-02-21;2024-11-17;
+3113;0;41;;
+3180;;;;;999
+3190;51
+3220;06
+3320;06
+3600;Venda efetuada a Aliquota Zero da Contribuicao p/PIS/PASEP e da COFINS nos termos da Medida Provisoria no 609/2013 convertida em</infAdFisco></infAdic>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe26240301838723016201550050056179871686435033"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>2ZdKf1yxlNCzdAJC9Km+U5fh13E=</DigestValue></Reference></SignedInfo><SignatureValue>xxxxxxxxxxxxxxxxxxxxxxxxxx</SignatureValue><KeyInfo><X509Data><X509Certificate>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</X509Certificate></X509Data></KeyInfo></Signature></NFe>

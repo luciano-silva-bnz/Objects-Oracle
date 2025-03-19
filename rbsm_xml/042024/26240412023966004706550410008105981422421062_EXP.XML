@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="26240412023966004706550410008105981422421062" versao="4.00"><ide><cUF>26</cUF><cNF>42242106</cNF><natOp>TRANSFERENCIA ENTRE LOJAS</natOp><mod>55</mod><serie>41</serie><nNF>810598</nNF><dEmi>29/04/24</dEmi><dSaiEnt>29/04/24</dSaiEnt><tpNF>1</tpNF><idDest>1</idDest><cMunFG>2604106</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>2</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><indIntermed>1</indIntermed><procEmi>0</procEmi><verProc>NDDigital NFe 4.8.5</verProc></ide>
+<emit><CNPJ>12023966004706</CNPJ><xNome>BONANZA SUPERMERCADOS LTDA</xNome><xFant>L41-CARUARU-CD</xFant><enderEmit><xLgr>RODOVIA BR-232</xLgr><nro>138</nro><xCpl>BLOCO B</xCpl><xBairro>DISTRITO INDUSTRIAL</xBairro><cMun>2604106</cMun><xMun>2604106</xMun><UF>PE</UF><CEP>55034640</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>0 </fone></enderEmit></emit>
+<dest><CNPJ>12023966001871</CNPJ><xNome>BONANZA SUPERMERCADOS LTDA - L17</xNome><xFant>BONANZA SUPERMERCADOS LTDA - L17</xFant><enderDest><xLgr>RUA MARIA DE LOURDES CASE PORTO</xLgr><nro>200</nro><xBairro>MAURICIO DE NASSAU</xBairro><cMun>2604106</cMun><xMun>CARUARU</xMun><UF>PE</UF><CEP>55012075</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>81992426790</fone></enderDest><IE>1</IE><ISUF>021686696</ISUF><email>;;
+</email></dest>
+<det nItem="1"><prod><cProd>12373</cProd><cEAN>7898403780925</cEAN><xProd>CREME LEITE BETANIA 200G</xProd><NCM>04015021</NCM><NVE></NVE><CEST>1701902</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5152</CFOP><uCom>UN1</uCom><qCom>152.0000</qCom><vUnCom>2.3000000000</vUnCom><vProd>349.60</vProd><cEANTrib>7898403780925</cEANTrib><qTrib>152.0000</qTrib><vUnTrib>UN1</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>349.60</pRedBC><vBC>20.5000</vBC><pICMS>71.67</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="2"><prod><cProd>8255</cProd><cEAN>7898366930658</cEAN><xProd>PALMITO CONS ROD PALMEIRON PT 300G</xProd><NCM>20089100</NCM><NVE></NVE><CEST>1709500</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5152</CFOP><uCom>UN1</uCom><qCom>13.0000</qCom><vUnCom>11.3000000000</vUnCom><vProd>146.90</vProd><cEANTrib>7898366930658</cEANTrib><qTrib>13.0000</qTrib><vUnTrib>UN1</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>146.90</pRedBC><vBC>20.5000</vBC><pICMS>30.11</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="3"><prod><cProd>49</cProd><cEAN>7891091010022</cEAN><xProd>PRE COZIDO NOVOMILHO 500G SAO BRAZ</xProd><NCM>11022000</NCM><NVE></NVE><CEST>9999999</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5409</CFOP><uCom>UN1</uCom><qCom>17.0000</qCom><vUnCom>1.0400000000</vUnCom><vProd>17.68</vProd><cEANTrib>7891091010022</cEANTrib><qTrib>17.0000</qTrib><vUnTrib>UN1</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>68.15</pRedBC><vBC>20.5000</vBC><pICMS>13.97</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="4"><prod><cProd>11359</cProd><cEAN>7898272919211</cEAN><xProd>FARINHA MANDIOCA TURQUESA PREM 1KG</xProd><NCM>11062000</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5152</CFOP><uCom>UN1</uCom><qCom>9.0000</qCom><vUnCom>6.5000000000</vUnCom><vProd>58.50</vProd><cEANTrib>7898272919211</cEANTrib><qTrib>9.0000</qTrib><vUnTrib>UN1</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>5.01</pRedBC><vBC>20.5000</vBC><pICMS>1.03</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="5"><prod><cProd>27138</cProd><cEAN>7898926451067</cEAN><xProd>FEIJAO PRETO TA GOSTOSO 1KG</xProd><NCM>07133319</NCM><NVE></NVE><CEST>9999999</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5409</CFOP><uCom>UN1</uCom><qCom>3.0000</qCom><vUnCom>6.2200000000</vUnCom><vProd>18.66</vProd><cEANTrib>7898926451067</cEANTrib><qTrib>3.0000</qTrib><vUnTrib>UN1</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>4.31</pRedBC><vBC>20.5000</vBC><pICMS>0.88</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="6"><prod><cProd>2872</cProd><cEAN>7897173098940</cEAN><xProd>BOLINHO T MONICA PCT 40G BAUN RECH CHOC</xProd><NCM>19052090</NCM><NVE></NVE><CEST>1705100</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5409</CFOP><uCom>UN1</uCom><qCom>20.0000</qCom><vUnCom>1.2200000000</vUnCom><vProd>24.40</vProd><cEANTrib>7897173098940</cEANTrib><qTrib>20.0000</qTrib><vUnTrib>UN1</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>2.36</pRedBC><vBC>20.5000</vBC><pICMS>0.48</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="7"><prod><cProd>3563</cProd><cEAN>7896102502183</cEAN><xProd>EXTRATO TOMATE QUERO CX 130G</xProd><NCM>20029000</NCM><NVE></NVE><CEST>1704000</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5152</CFOP><uCom>UN1</uCom><qCom>47.0000</qCom><vUnCom>1.4500000000</vUnCom><vProd>68.15</vProd><cEANTrib>7896102502183</cEANTrib><qTrib>47.0000</qTrib><vUnTrib>UN1</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>1.50</pRedBC><vBC>20.5000</vBC><pICMS>0.31</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="8"><prod><cProd>11770</cProd><cEAN>7898363313232</cEAN><xProd>RACAO QUALIDY CAT 1KG CARNE</xProd><NCM>23099010</NCM><NVE></NVE><CEST>2200100</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5409</CFOP><uCom>UN1</uCom><qCom>1.0000</qCom><vUnCom>8.5800000000</vUnCom><vProd>8.58</vProd><cEANTrib>7898363313232</cEANTrib><qTrib>1.0000</qTrib><vUnTrib>UN1</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS><PISNT><CST>08
+3320</CST></PISNT></PIS><COFINS><COFINSNT><CST>08
+3000</CST></COFINSNT></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="9"><prod><cProd>24612</cProd><cEAN>7898363314208</cEAN><xProd>RACAO QUALIDY CAT CAST FG A 1K</xProd><NCM>23099010</NCM><NVE></NVE><CEST>2200100</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5409</CFOP><uCom>UN1</uCom><qCom>1.0000</qCom><vUnCom>8.3000000000</vUnCom><vProd>8.30</vProd><cEANTrib>7898363314208</cEANTrib><qTrib>1.0000</qTrib><vUnTrib>UN1</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS><PISNT><CST>08
+3320</CST></PISNT></PIS><COFINS><COFINSNT><CST>08
+3000</CST></COFINSNT></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="10"><prod><cProd>27388</cProd><cEAN>7891167831582</cEAN><xProd>ATUM PEDACOS AO NATURAL 88 140G</xProd><NCM>16041410</NCM><NVE></NVE><CEST>1708000</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5152</CFOP><uCom>UN1</uCom><qCom>1.0000</qCom><vUnCom>5.0100000000</vUnCom><vProd>5.01</vProd><cEANTrib>7891167831582</cEANTrib><qTrib>1.0000</qTrib><vUnTrib>UN1</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS><PISNT><CST>08
+3320</CST></PISNT></PIS><COFINS><COFINSNT><CST>08
+3000</CST></COFINSNT></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="11"><prod><cProd>2807</cProd><cEAN>7891079013090</cEAN><xProd>MACARRAO INST CUP NOODLES 67G LEGUMES C/AZEITE</xProd><NCM>19023000</NCM><NVE></NVE><CEST>1704701</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5409</CFOP><uCom>UN1</uCom><qCom>1.0000</qCom><vUnCom>3.3800000000</vUnCom><vProd>3.38</vProd><cEANTrib>7891079013090</cEANTrib><qTrib>1.0000</qTrib><vUnTrib>UN1</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS><PISNT><CST>08
+3320</CST></PISNT></PIS><COFINS><COFINSNT><CST>08
+3000</CST></COFINSNT></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="12"><prod><cProd></cProd><cEAN>1704701</cEAN><xProd>S</xProd><NCM></NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab>UN1</CNPJFab><cBenef></cBenef><EXTIPI>3.3800000000</EXTIPI><CFOP>3.38</CFOP><uCom>7891079013090</uCom><qCom>UN1</qCom><vUnCom>1.0000</vUnCom><vProd>3.3800000000</vProd><cEANTrib></cEANTrib><qTrib></qTrib><vUnTrib></vUnTrib><vFrete>1</vFrete><vSeg></vSeg><vDesc></vDesc><vOutro>11</vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS><PISNT><CST>08
+3320</CST></PISNT></PIS><COFINS><COFINSNT><CST>08
+3000</CST></COFINSNT></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="13"><prod><cProd>3837</cProd><cEAN>7898215152002</cEAN><xProd>LEITE COND PIRACANJUBA TP 395G SEMI DESN</xProd><NCM>04029900</NCM><NVE></NVE><CEST>1702000</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5152</CFOP><uCom>UN1</uCom><qCom>1.0000</qCom><vUnCom>4.3100000000</vUnCom><vProd>4.31</vProd><cEANTrib>7898215152002</cEANTrib><qTrib>1.0000</qTrib><vUnTrib>UN1</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS><PISNT><CST>08
+3320</CST></PISNT></PIS><COFINS><COFINSNT><CST>08
+3000</CST></COFINSNT></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="14"><prod><cProd>8027</cProd><cEAN>7896292340985</cEAN><xProd>MILHO EM CONSER SOFRUTA STAND 170G</xProd><NCM>20058000</NCM><NVE></NVE><CEST>1709200</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5152</CFOP><uCom>UN1</uCom><qCom>1.0000</qCom><vUnCom>2.3600000000</vUnCom><vProd>2.36</vProd><cEANTrib>7896292340985</cEANTrib><qTrib>1.0000</qTrib><vUnTrib>UN1</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS><PISNT><CST>08
+3320</CST></PISNT></PIS><COFINS><COFINSNT><CST></CST></COFINSNT></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="15"><prod><cProd>20517</cProd><cEAN>7898117960101</cEAN><xProd>XEREM MILHO REI DE OURO 500G</xProd><NCM>10059010</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5152</CFOP><uCom>UN1</uCom><qCom>1.0000</qCom><vUnCom>1.5000000000</vUnCom><vProd>1.50</vProd><cEANTrib>7898117960101</cEANTrib><qTrib>1.0000</qTrib><vUnTrib>UN1</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="16"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240412023966004706550410008105981422421062
+2100</CEST><indEscala>0</indEscala><CNPJFab>42242106</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>41</CFOP><uCom>810598</uCom><qCom>2024-04-29T10:33:19-03:00</qCom><vUnCom>2024-04-29T10:33:19-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>2</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="17"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240412023966004706550410008105981422421062
+2100</CEST><indEscala>0</indEscala><CNPJFab>42242106</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>41</CFOP><uCom>810598</uCom><qCom>2024-04-29T10:33:19-03:00</qCom><vUnCom>2024-04-29T10:33:19-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>2</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="18"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240412023966004706550410008105981422421062
+2100</CEST><indEscala>0</indEscala><CNPJFab>42242106</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>41</CFOP><uCom>810598</uCom><qCom>2024-04-29T10:33:19-03:00</qCom><vUnCom>2024-04-29T10:33:19-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>2</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="19"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240412023966004706550410008105981422421062
+2100</CEST><indEscala>0</indEscala><CNPJFab>42242106</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>41</CFOP><uCom>810598</uCom><qCom>2024-04-29T10:33:19-03:00</qCom><vUnCom>2024-04-29T10:33:19-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>2</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<total><ICMSTot><vBC>S</vBC><vICMS></vICMS><vICMSDeson></vICMSDeson><vFCPUFDest>5152</vFCPUFDest><vICMSUFRemet>UN1</vICMSUFRemet><vFCP>47.0000</vFCP><vST>1.4500000000</vST><vFCPST>7896102502183</vFCPST><vFCPSTRet>UN1</vFCPSTRet><vProd>47.0000</vProd><vFrete>1.4500000000</vFrete><vSeg></vSeg><vDesc></vDesc><vII></vII><vIPI></vIPI><vIPIDevol>1</vIPIDevol><vPIS></vPIS><vCOFINS>7</vCOFINS><vOutro></vOutro><vNF></vNF></ICMSTot><ISSQNtot><vServ></vServ><vBC></vBC><vISS></vISS><vPIS></vPIS><vCOFINS></vCOFINS></ISSQNtot><retTrib><vRetPIS></vRetPIS><vRetCOFINS></vRetCOFINS><vRetCSLL></vRetCSLL><vBCIRRF></vBCIRRF><vIRRF></vIRRF><vBCRetPrev></vBCRetPrev><vRetPrev>
+5000</vRetPrev></retTrib></total></infNFe>
+<transp><modFrete>0</modFrete><transporta><CNPJ></CNPJ><xNome></xNome><IE></IE><xEnder></xEnder><xMun></xMun><UF></UF></transporta><veicTransp><placa></placa><UF></UF><RNTC></RNTC></veicTransp><reboque><placa></placa><UF></UF><RNTC></RNTC></reboque><vol><qVol>300</qVol><esp></esp><marca></marca><nVol></nVol><pesoL></pesoL><pesoB></pesoB></vol><lacres></lacres></transp>
+<cobr><fat><nFat></nFat><vOrig></vOrig><vDesc></vDesc><vLiq></vLiq></fat><dup><nDup></nDup><dVenc></dVenc><vDup></vDup></dup></cobr>
+<infAdic><infAdFisco>;ICMS ST Transf higiene/eletrodomesticos/racoes - NroCarga: 11553 - Palete: 1 / 2 / 3
+</infAdFisco></infAdic>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe26240412023966004706550410008105981422421062"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>2ZdKf1yxlNCzdAJC9Km+U5fh13E=</DigestValue></Reference></SignedInfo><SignatureValue>xxxxxxxxxxxxxxxxxxxxxxxxxx</SignatureValue><KeyInfo><X509Data><X509Certificate>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</X509Certificate></X509Data></KeyInfo></Signature></NFe>

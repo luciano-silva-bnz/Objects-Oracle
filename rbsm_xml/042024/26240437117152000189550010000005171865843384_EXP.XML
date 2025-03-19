@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="26240437117152000189550010000005171865843384" versao="4.00"><ide><cUF>26</cUF><cNF>86584338</cNF><natOp>VENDA DE MERCADORIAS</natOp><mod>55</mod><serie>1</serie><nNF>517</nNF><dEmi>02/04/24</dEmi><dSaiEnt>02/04/24</dSaiEnt><tpNF>1</tpNF><idDest>1</idDest><cMunFG>2604106</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>4</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><indIntermed>1</indIntermed><procEmi>0</procEmi><verProc>4.24
+</verProc></ide>
+<emit><CNPJ>37117152000189</CNPJ><xNome>MARIA DAS NEVES LIMA DO O ANDRADE 62735209415</xNome><xFant>PRODUTOS BOM PALADAR</xFant><enderEmit><xLgr>RUA PEDRO AUGUSTO DE ARAUJO</xLgr><nro>91A</nro><xCpl>CONJ</xCpl><xBairro>AGAMENOM MAGALHAES</xBairro><cMun>2604106</cMun><xMun>2604106</xMun><UF>PE</UF><CEP>55034110</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>0 </fone></enderEmit></emit>
+<dest><CNPJ>12023966004706</CNPJ><xNome>BONANZA SUPERMERCADOS LTDA</xNome><xFant>BONANZA SUPERMERCADOS LTDA</xFant><enderDest><xLgr>Rod Br 232 Km 138</xLgr><nro>S/N</nro><xBairro>Distrito Industrial</xBairro><cMun>2604106</cMun><xMun>CARUARU</xMun><UF>PE</UF><CEP>55002970</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>8121031700</fone></enderDest><IE>1</IE><ISUF>046339620</ISUF><email>;;gestaofactring@hotmail.com
+</email></dest>
+<det nItem="1"><prod><cProd>14</cProd><cEAN>SEM GTIN</cEAN><xProd>Alho Bom Paladar sem sal 36 x 160g</xProd><NCM>21039029</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>20.0000</qCom><vUnCom>110.0000000000</vUnCom><vProd>2200.00</vProd><cEANTrib>SEM GTIN</cEANTrib><qTrib>20.0000</qTrib><vUnTrib>CX</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI><qSelo></qSelo><cEnq>999
+3181</cEnq><IPITrib><CST>99</CST><vBC>0.00</vBC><pIPI>0.00</pIPI><vIPI>0.00
+3220</vIPI></IPITrib></IPI><PIS><PISNT><CST>07
+3320</CST></PISNT><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.00</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSNT><CST>07
+3000</CST></COFINSNT><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.00</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="2"><prod><cProd>12</cProd><cEAN>SEM GTIN</cEAN><xProd>Cominho 100 x 80g</xProd><NCM>21039029</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>FD</uCom><qCom>20.0000</qCom><vUnCom>115.0000000000</vUnCom><vProd>2300.00</vProd><cEANTrib>SEM GTIN</cEANTrib><qTrib>20.0000</qTrib><vUnTrib>FD</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.00</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.00</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="3"><prod><cProd>5</cProd><cEAN>SEM GTIN</cEAN><xProd>Oregano 36 x 35g</xProd><NCM>21039029</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>10.0000</qCom><vUnCom>95.0400000000</vUnCom><vProd>950.40</vProd><cEANTrib>SEM GTIN</cEANTrib><qTrib>10.0000</qTrib><vUnTrib>CX</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.00</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.00</pCOFINS><vCOFINS>0.00
+4000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="4"><prod><cProd>3003</cProd><cEAN>SEM GTIN</cEAN><xProd>pasta de alho bom paladar 36x160g.</xProd><NCM>21039021</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>20.0000</qCom><vUnCom>110.0000000000</vUnCom><vProd>2200.00</vProd><cEANTrib>SEM GTIN</cEANTrib><qTrib>20.0000</qTrib><vUnTrib>CX</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<total><ICMSTot><vBC>0</vBC><vICMS>0.00</vICMS><vICMSDeson>0</vICMSDeson><vFCPUFDest>0.00</vFCPUFDest><vICMSUFRemet>0.00</vICMSUFRemet><vFCP>0</vFCP><vST>0</vST><vFCPST>0</vFCPST><vFCPSTRet>0</vFCPSTRet><vProd>7650.40</vProd><vFrete>0</vFrete><vSeg>0</vSeg><vDesc>0</vDesc><vII>0</vII><vIPI>0</vIPI><vIPIDevol>0</vIPIDevol><vPIS>0</vPIS><vCOFINS>0</vCOFINS><vOutro>0</vOutro><vNF>7650.40</vNF></ICMSTot><ISSQNtot><vServ></vServ><vBC></vBC><vISS></vISS><vPIS></vPIS><vCOFINS></vCOFINS></ISSQNtot><retTrib><vRetPIS></vRetPIS><vRetCOFINS></vRetCOFINS><vRetCSLL></vRetCSLL><vBCIRRF></vBCIRRF><vIRRF></vIRRF><vBCRetPrev></vBCRetPrev><vRetPrev></vRetPrev></retTrib></total></infNFe>
+<transp><modFrete>0</modFrete><transporta><CNPJ></CNPJ><xNome></xNome><IE></IE><xEnder></xEnder><xMun></xMun><UF></UF></transporta><veicTransp><placa></placa><UF></UF><RNTC></RNTC></veicTransp><reboque><placa></placa><UF></UF><RNTC></RNTC></reboque><vol><qVol></qVol><esp></esp><marca></marca><nVol></nVol><pesoL></pesoL><pesoB></pesoB></vol><lacres></lacres></transp>
+<cobr><fat><nFat></nFat><vOrig></vOrig><vDesc></vDesc><vLiq></vLiq></fat><dup><nDup></nDup><dVenc></dVenc><vDup></vDup></dup></cobr>
+<infAdic><infAdFisco>;PEDIDO DE COMPRAS: 136210/C DOCUMENTO EMITIDO POR ME OU EPP OPTANTE PELO SIMPLES NACIONAL  PERMITE O APROVEITAMENTO DO CREDITO DE ICMS NO VALOR DE R$ 142,30 CORRESPONDENTE A ALIQUOTA DE 1,86%, NOS TERMOS DO ART. 23 DA LEI COMPLEMENTAR 123 DE 2006 VALOR APROXIMADO DOS TRIBUTOS FEDERAIS R$ 321,32 (4,20%) E ESTADUAIS R$ 1.377,07 (18,00%). Fonte: IBPT.
+</infAdFisco></infAdic>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe26240437117152000189550010000005171865843384"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>2ZdKf1yxlNCzdAJC9Km+U5fh13E=</DigestValue></Reference></SignedInfo><SignatureValue>xxxxxxxxxxxxxxxxxxxxxxxxxx</SignatureValue><KeyInfo><X509Data><X509Certificate>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</X509Certificate></X509Data></KeyInfo></Signature></NFe>

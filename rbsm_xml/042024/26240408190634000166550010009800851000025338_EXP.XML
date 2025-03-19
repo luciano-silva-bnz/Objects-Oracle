@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="26240408190634000166550010009800851000025338" versao="4.00"><ide><cUF>26</cUF><cNF>00002533</cNF><natOp>VENDA PRODUTO - DE</natOp><mod>55</mod><serie>1</serie><nNF>980085</nNF><dEmi>22/04/24</dEmi><dSaiEnt>23/04/24</dSaiEnt><tpNF>1</tpNF><idDest>1</idDest><cMunFG>2604106</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>8</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><indIntermed>1</indIntermed><procEmi>0</procEmi><verProc>3089
+</verProc></ide>
+<emit><CNPJ>08190634000166</CNPJ><xNome>C IRMAOS INDUSTRIA DE BEBIDA LTDA</xNome><xFant>REFRIG  ROCHEDO LTDA</xFant><enderEmit><xLgr>AV. MIGUEL FREITAS, 1000 LT. 7</xLgr><nro>1000</nro><xCpl></xCpl><xBairro>DIST. INDUSTRIAL II</xBairro><cMun>2604106</cMun><xMun>2604106</xMun><UF>PE</UF><CEP>55000000</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>0 </fone></enderEmit></emit>
+<dest><CNPJ>12023966001103</CNPJ><xNome>BONANZA SUPERMERCADOS LTDA</xNome><xFant>BONANZA SUPERMERCADOS LTDA</xFant><enderDest><xLgr>RUA CABO 06</xLgr><nro>0000</nro><xBairro>BOA VISTA I</xBairro><cMun>2604106</cMun><xMun>CARUARU</xMun><UF>PE</UF><CEP>55016080</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>813701172625</fone></enderDest><IE>1</IE><ISUF>018535895</ISUF><email>;;centraldenotas@bonanza.com.br
+</email></dest>
+<det nItem="1"><prod><cProd>2192</cProd><cEAN>7898215654056</cEAN><xProd>ROCHEDINHO COLA 12X250ML</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0300700</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>F12</uCom><qCom>3.0000</qCom><vUnCom>9.41000</vUnCom><vProd>28.23</vProd><cEANTrib>7898215654056</cEANTrib><qTrib>3.0000</qTrib><vUnTrib>F12</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>28.23</pRedBC><vBC>22.50</vBC><pICMS>6.35</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="2"><prod><cProd>2190</cProd><cEAN>7898215654032</cEAN><xProd>ROCHEDINHO GUARANA 12X250ML</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0300700</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>F12</uCom><qCom>4.0000</qCom><vUnCom>9.52500</vUnCom><vProd>38.10</vProd><cEANTrib>7898215654032</cEANTrib><qTrib>4.0000</qTrib><vUnTrib>F12</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>38.10</pRedBC><vBC>22.50</vBC><pICMS>8.57</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="3"><prod><cProd>2191</cProd><cEAN>7898215654049</cEAN><xProd>ROCHEDINHO LARANJA 12X250ML</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0300700</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>F12</uCom><qCom>2.0000</qCom><vUnCom>9.47000</vUnCom><vProd>18.94</vProd><cEANTrib>7898215654049</cEANTrib><qTrib>2.0000</qTrib><vUnTrib>F12</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>18.94</pRedBC><vBC>22.50</vBC><pICMS>4.26</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="4"><prod><cProd>2194</cProd><cEAN>7898215654018</cEAN><xProd>ROCHEDINHO TUTTI FRUTTI 12X250ML</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0300700</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>F12</uCom><qCom>5.0000</qCom><vUnCom>9.52600</vUnCom><vProd>47.63</vProd><cEANTrib>7898215654018</cEANTrib><qTrib>5.0000</qTrib><vUnTrib>F12</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>47.63</pRedBC><vBC>22.50</vBC><pICMS>10.72</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="5"><prod><cProd>3</cProd><cEAN>7898215654001</cEAN><xProd>ROCHEDO COLA 6X2000ML</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0300700</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>FR</uCom><qCom>5.0000</qCom><vUnCom>18.80200</vUnCom><vProd>94.01</vProd><cEANTrib>7898215654001</cEANTrib><qTrib>5.0000</qTrib><vUnTrib>FR</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>94.01</pRedBC><vBC>22.50</vBC><pICMS>21.15</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="6"><prod><cProd>1</cProd><cEAN>7898215653660</cEAN><xProd>ROCHEDO GUARANA 6X2000ML</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0300700</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>FR</uCom><qCom>10.0000</qCom><vUnCom>19.06900</vUnCom><vProd>190.69</vProd><cEANTrib>7898215653660</cEANTrib><qTrib>10.0000</qTrib><vUnTrib>FR</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>190.69</pRedBC><vBC>22.50</vBC><pICMS>42.91</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="7"><prod><cProd>2</cProd><cEAN>7898215653684</cEAN><xProd>ROCHEDO LARANJA 6X2000ML</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0300700</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>FR</uCom><qCom>5.0000</qCom><vUnCom>18.95200</vUnCom><vProd>94.76</vProd><cEANTrib>7898215653684</cEANTrib><qTrib>5.0000</qTrib><vUnTrib>FR</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>94.76</pRedBC><vBC>22.50</vBC><pICMS>21.32</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="8"><prod><cProd>4</cProd><cEAN>7898215653691</cEAN><xProd>ROCHEDO LIMAO 06X2000 ML</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0300700</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>FR</uCom><qCom>5.0000</qCom><vUnCom>18.95200</vUnCom><vProd>94.76</vProd><cEANTrib>7898215653691</cEANTrib><qTrib>5.0000</qTrib><vUnTrib>FR</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>94.76</pRedBC><vBC>22.50</vBC><pICMS>21.32</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="9"><prod><cProd>5</cProd><cEAN>7898215653677</cEAN><xProd>ROCHEDO TUTTI FRUTTI 6X2000ML</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0300700</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>FR</uCom><qCom>15.0000</qCom><vUnCom>19.06867</vUnCom><vProd>286.03</vProd><cEANTrib>7898215653677</cEANTrib><qTrib>15.0000</qTrib><vUnTrib>FR</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>286.03</pRedBC><vBC>22.50</vBC><pICMS>64.36</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="10"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240408190634000166550010009800851000025338
+2100</CEST><indEscala>0</indEscala><CNPJFab>00002533</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>980085</uCom><qCom>2024-04-22T15:17:56-03:00</qCom><vUnCom>2024-04-23T15:17:56-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>8</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<total><ICMSTot><vBC>988.92</vBC><vICMS>222.51</vICMS><vICMSDeson>0.00</vICMSDeson><vFCPUFDest>0.00</vFCPUFDest><vICMSUFRemet>0.00</vICMSUFRemet><vFCP>0.00</vFCP><vST>1283.16</vST><vFCPST>0.00</vFCPST><vFCPSTRet>0.00</vFCPSTRet><vProd>988.92</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>11.87</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>17.78</vPIS><vCOFINS>81.84</vCOFINS><vOutro>0.00</vOutro><vNF>1066.98</vNF></ICMSTot><ISSQNtot><vServ></vServ><vBC></vBC><vISS></vISS><vPIS></vPIS><vCOFINS></vCOFINS></ISSQNtot><retTrib><vRetPIS></vRetPIS><vRetCOFINS></vRetCOFINS><vRetCSLL></vRetCSLL><vBCIRRF></vBCIRRF><vIRRF></vIRRF><vBCRetPrev></vBCRetPrev><vRetPrev></vRetPrev></retTrib></total></infNFe>
+<transp><modFrete>0</modFrete><transporta><CNPJ>02478795418</CNPJ><xNome>VW13150 KIS2290</xNome><IE></IE><xEnder>AV HELENO FEIJO DA SILVA NR353</xEnder><xMun>CARUARU</xMun><UF>PE
+5700</UF></transporta><veicTransp><placa></placa><UF></UF><RNTC></RNTC></veicTransp><reboque><placa></placa><UF></UF><RNTC></RNTC></reboque><vol><qVol>56</qVol><esp>DIVERSAS</esp><marca></marca><nVol></nVol><pesoL></pesoL><pesoB></pesoB></vol><lacres></lacres></transp>
+<cobr><fat><nFat>980085</nFat><vOrig>1066.98</vOrig><vDesc></vDesc><vLiq>1066.98
+6100</vLiq></fat><dup><nDup>001</nDup><dVenc>2024-05-23</dVenc><vDup>1066.98</vDup></dup></cobr>
+<infAdic><infAdFisco>;;;;1;;;;;
+3103;0;10;3;18.94;22.50;4.26;;;;5;;;26.88;22.50;1.79;;;;;
+3180;;;;;999
+3181;50;18.94;1.4600;0.28
+3200;02;14.68;2.32;0.34
+3300;02;14.68;10.68;1.57
+3000;2194;7898215654018;ROCHEDINHO TUTTI FRUTTI 12X250ML;22021000;;0300700;;;;;5401;F12;5.0000;9.52600;47.63;7898215654018;F12;5.0000;9.52600;;;;;1;;;;;
+3103;0;10;3;47.63;22.50;10.72;;;;5;;;67.20;22.50;4.40;;;;;
+3180;;;;;999
+3181;50;47.63;0.9800;0.47
+3200;02;36.91;2.32;0.86
+3300;02;36.91;10.68;3.94
+3000;3;7898215654001;ROCHEDO COLA 6X2000ML;22021000;;0300700;;;;;5401;FR;5.0000;18.80200;94.01;7898215654001;FR;5.0000;18.80200;;;;;1;;;;;
+3103;0;10;3;94.01;22.50;21.15;;;;5;;;123.60;22.50;6.66;;;;;
+3180;;;;;999
+3181;50;94.01;1.9500;1.83
+3200;02;72.86;2.32;1.69
+3300;02;72.86;10.68;7.78
+3000;1;7898215653660;ROCHEDO GUARANA 6X2000ML;22021000;;0300700;;;;;5401;FR;10.0000;19.06900;190.69;7898215653660;FR;10.0000;19.06900;;;;;</infAdFisco></infAdic>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe26240408190634000166550010009800851000025338"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>2ZdKf1yxlNCzdAJC9Km+U5fh13E=</DigestValue></Reference></SignedInfo><SignatureValue>xxxxxxxxxxxxxxxxxxxxxxxxxx</SignatureValue><KeyInfo><X509Data><X509Certificate>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</X509Certificate></X509Data></KeyInfo></Signature></NFe>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="26240421345431000160550010000080291465482052" versao="4.00"><ide><cUF>26</cUF><cNF>46548205</cNF><natOp>Venda de mercadoria adquirida ou recebida de terceiros, ou q</natOp><mod>55</mod><serie>1</serie><nNF>8029</nNF><dEmi>01/04/24</dEmi><dSaiEnt></dSaiEnt><tpNF>1</tpNF><idDest>1</idDest><cMunFG>2604106</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>2</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><indIntermed>1</indIntermed><procEmi>0</procEmi><verProc>HIPER 7.1.3
+</verProc></ide>
+<emit><CNPJ>21345431000160</CNPJ><xNome>FOLHAS VERDES HORTALICAS LTDA</xNome><xFant>FOLHAS VERDES HORTALICAS LTDA</xFant><enderEmit><xLgr>Avenida Portugal</xLgr><nro>1330</nro><xCpl>BLOCO:04  - APT 104</xCpl><xBairro>Universitario</xBairro><cMun>2604106</cMun><xMun>2604106</xMun><UF>PE</UF><CEP>55016400</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>0 </fone></enderEmit></emit>
+<dest><CNPJ>12023966005192</CNPJ><xNome>BONANZA SUPERMERCADOS LTDA</xNome><xFant>BONANZA SUPERMERCADOS LTDA</xFant><enderDest><xLgr>Rua Euzebio</xLgr><nro>410</nro><xBairro>Centro</xBairro><cMun>2615409</cMun><xMun>TORITAMA</xMun><UF>PE</UF><CEP>55125000</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone></fone></enderDest><IE>1</IE><ISUF>051824922</ISUF><email>;;
+</email></dest>
+<det nItem="1"><prod><cProd>3008</cProd><cEAN>SEM GTIN</cEAN><xProd>COENTRO</xProd><NCM>07049000</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>120.0000</qCom><vUnCom>3.1500000000</vUnCom><vProd>378.00</vProd><cEANTrib>SEM GTIN</cEANTrib><qTrib>120.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal><DI><nDI>SEM GTIN</nDI><dDI>ALFACE COMUM</dDI><xLocDesemb>07051900</xLocDesemb><UFDesemb></UFDesemb><tpViaTransp></tpViaTransp><vAFRMM></vAFRMM><CNPJ></CNPJ><UFTerceiro></UFTerceiro><cExportador>5102</cExportador><adi><nAdicao></nAdicao><nSeqAdic></nSeqAdic><cFabricante></cFabricante><vDescDI></vDescDI><nDraw></nDraw></adi></DI><rastro><nLote>SEM GTIN</nLote><qLote>COENTRO</qLote><dFab>07049000</dFab><dVal></dVal><cAgreg></cAgreg></rastro></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI><qSelo></qSelo><cEnq>999
+3182</cEnq><IPITrib><CST>99</CST><vBC>0.0000</vBC><pIPI>0.0000</pIPI><vIPI>0.00
+3230</vIPI></IPITrib></IPI><PIS><PISOutr><CST>49</CST><vBC>378.00</vBC><pPIS>0.00</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>378.00</vBC><pCOFINS>0.00</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="2"><prod><cProd>3001</cProd><cEAN>SEM GTIN</cEAN><xProd>ALFACE COMUM</xProd><NCM>07051900</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>50.0000</qCom><vUnCom>3.6900000000</vUnCom><vProd>184.50</vProd><cEANTrib>SEM GTIN</cEANTrib><qTrib>50.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI><qSelo></qSelo><cEnq>999
+3182</cEnq><IPITrib><CST>99</CST><vBC>0.0000</vBC><pIPI>0.0000</pIPI><vIPI>0.00
+3230</vIPI></IPITrib></IPI><PIS><PISOutr><CST>49</CST><vBC>184.50</vBC><pPIS>0.00</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>184.50</vBC><pCOFINS>0.00</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="3"><prod><cProd>3013</cProd><cEAN>SEM GTIN</cEAN><xProd>ALFACE ROXA</xProd><NCM>07051900</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>15.0000</qCom><vUnCom>3.6900000000</vUnCom><vProd>55.35</vProd><cEANTrib>SEM GTIN</cEANTrib><qTrib>15.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>55.35</vBC><pPIS>0.00</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>55.35</vBC><pCOFINS>0.00</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="4"><prod><cProd>3002</cProd><cEAN>SEM GTIN</cEAN><xProd>CEBOLINHA</xProd><NCM>07122000</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>20.0000</qCom><vUnCom>1.4000000000</vUnCom><vProd>28.00</vProd><cEANTrib>SEM GTIN</cEANTrib><qTrib>20.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>28.00</vBC><pPIS>0.00</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>28.00</vBC><pCOFINS>0.00</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="5"><prod><cProd>3007</cProd><cEAN>SEM GTIN</cEAN><xProd>COLVE FOLHA</xProd><NCM>07049000</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>20.0000</qCom><vUnCom>2.2000000000</vUnCom><vProd>44.00</vProd><cEANTrib>SEM GTIN</cEANTrib><qTrib>20.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>44.00</vBC><pPIS>0.00</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>44.00</vBC><pCOFINS>0.00</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="6"><prod><cProd>3003</cProd><cEAN>SEM GTIN</cEAN><xProd>HORTELA</xProd><NCM>07049000</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>5.0000</qCom><vUnCom>2.5000000000</vUnCom><vProd>12.50</vProd><cEANTrib>SEM GTIN</cEANTrib><qTrib>5.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>12.50</vBC><pPIS>0.00</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>12.50</vBC><pCOFINS>0.00</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="7"><prod><cProd>3017</cProd><cEAN>SEM GTIN</cEAN><xProd>ALECRIM</xProd><NCM>07099990</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>5.0000</qCom><vUnCom>2.5000000000</vUnCom><vProd>12.50</vProd><cEANTrib>SEM GTIN</cEANTrib><qTrib>5.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>12.50</vBC><pPIS>0.00</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>12.50</vBC><pCOFINS>0.00</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="8"><prod><cProd>3012</cProd><cEAN>SEM GTIN</cEAN><xProd>ALFACE AMERICANO</xProd><NCM>07051900</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UN</uCom><qCom>30.0000</qCom><vUnCom>3.6900000000</vUnCom><vProd>110.70</vProd><cEANTrib>SEM GTIN</cEANTrib><qTrib>30.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>110.70</vBC><pPIS>0.00</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>110.70</vBC><pCOFINS>0.00</pCOFINS><vCOFINS>0.00
+4000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<total><ICMSTot><vBC>0.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vFCPUFDest></vFCPUFDest><vICMSUFRemet></vICMSUFRemet><vFCP>0.00</vFCP><vST>0.00</vST><vFCPST>0.00</vFCPST><vFCPSTRet>0.00</vFCPSTRet><vProd>825.55</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>825.55</vNF></ICMSTot><ISSQNtot><vServ></vServ><vBC></vBC><vISS></vISS><vPIS></vPIS><vCOFINS></vCOFINS></ISSQNtot><retTrib><vRetPIS></vRetPIS><vRetCOFINS></vRetCOFINS><vRetCSLL></vRetCSLL><vBCIRRF></vBCIRRF><vIRRF></vIRRF><vBCRetPrev></vBCRetPrev><vRetPrev></vRetPrev></retTrib></total></infNFe>
+<transp><modFrete>9</modFrete><transporta><CNPJ></CNPJ><xNome></xNome><IE></IE><xEnder></xEnder><xMun></xMun><UF></UF></transporta><veicTransp><placa></placa><UF></UF><RNTC></RNTC></veicTransp><reboque><placa></placa><UF></UF><RNTC></RNTC></reboque><vol><qVol></qVol><esp></esp><marca></marca><nVol></nVol><pesoL></pesoL><pesoB></pesoB></vol><lacres></lacres></transp>
+<cobr><fat><nFat></nFat><vOrig></vOrig><vDesc></vDesc><vLiq></vLiq></fat><dup><nDup></nDup><dVenc></dVenc><vDup></vDup></dup></cobr>
+<infAdic><infAdFisco>;Voce pagou aproximadamente: R$ 34,67 de tributos federais, R$ 148,60 de tributos estaduais e R$ 642,28 pelos produtos. Fonte: IBPT/empresometro.com.br Chave: IBPT/empresometro.com.br - DOCUMENTO EMITIDO POR ME OU EPP OPTANTE PELO SIMPLES NACIONAL. NAO GERA DIREITO A CREDITO FISCAL DE IPI.
+</infAdFisco></infAdic>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe26240421345431000160550010000080291465482052"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>2ZdKf1yxlNCzdAJC9Km+U5fh13E=</DigestValue></Reference></SignedInfo><SignatureValue>xxxxxxxxxxxxxxxxxxxxxxxxxx</SignatureValue><KeyInfo><X509Data><X509Certificate>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</X509Certificate></X509Data></KeyInfo></Signature></NFe>

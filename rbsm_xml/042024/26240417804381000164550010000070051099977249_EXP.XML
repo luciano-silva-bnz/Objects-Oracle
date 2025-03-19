@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="26240417804381000164550010000070051099977249" versao="4.00"><ide><cUF>26</cUF><cNF>09997724</cNF><natOp>Venda de Mercadorias / Produtos</natOp><mod>55</mod><serie>1</serie><nNF>7005</nNF><dEmi>05/04/24</dEmi><dSaiEnt>05/04/24</dSaiEnt><tpNF>1</tpNF><idDest>1</idDest><cMunFG>2604106</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>9</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><indIntermed>1</indIntermed><procEmi>0</procEmi><verProc>1.0-SNAPSHOT
+</verProc></ide>
+<emit><CNPJ>17804381000164</CNPJ><xNome>A F Q DA SILVA</xNome><xFant>AFQ DA SILVA</xFant><enderEmit><xLgr>Rua Presidente Cafe Filho</xLgr><nro>00</nro><xCpl>L38</xCpl><xBairro>Jardim Panorama</xBairro><cMun>2604106</cMun><xMun>2604106</xMun><UF>PE</UF><CEP>55044010</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>0 </fone></enderEmit></emit>
+<dest><CNPJ>12023966001871</CNPJ><xNome>BONANZA SUPERMERCADOS LTDA</xNome><xFant>BONANZA SUPERMERCADOS LTDA</xFant><enderDest><xLgr>RUA LOURDES CASE PORTO</xLgr><nro>200</nro><xBairro>MAURICIO DE NASSAU</xBairro><cMun>2604106</cMun><xMun>Caruaru</xMun><UF>PE</UF><CEP>55012075</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>812103170025</fone></enderDest><IE>1</IE><ISUF>021686696</ISUF><email>;;horti@bonanza.com.br
+</email></dest>
+<det nItem="1"><prod><cProd>550068</cProd><cEAN>7897511729550</cEAN><xProd>EMB. PLAST. OUTRAS G 32MM/100CJ - TORTA MINI MILLENIUM MEDIA 750G PRETA PET</xProd><NCM>39231090</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>5.0000</qCom><vUnCom>71.0000000000</vUnCom><vProd>355.00</vProd><cEANTrib>7897511729550</cEANTrib><qTrib>5.0000</qTrib><vUnTrib>CX</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI><qSelo></qSelo><cEnq>999
+3181</cEnq><IPITrib><CST>99</CST><vBC>0.00</vBC><pIPI>0.0000</pIPI><vIPI>0.00
+3230</vIPI></IPITrib></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.0000</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.0000</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="2"><prod><cProd>561599</cProd><cEAN>7897511710329</cEAN><xProd>EMB. PLAST. OUTRAS G 677 TAMPA/400UN - TAMPA P/ POTE 250ML CRISTAL PET</xProd><NCM>39235000</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>109.8000000000</vUnCom><vProd>109.80</vProd><cEANTrib>7897511710329</cEANTrib><qTrib>1.0000</qTrib><vUnTrib>CX</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.0000</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.0000</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="3"><prod><cProd>GAL-0025</cProd><cEAN>7897511728430</cEAN><xProd>EMB. PLAST. OUTRAS GA 10/100UN - LEVA DOCE MILLENIUM ALTA CRISTAL PET</xProd><NCM>39231090</NCM><NVE></NVE><CEST>2803700</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>37.2000000000</vUnCom><vProd>37.20</vProd><cEANTrib>7897511728430</cEANTrib><qTrib>1.0000</qTrib><vUnTrib>CX</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.0000</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.0000</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="4"><prod><cProd>MAR-0001</cProd><cEAN>17896030802550</cEAN><xProd>PT-102Q BASE BRANCO P/ 750ML 187X52MM EPS FD C/100 UN</xProd><NCM>39231090</NCM><NVE></NVE><CEST>2804000</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>FD</uCom><qCom>3.0000</qCom><vUnCom>33.0000000000</vUnCom><vProd>99.00</vProd><cEANTrib>17896030802550</cEANTrib><qTrib>3.0000</qTrib><vUnTrib>FD</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.0000</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.0000</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="5"><prod><cProd>MAR-0002</cProd><cEAN>17896030802574</cEAN><xProd>PT-104Q BASE BRANCO P/1100 ML 186X69MM EPS FD 100 UN</xProd><NCM>39231090</NCM><NVE></NVE><CEST>2804000</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>FD</uCom><qCom>3.0000</qCom><vUnCom>35.0000000000</vUnCom><vProd>105.00</vProd><cEANTrib>17896030802574</cEANTrib><qTrib>3.0000</qTrib><vUnTrib>FD</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.0000</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.0000</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="6"><prod><cProd>TP-100/102/104</cProd><cEAN>37896030800352</cEAN><xProd>TAMPA-100/102/104 FARDO-TAMPA 200X11MM EPS FD 100 UN</xProd><NCM>39235000</NCM><NVE></NVE><CEST>2804000</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>FD</uCom><qCom>3.0000</qCom><vUnCom>22.2000000000</vUnCom><vProd>66.60</vProd><cEANTrib>37896030800352</cEANTrib><qTrib>3.0000</qTrib><vUnTrib>FD</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.0000</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.0000</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="7"><prod><cProd>PRO-0001</cProd><cEAN>SEM GTIN</cEAN><xProd>SACOS PLASTICOS 18X32X,04 PROD DA CASA</xProd><NCM>39012029</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>ML</uCom><qCom>1.0000</qCom><vUnCom>126.0000000000</vUnCom><vProd>126.00</vProd><cEANTrib>SEM GTIN</cEANTrib><qTrib>1.0000</qTrib><vUnTrib>ML</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.0000</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.0000</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="8"><prod><cProd>PRO-0002</cProd><cEAN>SEM GTIN</cEAN><xProd>SACO PLASTICO PRODUTO DA CASA 22*50*0,04 LISO</xProd><NCM>39012029</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>ML</uCom><qCom>2.0000</qCom><vUnCom>147.0000000000</vUnCom><vProd>294.00</vProd><cEANTrib>SEM GTIN</cEANTrib><qTrib>2.0000</qTrib><vUnTrib>ML</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.0000</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.0000</pCOFINS><vCOFINS>0.00
+3000</vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="9"><prod><cProd>400059</cProd><cEAN>17896030899260</cEAN><xProd>CR-001 BANDEJA EPS PRETA 150X150X18 MM LINHA PREMIUM FD 400 UN</xProd><NCM>39239090</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>FD</uCom><qCom>3.0000</qCom><vUnCom>43.7000000000</vUnCom><vProd>131.10</vProd><cEANTrib>17896030899260</cEANTrib><qTrib>3.0000</qTrib><vUnTrib>FD</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMSSN102><orig>0</orig><CSOSN>102
+3180</CSOSN></ICMSSN102></ICMS><IPI></IPI><PIS><PISOutr><CST>49</CST><vBC>0.00</vBC><pPIS>0.0000</pPIS><vPIS>0.00
+3330</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>0.00</vBC><pCOFINS>0.0000</pCOFINS><vCOFINS></vCOFINS></COFINSOutr></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="10"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240417804381000164550010000070051099977249
+2100</CEST><indEscala>1</indEscala><CNPJFab>09997724</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>7005</uCom><qCom>2024-04-05T09:48:51-03:00</qCom><vUnCom>2024-04-05T09:48:51-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2604106</vUnTrib><vFrete>9</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>1</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<total><ICMSTot><vBC>0.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vFCPUFDest></vFCPUFDest><vICMSUFRemet></vICMSUFRemet><vFCP>0.00</vFCP><vST>0.00</vST><vFCPST>0.00</vFCPST><vFCPSTRet>0.00</vFCPSTRet><vProd>1412.70</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>1412.70</vNF></ICMSTot><ISSQNtot><vServ></vServ><vBC></vBC><vISS></vISS><vPIS></vPIS><vCOFINS></vCOFINS></ISSQNtot><retTrib><vRetPIS></vRetPIS><vRetCOFINS></vRetCOFINS><vRetCSLL></vRetCSLL><vBCIRRF></vBCIRRF><vIRRF></vIRRF><vBCRetPrev></vBCRetPrev><vRetPrev></vRetPrev></retTrib></total></infNFe>
+<transp><modFrete>3</modFrete><transporta><CNPJ></CNPJ><xNome></xNome><IE></IE><xEnder></xEnder><xMun></xMun><UF></UF></transporta><veicTransp><placa></placa><UF></UF><RNTC></RNTC></veicTransp><reboque><placa></placa><UF></UF><RNTC></RNTC></reboque><vol><qVol>19</qVol><esp>VOLUMES</esp><marca></marca><nVol></nVol><pesoL></pesoL><pesoB></pesoB></vol><lacres></lacres></transp>
+<cobr><fat><nFat>7005</nFat><vOrig>1412.70</vOrig><vDesc>0.00</vDesc><vLiq>1412.70
+6100</vLiq></fat><dup><nDup>001</nDup><dVenc>2024-04-26</dVenc><vDup>1412.70</vDup></dup></cobr>
+<infAdic><infAdFisco>;CODIGO DO PDIDO: 148767##Valor Aprox. dos Tributos R$ 470,94 Fonte: IBPT#DOCUMENTO EMITIDO POR ME OU EPP OPTANTE PELO SIMPLES NACIONAL.#NAO GERA DIREITO A CREDITO FISCAL DE IPI.
+</infAdFisco></infAdic>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe26240417804381000164550010000070051099977249"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>2ZdKf1yxlNCzdAJC9Km+U5fh13E=</DigestValue></Reference></SignedInfo><SignatureValue>xxxxxxxxxxxxxxxxxxxxxxxxxx</SignatureValue><KeyInfo><X509Data><X509Certificate>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</X509Certificate></X509Data></KeyInfo></Signature></NFe>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="26240410280306000100550010006922781000103295" versao="4.00"><ide><cUF>26</cUF><cNF>00010329</cNF><natOp>VENDA PRODUTO - DE</natOp><mod>55</mod><serie>1</serie><nNF>692278</nNF><dEmi>02/04/24</dEmi><dSaiEnt>03/04/24</dSaiEnt><tpNF>1</tpNF><idDest>1</idDest><cMunFG>2606002</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>5</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><indIntermed>1</indIntermed><procEmi>0</procEmi><verProc>3089
+</verProc></ide>
+<emit><CNPJ>10280306000100</CNPJ><xNome>INDUSTRIA DE BEBIDAS GARANHUNS LTDA</xNome><xFant>IND. DE BEBIDAS GARANHUNS LTDA</xFant><enderEmit><xLgr>RUA LUIS GAMA</xLgr><nro>91</nro><xCpl></xCpl><xBairro>ALOISIO PINTO</xBairro><cMun>2606002</cMun><xMun>2606002</xMun><UF>PE</UF><CEP>55292045</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>0 </fone></enderEmit></emit>
+<dest><CNPJ>12023966003734</CNPJ><xNome>BONANZA SUPERMERCADOS LTDA EM RECUPERACAO JUDICIAL</xNome><xFant>BONANZA SUPERMERCADOS LTDA EM RECUPERACAO JUDICIAL</xFant><enderDest><xLgr>AVENIDA TEN RAUL DE HOLANDA, NR 267</xLgr><nro>0000</nro><xBairro>CENTRO</xBairro><cMun>2602100</cMun><xMun>BOM CONSELHO</xMun><UF>PE</UF><CEP>55330000</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>812103170025</fone></enderDest><IE>1</IE><ISUF>033441693</ISUF><email>;;
+</email></dest>
+<det nItem="1"><prod><cProd>2</cProd><cEAN>17898954080014</cEAN><xProd>REF. JATOBA T. FRUTTI 6X2000 ML - PET</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0301100</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>PCT</uCom><qCom>10.0000</qCom><vUnCom>21.69900</vUnCom><vProd>216.99</vProd><cEANTrib>7898954080017</cEANTrib><qTrib>60.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>216.99</pRedBC><vBC>22.50</vBC><pICMS>48.82</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="2"><prod><cProd>23</cProd><cEAN>17898954080595</cEAN><xProd>REF. JATOBA T.FRUTTI ZERO 6X2000ML - PET</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0301100</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>PCT</uCom><qCom>3.0000</qCom><vUnCom>20.27333</vUnCom><vProd>60.82</vProd><cEANTrib>7898954080598</cEANTrib><qTrib>18.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>60.82</pRedBC><vBC>22.50</vBC><pICMS>13.68</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="3"><prod><cProd>26</cProd><cEAN>17898954080137</cEAN><xProd>REF. JATOBA GUARANA 6X2000 ML - PET</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0301100</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>PCT</uCom><qCom>2.0000</qCom><vUnCom>20.58000</vUnCom><vProd>41.16</vProd><cEANTrib>7898954080130</cEANTrib><qTrib>12.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>41.16</pRedBC><vBC>22.50</vBC><pICMS>9.26</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="4"><prod><cProd>28</cProd><cEAN>17898954080557</cEAN><xProd>REF. JATOBA LARANJA 6X2000 ML - PET</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0301100</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>PCT</uCom><qCom>2.0000</qCom><vUnCom>20.23500</vUnCom><vProd>40.47</vProd><cEANTrib>7898954080550</cEANTrib><qTrib>12.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>40.47</pRedBC><vBC>22.50</vBC><pICMS>9.11</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="5"><prod><cProd>29</cProd><cEAN>17898954080397</cEAN><xProd>REF. JATOBA COLA 6X2000 ML - PET</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0301100</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>PCT</uCom><qCom>2.0000</qCom><vUnCom>20.66000</vUnCom><vProd>41.32</vProd><cEANTrib>7898954080161</cEANTrib><qTrib>12.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>41.32</pRedBC><vBC>22.50</vBC><pICMS>9.30</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="6"><prod><cProd>30</cProd><cEAN>17898954080533</cEAN><xProd>REF. JATOBA UVA 6X2000 ML - PET</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0301100</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>PCT</uCom><qCom>2.0000</qCom><vUnCom>20.23500</vUnCom><vProd>40.47</vProd><cEANTrib>7898954080536</cEANTrib><qTrib>12.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>40.47</pRedBC><vBC>22.50</vBC><pICMS>9.11</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="7"><prod><cProd>41</cProd><cEAN>17898954080229</cEAN><xProd>REF. JATOBA T. FRUTTI 12X250 ML - PET</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0301100</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>PCT</uCom><qCom>8.0000</qCom><vUnCom>8.97000</vUnCom><vProd>71.76</vProd><cEANTrib>7898954080222</cEANTrib><qTrib>96.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>71.76</pRedBC><vBC>22.50</vBC><pICMS>16.15</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="8"><prod><cProd>42</cProd><cEAN>17898954080526</cEAN><xProd>REF. JATOBA UVA 12X250 ML - PET</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0301100</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>PCT</uCom><qCom>3.0000</qCom><vUnCom>8.29333</vUnCom><vProd>24.88</vProd><cEANTrib>7898954080529</cEANTrib><qTrib>36.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>24.88</pRedBC><vBC>22.50</vBC><pICMS>5.60</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="9"><prod><cProd>43</cProd><cEAN>17898954080410</cEAN><xProd>REF. JATOBA GUARANA 12X250 ML - PET</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0301100</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>PCT</uCom><qCom>6.0000</qCom><vUnCom>8.34167</vUnCom><vProd>50.05</vProd><cEANTrib>7898954080185</cEANTrib><qTrib>72.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>50.05</pRedBC><vBC>22.50</vBC><pICMS>11.26</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="10"><prod><cProd>45</cProd><cEAN>17898954080540</cEAN><xProd>REF. JATOBA LARANJA 12X250 ML - PET</xProd><NCM>22021000</NCM><NVE></NVE><CEST>0301100</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5401</CFOP><uCom>PCT</uCom><qCom>3.0000</qCom><vUnCom>8.29333</vUnCom><vProd>24.88</vProd><cEANTrib>7898954080543</cEANTrib><qTrib>36.0000</qTrib><vUnTrib>UN</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><pRedBC>24.88</pRedBC><vBC>22.50</vBC><pICMS>5.60</pICMS><vICMS></vICMS></ICMS10></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="11"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240410280306000100550010006922781000103295
+2100</CEST><indEscala>0</indEscala><CNPJFab>00010329</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>692278</uCom><qCom>2024-04-02T06:30:50-03:00</qCom><vUnCom>2024-04-03T06:30:50-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>1</qTrib><vUnTrib>2606002</vUnTrib><vFrete>5</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<total><ICMSTot><vBC>630.83</vBC><vICMS>141.95</vICMS><vICMSDeson>0.00</vICMSDeson><vFCPUFDest>0.00</vFCPUFDest><vICMSUFRemet>0.00</vICMSUFRemet><vFCP>0.00</vFCP><vST>850.56</vST><vFCPST>0.00</vFCPST><vFCPSTRet>0.00</vFCPSTRet><vProd>630.83</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>7.21</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>9.09</vPIS><vCOFINS>41.76</vCOFINS><vOutro>0.00</vOutro><vNF>687.47</vNF></ICMSTot><ISSQNtot><vServ></vServ><vBC></vBC><vISS></vISS><vPIS></vPIS><vCOFINS></vCOFINS></ISSQNtot><retTrib><vRetPIS></vRetPIS><vRetCOFINS></vRetCOFINS><vRetCSLL></vRetCSLL><vBCIRRF></vBCIRRF><vIRRF></vIRRF><vBCRetPrev></vBCRetPrev><vRetPrev></vRetPrev></retTrib></total></infNFe>
+<transp><modFrete>0</modFrete><transporta><CNPJ>10280306000100</CNPJ><xNome>IND. DE BEBIDAS GARANHUNS LTDA</xNome><IE>037339982</IE><xEnder>RUA LUIS GAMA, 91</xEnder><xMun>GARANHUNS</xMun><UF>PE
+5300</UF></transporta><veicTransp><placa>PGF6869</placa><UF>PE</UF><RNTC>50052733
+5700</RNTC></veicTransp><reboque><placa></placa><UF></UF><RNTC></RNTC></reboque><vol><qVol>43</qVol><esp>VOLUME</esp><marca></marca><nVol></nVol><pesoL></pesoL><pesoB></pesoB></vol><lacres></lacres></transp>
+<cobr><fat><nFat>41.32</nFat><vOrig>7898954080161</vOrig><vDesc>UN</vDesc><vLiq>12.0000</vLiq></fat><dup><nDup>001</nDup><dVenc>2024-05-02</dVenc><vDup>687.47</vDup></dup></cobr>
+<infAdic><infAdFisco>71.76;7898954080222;UN;96.0000;0.7475000000;;;;;1;;;;;
+3103;0;10;3;71.76;22.50;16.15;;;;5;;;122.88;22.50;11.50;;;;;
+3180;;;;;999
+3181;50;71.76;0.9800;0.70
+3200;02;55.61;1.86;1.03
+3300;02;55.61;8.54;4.75
+3000;42;17898954080526;REF. JATOBA UVA 12X250 ML - PET;22021000;;0301100;;;;;5401;PCT;3.0000;8.29333;24.88;7898954080529;UN;36.0000;0.6911111111;;;;;1;;;;;
+3103;0;10;3;24.88;22.50;5.60;;;;5;;;46.08;22.50;4.77;;;;;
+3180;;;;;999
+3181;50;24.88;1.4600;0.36
+3200;02;19.28;1.86;0.36
+3300;02;19.28;8.54;1.65
+3000;43;17898954080410;REF. JATOBA GUARANA 12X250 ML - PET;22021000;;0301100;;;;;5401;PCT;6.0000;8.34167;50.05;7898954080185;UN;72.0000;0.6951388889;;;;;1;;;;;
+3103;0;10;3;50.05;22.50;11.26;;;;5;;;92.16;22.50;9.47;;;;;
+3180;;;;;999
+3181;50;50.05;0.9800;0.49
+3200;02;38.79;1.86;0.72
+3300;02;38.79;8.54;3.31
+3000;45;17898954080540;REF. JATOBA LARANJA 12X250 ML - PET;22021000;;030</infAdFisco></infAdic>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe26240410280306000100550010006922781000103295"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>2ZdKf1yxlNCzdAJC9Km+U5fh13E=</DigestValue></Reference></SignedInfo><SignatureValue>xxxxxxxxxxxxxxxxxxxxxxxxxx</SignatureValue><KeyInfo><X509Data><X509Certificate>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</X509Certificate></X509Data></KeyInfo></Signature></NFe>

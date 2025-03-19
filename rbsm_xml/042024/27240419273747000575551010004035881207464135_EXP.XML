@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="27240419273747000575551010004035881207464135" versao="4.00"><ide><cUF>27</cUF><cNF>20746413</cNF><natOp>VENDA DE MERCADORIA ADQUIRIDA</natOp><mod>55</mod><serie>101</serie><nNF>403588</nNF><dEmi>20/04/24</dEmi><dSaiEnt></dSaiEnt><tpNF>2</tpNF><idDest>1</idDest><cMunFG>2704302</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>5</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><indIntermed>1</indIntermed><procEmi>0</procEmi><verProc>5.0
+</verProc></ide>
+<emit><CNPJ>19273747000575</CNPJ><xNome>BARBOSA  MARQUES - MACEIO</xNome><xFant></xFant><enderEmit><xLgr>AV.MENINO MARCELO</xLgr><nro>8651</nro><xCpl>GALPOES 3 E 4</xCpl><xBairro>SERRARIA</xBairro><cMun>2704302</cMun><xMun>2704302</xMun><UF>AL</UF><CEP>57046000</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>0 </fone></enderEmit></emit>
+<dest><CNPJ>12023966003904</CNPJ><xNome>BONANZA SUPERMERCADOS LTDA</xNome><xFant>BONANZA SUPERMERCADOS LTDA</xFant><enderDest><xLgr>AVENIDA DOM PEDRO II</xLgr><nro>946</nro><xBairro>CENTRO</xBairro><cMun>2601201</cMun><xMun>ARCOVERDE</xMun><UF>PE</UF><CEP>56506460</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone></fone></enderDest><IE>1</IE><ISUF>037424319</ISUF><email>;;
+</email></dest>
+<det nItem="1"><prod><cProd>1231001</cProd><cEAN>17896010400318</cEAN><xProd>CREME DE RICOTA REGINA 200GR</xProd><NCM>04061090</NCM><NVE></NVE><CEST>1702403</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>6102</CFOP><uCom>CX12</uCom><qCom>2.00</qCom><vUnCom>72.17</vUnCom><vProd>144.34</vProd><cEANTrib>7896010400311</cEANTrib><qTrib>24.00</qTrib><vUnTrib>PT</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal><DI><nDI>7896010405040</nDI><dDI>QUEIJO REINO REGINA BOLA</dDI><xLocDesemb>04069020</xLocDesemb><UFDesemb></UFDesemb><tpViaTransp></tpViaTransp><vAFRMM>1702400</vAFRMM><CNPJ></CNPJ><UFTerceiro></UFTerceiro><cExportador>6102</cExportador></DI></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>144.34</pRedBC><vBC>12.00</vBC><pICMS>17.32</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="2"><prod><cProd>1085002</cProd><cEAN>27896010400858</cEAN><xProd>MANTEIGA EXTRA REGINA COM/S 200 GR</xProd><NCM>04051000</NCM><NVE></NVE><CEST>1702500</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>6102</CFOP><uCom>CX30</uCom><qCom>1.00</qCom><vUnCom>261.90</vUnCom><vProd>261.90</vProd><cEANTrib>7896010400854</cEANTrib><qTrib>30.00</qTrib><vUnTrib>TB</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>261.90</pRedBC><vBC>12.00</vBC><pICMS>31.43</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="3"><prod><cProd>1041004</cProd><cEAN>7896010400410</cEAN><xProd>QUEIJO AZUL REGINA FORMA</xProd><NCM>04064000</NCM><NVE></NVE><CEST>1702400</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>6102</CFOP><uCom>KG</uCom><qCom>5.40</qCom><vUnCom>67.90</vUnCom><vProd>366.66</vProd><cEANTrib>7896010400410</cEANTrib><qTrib>5.40</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>366.66</pRedBC><vBC>12.00</vBC><pICMS>44.00</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="4"><prod><cProd>1252001</cProd><cEAN>7896010402520</cEAN><xProd>QUEIJO PARMESAO REGINA FRACIONADO</xProd><NCM>04069010</NCM><NVE></NVE><CEST>1702400</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>6102</CFOP><uCom>KG</uCom><qCom>7.992</qCom><vUnCom>69.8398398</vUnCom><vProd>558.16</vProd><cEANTrib>7896010402520</cEANTrib><qTrib>7.992</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>558.16</pRedBC><vBC>12.00</vBC><pICMS>66.98</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="5"><prod><cProd>1312002</cProd><cEAN>7896010403121</cEAN><xProd>QUEIJO EDAM REGINA FRACIONADO</xProd><NCM>04069020</NCM><NVE></NVE><CEST>1702400</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>6102</CFOP><uCom>KG</uCom><qCom>2.28</qCom><vUnCom>75.6578947</vUnCom><vProd>172.50</vProd><cEANTrib>7896010403121</cEANTrib><qTrib>2.28</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>172.50</pRedBC><vBC>12.00</vBC><pICMS>20.70</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="6"><prod><cProd>1020001</cProd><cEAN>7896010400205</cEAN><xProd>QUEIJO REINO REGINA (LATA)</xProd><NCM>04069020</NCM><NVE></NVE><CEST>1702400</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>6102</CFOP><uCom>KG</uCom><qCom>3.963</qCom><vUnCom>77.6003028</vUnCom><vProd>307.53</vProd><cEANTrib>7896010400205</cEANTrib><qTrib>3.963</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>307.53</pRedBC><vBC>12.00</vBC><pICMS>36.90</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="7"><prod><cProd>1021001</cProd><cEAN>7896010400212</cEAN><xProd>QUEIJO REINO REGINA FRACIONADO</xProd><NCM>04069020</NCM><NVE></NVE><CEST>1702400</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>6102</CFOP><uCom>KG</uCom><qCom>8.4816</qCom><vUnCom>79.5404169</vUnCom><vProd>674.63</vProd><cEANTrib>7896010400212</cEANTrib><qTrib>8.4816</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>674.63</pRedBC><vBC>12.00</vBC><pICMS>80.96</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="8"><prod><cProd>1023001</cProd><cEAN>7896010405040</cEAN><xProd>QUEIJO REINO REGINA BOLA</xProd><NCM>04069020</NCM><NVE></NVE><CEST>1702400</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>6102</CFOP><uCom>KG</uCom><qCom>5.42</qCom><vUnCom>75.6605166</vUnCom><vProd>410.08</vProd><cEANTrib>7896010405040</cEANTrib><qTrib>5.42</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>410.08</pRedBC><vBC>12.00</vBC><pICMS>49.21</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="9"><prod><cProd>1019003</cProd><cEAN>7896010400205</cEAN><xProd>QUEIJO REINO REGINA (1/2 LATA)</xProd><NCM>04069020</NCM><NVE></NVE><CEST>1702400</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>6102</CFOP><uCom>KG</uCom><qCom>5.2581</qCom><vUnCom>77.6002739</vUnCom><vProd>408.03</vProd><cEANTrib>7896010400205</cEANTrib><qTrib>5.2581</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>408.03</pRedBC><vBC>12.00</vBC><pICMS>48.96</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="10"><prod><cProd>1330001</cProd><cEAN>7896010403305</cEAN><xProd>QUEIJO PROVOLONE REGINA FRACIONADO</xProd><NCM>04069020</NCM><NVE></NVE><CEST>1702400</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>6102</CFOP><uCom>KG</uCom><qCom>6.12</qCom><vUnCom>68.869281</vUnCom><vProd>421.48</vProd><cEANTrib>7896010403305</cEANTrib><qTrib>6.12</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>421.48</pRedBC><vBC>12.00</vBC><pICMS>50.58</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="11"><prod><cProd>1022002</cProd><cEAN>7896010400021</cEAN><xProd>QUEIJO PRATO MINILANCHE REGINA</xProd><NCM>04069020</NCM><NVE></NVE><CEST>1702400</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>6102</CFOP><uCom>KG</uCom><qCom>11.0259</qCom><vUnCom>54.3202822</vUnCom><vProd>598.93</vProd><cEANTrib>7896010400021</cEANTrib><qTrib>11.0259</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>598.93</pRedBC><vBC>12.00</vBC><pICMS>71.87</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="12"><prod><cProd>1136001</cProd><cEAN>7896010408003</cEAN><xProd>QUEIJO MUSSARELA REGINA 4 KG</xProd><NCM>04061010</NCM><NVE></NVE><CEST>1702401</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>6102</CFOP><uCom>KG</uCom><qCom>66.24</qCom><vUnCom>31.040006</vUnCom><vProd>2056.09</vProd><cEANTrib>7896010408003</cEANTrib><qTrib>66.24</qTrib><vUnTrib>KG</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>2056.09</pRedBC><vBC>12.00</vBC><pICMS>246.73</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="13"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe27240419273747000575551010004035881207464135
+2100</CEST><indEscala>0</indEscala><CNPJFab>20746413</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>101</CFOP><uCom>403588</uCom><qCom>2024-04-20T10:28:49-04:00</qCom><vUnCom></vUnCom><vProd>1</vProd><cEANTrib>2</cEANTrib><qTrib>1</qTrib><vUnTrib>2704302</vUnTrib><vFrete>5</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="14"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe27240419273747000575551010004035881207464135
+2100</CEST><indEscala>0</indEscala><CNPJFab>20746413</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>101</CFOP><uCom>403588</uCom><qCom>2024-04-20T10:28:49-04:00</qCom><vUnCom></vUnCom><vProd>1</vProd><cEANTrib>2</cEANTrib><qTrib>1</qTrib><vUnTrib>2704302</vUnTrib><vFrete>5</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="15"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe27240419273747000575551010004035881207464135
+2100</CEST><indEscala>0</indEscala><CNPJFab>20746413</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>101</CFOP><uCom>403588</uCom><qCom>2024-04-20T10:28:49-04:00</qCom><vUnCom></vUnCom><vProd>1</vProd><cEANTrib>2</cEANTrib><qTrib>1</qTrib><vUnTrib>2704302</vUnTrib><vFrete>5</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="16"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe27240419273747000575551010004035881207464135
+2100</CEST><indEscala>0</indEscala><CNPJFab>20746413</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>101</CFOP><uCom>403588</uCom><qCom>2024-04-20T10:28:49-04:00</qCom><vUnCom></vUnCom><vProd>1</vProd><cEANTrib>2</cEANTrib><qTrib>1</qTrib><vUnTrib>2704302</vUnTrib><vFrete>5</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="17"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe27240419273747000575551010004035881207464135
+2100</CEST><indEscala>0</indEscala><CNPJFab>20746413</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>101</CFOP><uCom>403588</uCom><qCom>2024-04-20T10:28:49-04:00</qCom><vUnCom></vUnCom><vProd>1</vProd><cEANTrib>2</cEANTrib><qTrib>1</qTrib><vUnTrib>2704302</vUnTrib><vFrete>5</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="18"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe27240419273747000575551010004035881207464135
+2100</CEST><indEscala>0</indEscala><CNPJFab>20746413</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>101</CFOP><uCom>403588</uCom><qCom>2024-04-20T10:28:49-04:00</qCom><vUnCom></vUnCom><vProd>1</vProd><cEANTrib>2</cEANTrib><qTrib>1</qTrib><vUnTrib>2704302</vUnTrib><vFrete>5</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="19"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe27240419273747000575551010004035881207464135
+2100</CEST><indEscala>0</indEscala><CNPJFab>20746413</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>101</CFOP><uCom>403588</uCom><qCom>2024-04-20T10:28:49-04:00</qCom><vUnCom></vUnCom><vProd>1</vProd><cEANTrib>2</cEANTrib><qTrib>1</qTrib><vUnTrib>2704302</vUnTrib><vFrete>5</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<total><ICMSTot><vBC></vBC><vICMS></vICMS><vICMSDeson></vICMSDeson><vFCPUFDest></vFCPUFDest><vICMSUFRemet></vICMSUFRemet><vFCP></vFCP><vST></vST><vFCPST></vFCPST><vFCPSTRet></vFCPSTRet><vProd></vProd><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vII></vII><vIPI></vIPI><vIPIDevol></vIPIDevol><vPIS></vPIS><vCOFINS></vCOFINS><vOutro></vOutro><vNF></vNF></ICMSTot><ISSQNtot><vServ></vServ><vBC></vBC><vISS></vISS><vPIS></vPIS><vCOFINS></vCOFINS></ISSQNtot><retTrib><vRetPIS></vRetPIS><vRetCOFINS></vRetCOFINS><vRetCSLL></vRetCSLL><vBCIRRF></vBCIRRF><vIRRF></vIRRF><vBCRetPrev></vBCRetPrev><vRetPrev></vRetPrev></retTrib></total></infNFe>
+<transp><modFrete>0</modFrete><transporta><CNPJ>11307839000193</CNPJ><xNome>POLLY TRANSPORTE LTDA-ME</xNome><IE>247428523</IE><xEnder>RUA JOAQUIM DA HORA  S/N</xEnder><xMun>PORTO DE PEDRAS</xMun><UF>AL
+5700</UF></transporta><veicTransp><placa></placa><UF></UF><RNTC></RNTC></veicTransp><reboque><placa></placa><UF></UF><RNTC></RNTC></reboque><vol><qVol>41</qVol><esp>CX</esp><marca></marca><nVol></nVol><pesoL></pesoL><pesoB></pesoB></vol><lacres></lacres></transp>
+<cobr><fat><nFat></nFat><vOrig></vOrig><vDesc></vDesc><vLiq></vLiq></fat><dup><nDup></nDup><dVenc></dVenc><vDup></vDup></dup></cobr>
+<infAdic><infAdFisco>;PEDIDO..: 148761/  |ICMS DA PRESTACAO DE RESPONSABILIDADE DO ALIENANTE/REMETENNTE
+9000;;148761/;
+</infAdFisco></infAdic>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe27240419273747000575551010004035881207464135"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>2ZdKf1yxlNCzdAJC9Km+U5fh13E=</DigestValue></Reference></SignedInfo><SignatureValue>xxxxxxxxxxxxxxxxxxxxxxxxxx</SignatureValue><KeyInfo><X509Data><X509Certificate>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</X509Certificate></X509Data></KeyInfo></Signature></NFe>

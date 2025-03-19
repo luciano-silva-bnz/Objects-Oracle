@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="26240460409075045415550010014678461228117287" versao="4.00"><ide><cUF>26</cUF><cNF>22811728</cNF><natOp>VDA.MERC.ADQ.REC.DE TERCEIROS / VD.MERC.SUJEITA AO REG.DE S</natOp><mod>55</mod><serie>1</serie><nNF>1467846</nNF><dEmi>18/04/24</dEmi><dSaiEnt>18/04/24</dSaiEnt><tpNF>1</tpNF><idDest>1</idDest><cMunFG>2604106</cMunFG><tpImp>2</tpImp><tpEmis>1</tpEmis><cDV>7</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><indIntermed>1</indIntermed><procEmi>0</procEmi><verProc>SAP GRC NFE 4.00
+</verProc></ide>
+<emit><CNPJ>60409075045415</CNPJ><xNome>Nestle Brasil Ltda</xNome><xFant>BR DC Broker Silvestre</xFant><enderEmit><xLgr>R Alfredo Alves da Cunha</xLgr><nro>251</nro><xCpl>SL01 ARM</xCpl><xBairro>Distrito Industrial</xBairro><cMun>2604106</cMun><xMun>2604106</xMun><UF>PE</UF><CEP>55045025</CEP><cPais></cPais><xPais>Brasil</xPais><fone>0 </fone></enderEmit></emit>
+<dest><CNPJ>12023966004625</CNPJ><xNome>Bonanza Superm Ltda Em R Judicial</xNome><xFant>Bonanza Superm Ltda Em R Judicial</xFant><enderDest><xLgr>Av Prf Agamenon Magalhaes</xLgr><nro>281</nro><xBairro>Sao Pedro</xBairro><cMun>2601904</cMun><xMun>Bezerros</xMun><UF>PE</UF><CEP>55660000</CEP><cPais>1058</cPais><xPais>Brasil</xPais><fone>812103170025</fone></enderDest><IE>1</IE><ISUF>077317440</ISUF><email>;;
+</email></dest>
+<det nItem="1"><prod><cProd>000000000000414602</cProd><cEAN>7891000460214</cEAN><xProd>PRESTIGIO Chocolate 30x33g BR</xProd><NCM>18069000</NCM><NVE></NVE><CEST>1700900</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>EXB</uCom><qCom>1.0000</qCom><vUnCom>59.9300000000</vUnCom><vProd>59.93</vProd><cEANTrib>7891000460207</cEANTrib><qTrib>30.0000</qTrib><vUnTrib>UNI</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>5</orig><CST>00</CST><modBC>3</modBC><pRedBC>59.93</pRedBC><vBC>20.5000</vBC><pICMS>12.29</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="2"><prod><cProd>000000000012171055</cProd><cEAN>7891000086148</cEAN><xProd>MUCILON Multicereais Sachet 9x600g BR</xProd><NCM>19011030</NCM><NVE></NVE><CEST>1701500</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>146.5000000000</vUnCom><vProd>146.50</vProd><cEANTrib>7891000086131</cEANTrib><qTrib>9.0000</qTrib><vUnTrib>UNI</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>5</orig><CST>00</CST><modBC>3</modBC><pRedBC>146.50</pRedBC><vBC>20.5000</vBC><pICMS>30.03</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="3"><prod><cProd>000000000012344650</cProd><cEAN>7891000250150</cEAN><xProd>MAGGI Caldo Carne Dspl 15(10x57g) BR</xProd><NCM>21041011</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UNI</uCom><qCom>20.0000</qCom><vUnCom>1.8255000000</vUnCom><vProd>36.51</vProd><cEANTrib>7891000250150</cEANTrib><qTrib>20.0000</qTrib><vUnTrib>UNI</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>36.51</pRedBC><vBC>20.5000</vBC><pICMS>7.48</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="4"><prod><cProd>000000000012349928</cProd><cEAN>7891000251492</cEAN><xProd>MAGGI Caldo Bacon 100x114g BR</xProd><NCM>21041011</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UNI</uCom><qCom>10.0000</qCom><vUnCom>3.1030000000</vUnCom><vProd>31.03</vProd><cEANTrib>7891000251492</cEANTrib><qTrib>10.0000</qTrib><vUnTrib>UNI</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>31.03</pRedBC><vBC>20.5000</vBC><pICMS>6.36</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="5"><prod><cProd>000000000012350064</cProd><cEAN>7891000251539</cEAN><xProd>MAGGI Caldo Galinha 100x114g BR</xProd><NCM>21041011</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UNI</uCom><qCom>20.0000</qCom><vUnCom>3.1030000000</vUnCom><vProd>62.06</vProd><cEANTrib>7891000251539</cEANTrib><qTrib>20.0000</qTrib><vUnTrib>UNI</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>62.06</pRedBC><vBC>20.5000</vBC><pICMS>12.72</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="6"><prod><cProd>000000000012350073</cProd><cEAN>7891000251515</cEAN><xProd>MAGGI Caldo Carne 100x114g BR</xProd><NCM>21041011</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UNI</uCom><qCom>20.0000</qCom><vUnCom>3.1030000000</vUnCom><vProd>62.06</vProd><cEANTrib>7891000251515</cEANTrib><qTrib>20.0000</qTrib><vUnTrib>UNI</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>62.06</pRedBC><vBC>20.5000</vBC><pICMS>12.72</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="7"><prod><cProd>000000000012378133</cProd><cEAN>7891000258620</cEAN><xProd>NESCAU DUO Cereal Matinal 24x210g BR</xProd><NCM>19041000</NCM><NVE></NVE><CEST>1703000</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>CX</uCom><qCom>1.0000</qCom><vUnCom>200.7200000000</vUnCom><vProd>200.72</vProd><cEANTrib>7891000258613</cEANTrib><qTrib>24.0000</qTrib><vUnTrib>UNI</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>200.72</pRedBC><vBC>20.5000</vBC><pICMS>41.15</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="8"><prod><cProd>S</cProd><cEAN></cEAN><xProd></xProd><NCM></NCM><NVE>5102</NVE><CEST>CX</CEST><indEscala>
+3100</indEscala><CNPJFab>200.7200000000</CNPJFab><cBenef></cBenef><EXTIPI>7891000258613</EXTIPI><CFOP>UNI</CFOP><uCom>24.0000</uCom><qCom>8.3633333333</qCom><vUnCom></vUnCom><vProd></vProd><cEANTrib></cEANTrib><qTrib>1</qTrib><vUnTrib></vUnTrib><vFrete>000070</vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal>
+3100</indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>18.26</pRedBC><vBC>20.5000</vBC><pICMS>3.74</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="9"><prod><cProd>000000000012417921</cProd><cEAN>7891000288313</cEAN><xProd>MAGGI Caldo Legumes MenosSodio 180x57gBR</xProd><NCM>21041011</NCM><NVE></NVE><CEST></CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>UNI</uCom><qCom>10.0000</qCom><vUnCom>1.8260000000</vUnCom><vProd>18.26</vProd><cEANTrib>7891000288313</cEANTrib><qTrib>10.0000</qTrib><vUnTrib>UNI</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+<ICMS0><orig>0</orig><CST>00</CST><modBC>3</modBC><pRedBC>84.08</pRedBC><vBC>20.5000</vBC><pICMS>17.24</pICMS><vICMS></vICMS></ICMS0></ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="10"><prod><cProd>000000000012447223</cProd><cEAN>7891000336380</cEAN><xProd>ALPINO Chocolate 4(14x85g) BR</xProd><NCM>18063210</NCM><NVE></NVE><CEST>1700300</CEST><indEscala></indEscala><CNPJFab></CNPJFab><cBenef></cBenef><EXTIPI></EXTIPI><CFOP>5102</CFOP><uCom>EXB</uCom><qCom>1.0000</qCom><vUnCom>84.0800000000</vUnCom><vProd>84.08</vProd><cEANTrib>7891000336373</cEANTrib><qTrib>14.0000</qTrib><vUnTrib>UNI</vUnTrib><vFrete></vFrete><vSeg></vSeg><vDesc></vDesc><vOutro></vOutro><indTotal></indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="11"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240460409075045415550010014678461228117287
+2100</CEST><indEscala>0</indEscala><CNPJFab>22811728</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>1467846</uCom><qCom>2024-04-18T08:59:18-03:00</qCom><vUnCom>2024-04-18T09:04:18-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>2</qTrib><vUnTrib>2604106</vUnTrib><vFrete>7</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="12"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240460409075045415550010014678461228117287
+2100</CEST><indEscala>0</indEscala><CNPJFab>22811728</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>1467846</uCom><qCom>2024-04-18T08:59:18-03:00</qCom><vUnCom>2024-04-18T09:04:18-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>2</qTrib><vUnTrib>2604106</vUnTrib><vFrete>7</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="13"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240460409075045415550010014678461228117287
+2100</CEST><indEscala>0</indEscala><CNPJFab>22811728</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>1467846</uCom><qCom>2024-04-18T08:59:18-03:00</qCom><vUnCom>2024-04-18T09:04:18-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>2</qTrib><vUnTrib>2604106</vUnTrib><vFrete>7</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="14"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240460409075045415550010014678461228117287
+2100</CEST><indEscala>0</indEscala><CNPJFab>22811728</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>1467846</uCom><qCom>2024-04-18T08:59:18-03:00</qCom><vUnCom>2024-04-18T09:04:18-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>2</qTrib><vUnTrib>2604106</vUnTrib><vFrete>7</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="15"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240460409075045415550010014678461228117287
+2100</CEST><indEscala>0</indEscala><CNPJFab>22811728</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>1467846</uCom><qCom>2024-04-18T08:59:18-03:00</qCom><vUnCom>2024-04-18T09:04:18-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>2</qTrib><vUnTrib>2604106</vUnTrib><vFrete>7</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="16"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240460409075045415550010014678461228117287
+2100</CEST><indEscala>0</indEscala><CNPJFab>22811728</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>1467846</uCom><qCom>2024-04-18T08:59:18-03:00</qCom><vUnCom>2024-04-18T09:04:18-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>2</qTrib><vUnTrib>2604106</vUnTrib><vFrete>7</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<det nItem="17"><prod><cProd>4.00</cProd><cEAN>ENVIO
+1000</cEAN><xProd>000000000000001</xProd><NCM>
+2000</NCM><NVE>4.00</NVE><CEST>NFe26240460409075045415550010014678461228117287
+2100</CEST><indEscala>0</indEscala><CNPJFab>22811728</CNPJFab><cBenef></cBenef><EXTIPI>55</EXTIPI><CFOP>1</CFOP><uCom>1467846</uCom><qCom>2024-04-18T08:59:18-03:00</qCom><vUnCom>2024-04-18T09:04:18-03:00</vUnCom><vProd>1</vProd><cEANTrib>1</cEANTrib><qTrib>2</qTrib><vUnTrib>2604106</vUnTrib><vFrete>7</vFrete><vSeg>1</vSeg><vDesc>1</vDesc><vOutro>1</vOutro><indTotal>0</indTotal></prod>
+<imposto><ICMS>
+</ICMS><IPI></IPI><PIS></PIS><COFINS></COFINS><COFINSST></COFINSST><ICMSUFDest></ICMSUFDest></imposto></det>
+<total><ICMSTot><vBC>1556.26</vBC><vICMS>319.04</vICMS><vICMSDeson>0.00</vICMSDeson><vFCPUFDest></vFCPUFDest><vICMSUFRemet></vICMSUFRemet><vFCP>0.00</vFCP><vST>0.00</vST><vFCPST>0.00</vFCPST><vFCPSTRet>0.00</vFCPSTRet><vProd>1702.82</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>18.94</vPIS><vCOFINS>87.29</vCOFINS><vOutro>0.00</vOutro><vNF>1702.82</vNF></ICMSTot><ISSQNtot><vServ></vServ><vBC></vBC><vISS></vISS><vPIS></vPIS><vCOFINS></vCOFINS></ISSQNtot><retTrib><vRetPIS></vRetPIS><vRetCOFINS></vRetCOFINS><vRetCSLL></vRetCSLL><vBCIRRF></vBCIRRF><vIRRF></vIRRF><vBCRetPrev></vBCRetPrev><vRetPrev></vRetPrev></retTrib></total></infNFe>
+<transp><modFrete>2</modFrete><transporta><CNPJ>17408624000145</CNPJ><xNome>Silvestre Logistica Ltda</xNome><IE>051428148</IE><xEnder>Rua Alfredo Alves da 251 Sl 02a 07</xEnder><xMun></xMun><UF></UF></transporta><veicTransp><placa>S</placa><UF></UF><RNTC></RNTC></veicTransp><reboque><placa></placa><UF></UF><RNTC></RNTC></reboque><vol><qVol>91</qVol><esp>Diversos</esp><marca></marca><nVol></nVol><pesoL></pesoL><pesoB></pesoB></vol><lacres></lacres></transp>
+<cobr><fat><nFat>7.42
+3000</nFat><vOrig>000000000012510168</vOrig><vDesc>17891000357023</vDesc><vLiq>MUCILON Arroz e Aveia Sachet 9x360g BR</vLiq></fat><dup><nDup>001</nDup><dVenc>2024-05-16</dVenc><vDup>1702.82</vDup></dup></cobr>
+<infAdic><infAdFisco>Valor da BC do ICMS ST retido: 135,72 , Valor do ICMS ST retido: 19,10;Docnum: 0211749577 Cli: 0006841966 FFt: 7212 Emp: BR10 Org. Vendas: BRL1 / 06 / 00 Fvd: Remessa: 8472839642 Doct.Fat: 9903097292 N. Carga: 8029682179 Parceiro 01124509 Pedido: 5480202314 *Boleto Anexo* Tax Perm 72.0000000 PedCli: 3003950Vol(M3): 0.191Valor L quido: 1 702,82Total da BC do ICMS ST retido: 135,72 Total do ICMS ST retido: 19,10.ICMS Recolhido Antecipado, conf. Decreto 2808 DE 02/09/94
+7100;FATURA;CondPagto Vencto28 dias apos faturam Venc 160524
+</infAdFisco></infAdic>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe26240460409075045415550010014678461228117287"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>2ZdKf1yxlNCzdAJC9Km+U5fh13E=</DigestValue></Reference></SignedInfo><SignatureValue>xxxxxxxxxxxxxxxxxxxxxxxxxx</SignatureValue><KeyInfo><X509Data><X509Certificate>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</X509Certificate></X509Data></KeyInfo></Signature></NFe>

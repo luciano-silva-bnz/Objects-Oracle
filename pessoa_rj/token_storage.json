@@ -1,0 +1,21 @@
+{
+    "access_token": "JZefkd9kbZYNdJitYXObfy-hCgG7N_ijap1J5MeoCaI3FdKwLuXb4x1wRD3KzNaMbIlJwBPTJEH6xPQX3SSh1epDmUgzjScXAyc3HsopoDt_ApNqStWMc7E2CV0cz0kk8JXNujxsUPD8rTy3K6lZYpVoL0HZO3CnTyDqhU5GH-G3wFH79rdYKynVC1GnG_QvAqgffJmtVAg9-MhH0WkTYWv8aPY_M3esVMquWuXkd6fpP06EgGLRk40Ms4yWwQJXEsQLDYXE2YwJKTt1w7qGQvKnFf_tc3I8s5l0YVcNhe2YQcOqJmZ2ZG38iDnbY2fqrk_JBN96j_WautpBlaArRsctMXfHhVqVax1ftMdp9-TSaiSJSG-kV3l-C4aaakrib-6ZOBI9f8v-K0rY-uoFo9D8XkRixm1DDXsCPviAoviuO9uYvqKQ74r5ThRjZhP_rnSmOywePQuZZOeWm2ADkgN-UHvzR9b9f_guNhVV4GPkf0Lz4YWNNoTjdOfVsK5E_wqOgLjbMTW5QZXuuON4KvMZRDy8-FNK63hnDQMmYN0Rks1wL5B_YKUPTkm-OZE7-0rlkSWK2c9EoELjHHAsz_RtrANizWcXMy9ShN16hXJjFdUlUgMMIXVrbP42xgRDwsrDKQ8aTQeYc7oCKeHTAB8Bm_g",
+    "token_type": "bearer",
+    "expires_in": 14399,
+    "refresh_token": "5a0e919a-e82d-4612-8653-9b076202a494",
+    "username": "RPA",
+    "id": "6567",
+    "name": "RPA",
+    "email": "",
+    "userSequence": "6567",
+    "company": "1",
+    "companyType": "E",
+    "userCode": "RPA",
+    "permissionRole": "Administrator",
+    "loginId": "RPA",
+    "isExt": "False",
+    "productLine": "CONSINCO",
+    "ADUser": "",
+    ".issued": "Wed, 06 Aug 2025 12:21:20 GMT",
+    ".expires": "Wed, 06 Aug 2025 16:21:20 GMT"
+}

@@ -1,0 +1,28 @@
+BEGIN
+-- Trata a empresa com erro dentro da pkg e faz output do Erro, Empresa e SeqNotaFiscal para análise
+-- Normalmente rodando isto já corrige alguns erros, podendo rodar a rotina normal posteriormente
+
+FOR X IN (
+                 SELECT A.NROEMPRESA
+                 FROM DWNAGT_DADOSEMPRESA@BI A
+                 WHERE A.TIPO in ('LOJA','CD')
+                 AND A.NROEMPRESA NOT IN (502,504,505)
+                 order by 1
+                 )                 
+               LOOP
+      CONSINCO.SP_GERARECEBTOXMLAUTO_NAG(X.NROEMPRESA);
+      
+      COMMIT;
+      
+      END LOOP;
+      END;
+
+-- Para erro de Unique Constraint na MRL_NFEIMPPROCESS
+-- Excluir a chave da MRL_NFEIMPPROCESS com base no SeqNotaFiscal do output anterior:
+
+SELECT *
+  FROM MRL_NFEIMPPROCESS A 
+ WHERE A.CHAVE_ACESSO = (SELECT X.M000_NR_CHAVE_ACESSO
+                           FROM CONSINCO.TMP_M000_NF X
+                          WHERE X.M000_ID_NF = 25938053 -- SeqNotaFiscal para pegar a chave
+                        );

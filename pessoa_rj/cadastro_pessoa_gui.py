@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 import pandas as pd
 import requests
+from requests import Session
 import json
 from pathlib import Path
 
@@ -49,9 +50,12 @@ def renovar_token(refresh_token: str) -> dict | None:
         return None
 
 class TotvsAPI:
+    """Cliente simples para comunicação com a API TOTVS."""
+
     def __init__(self):
-        self.access_token = None
-        self.refresh_token = carregar_refresh_token()
+        self.session: Session = Session()
+        self.access_token: str | None = None
+        self.refresh_token: str | None = carregar_refresh_token()
 
     def autenticar(self, username: str, password: str):
         try:
@@ -63,6 +67,7 @@ class TotvsAPI:
             return False, str(e)
 
     def _garantir_token(self) -> bool:
+        """Garante que haja um token de acesso válido."""
         if not self.access_token and self.refresh_token:
             data = renovar_token(self.refresh_token)
             if data:
@@ -70,12 +75,27 @@ class TotvsAPI:
                 self.refresh_token = data.get('refreshToken') or data.get('refresh_token')
         return bool(self.access_token)
 
+    def _request(self, method: str, url: str, **kwargs) -> requests.Response:
+        """Executa uma requisição autenticada, renovando o token em caso de 401."""
+        if not self._garantir_token():
+            raise Exception('Token inválido')
+        headers = kwargs.pop('headers', {})
+        headers["Authorization"] = f"Bearer {self.access_token}"
+        resp = self.session.request(method, url, headers=headers, **kwargs)
+        if resp.status_code == 401 and self.refresh_token:
+            data = renovar_token(self.refresh_token)
+            if data:
+                self.access_token = data.get('accessToken') or data.get('access_token')
+                self.refresh_token = data.get('refreshToken') or data.get('refresh_token')
+                headers["Authorization"] = f"Bearer {self.access_token}"
+                resp = self.session.request(method, url, headers=headers, **kwargs)
+        return resp
+
     def consultar_pessoa(self, num: str, dig: str) -> tuple[int | None, str | None]:
         if not self._garantir_token():
             return None, None
         params = {'numeroCPFCNPJ': num, 'digitoCPFCNPJ': dig}
-        headers = {"Authorization": f"Bearer {self.access_token}"}
-        resp = requests.get(API_URL_BASE, params=params, headers=headers, timeout=30)
+        resp = self._request('GET', API_URL_BASE, params=params, timeout=30)
         if resp.status_code == 200:
             items = resp.json().get('items', [])
             if items:
@@ -84,10 +104,7 @@ class TotvsAPI:
         return None, None
 
     def incluir_pessoa(self, payload: dict) -> requests.Response:
-        if not self._garantir_token():
-            raise Exception('Token inválido')
-        headers = {"Authorization": f"Bearer {self.access_token}"}
-        return requests.post(API_URL_BASE, json=payload, headers=headers, timeout=30)
+        return self._request('POST', API_URL_BASE, json=payload, timeout=30)
 
 class App:
     def __init__(self, root):
@@ -259,7 +276,13 @@ class App:
                 self.txt.insert(tk.END, f"[EXISTENTE] {row['RA_NOME']} -> id {idpessoa}, status {status_api}\n")
                 continue
             pl = self.montar_payload(row)
-            r = self.api.incluir_pessoa(pl)
+            try:
+                r = self.api.incluir_pessoa(pl)
+            except Exception as e:
+                self.df.at[idx, 'ErroDetalhes'] = str(e)
+                self.df.at[idx, 'Status'] = 'Erro'
+                self.txt.insert(tk.END, f"[ERRO] {row['RA_NOME']} -> {e}\n")
+                continue
             if r.status_code == 201:
                 new_id = r.json().get('idPessoa')
                 self.df.at[idx, 'idPessoa'] = new_id

@@ -7,10 +7,10 @@ import json
 from pathlib import Path
 
 # Configurações de API
-API_AUTH_URL = "https://bonanza150977.consinco.cloudtotvs.com.br:8343/api/v1/auth/login"
-API_TOKEN_URL = "https://bonanza150977.consinco.cloudtotvs.com.br:8343/api/v1/auth/token"
+API_AUTH_URL = "https://bonanza150976.consinco.cloudtotvs.com.br:8343/api/v1/auth/login"
+API_TOKEN_URL = "https://bonanza150976.consinco.cloudtotvs.com.br:8343/api/v1/auth/token"
 API_COMPANY_ID = "1"
-API_URL_BASE = "https://bonanza150977.consinco.cloudtotvs.com.br:8343/CadastrosEstruturaisAPI/api/v1/Pessoa"
+API_URL_BASE = "https://bonanza150976.consinco.cloudtotvs.com.br:8343/CadastrosEstruturaisAPI/api/v1/Pessoa"
 application_path = Path(__file__).parent
 TOKEN_STORAGE_FILE = application_path / "token_storage.json"
 

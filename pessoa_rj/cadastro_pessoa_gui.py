@@ -6,7 +6,10 @@ from requests import Session
 import json
 from pathlib import Path
 import re
-
+import subprocess
+import sys
+from PIL import Image, ImageTk
+import os
 # ========== CONFIGURAÇÕES DOS 3 BANCOS ORACLE ==========
 DBS = [
     {
@@ -51,7 +54,7 @@ DBS = [
             FROM u_c1pcxh_pr.sra010 r
             WHERE r.ra_demissa <> ' '
               AND r.d_e_l_e_t_ = ' '
-              AND r.ra_demissa >= '20150101'
+              --AND r.ra_demissa >= '20150101'
               AND r.ra_rescrai NOT IN ('30', '31')
               AND {in_clause}
             ORDER BY r.ra_filial
@@ -100,7 +103,7 @@ DBS = [
             FROM u_c1pcxh_pr.sra020 r
             WHERE r.ra_demissa <> ' '
               AND r.d_e_l_e_t_ = ' '
-              AND r.ra_demissa >= '20150101'
+              --AND r.ra_demissa >= '20150101'
               AND r.ra_rescrai NOT IN ('30', '31')
               AND {in_clause}
             ORDER BY r.ra_filial
@@ -149,7 +152,7 @@ DBS = [
             FROM u_c1pcxh_pr.sra040 r
             WHERE r.ra_demissa <> ' '
               AND r.d_e_l_e_t_ = ' '
-              AND r.ra_demissa >= '20150101'
+              --AND r.ra_demissa >= '20150101'
               AND r.ra_rescrai NOT IN ('30', '31')
               AND {in_clause}
             ORDER BY r.ra_filial
@@ -185,6 +188,8 @@ def prepara_lista_cpfs(texto):
 
 def consulta_banco(user, password, dsn, query):
     import oracledb
+    # Forçar uso do modo thick (client Oracle)
+    #oracledb.init_oracle_client()
     conn = oracledb.connect(user=user, password=password, dsn=dsn)
     df = pd.read_sql(query, conn)
     conn.close()
@@ -398,6 +403,7 @@ class App:
         self.df = pd.DataFrame()
         self.filter_key = ''
         self.import_path = None
+        self.convert_process = None
         self._build_login()
 
     def _build_login(self):
@@ -438,35 +444,64 @@ class App:
         win.geometry(f"{w}x{h}+{x}+{y}")
 
     def _build_ui(self):
-        top = tk.Frame(self.root)
-        top.pack(pady=5, fill='x')
-        self.lbl_stats = tk.Label(top, text='Total: 0 | Selecionados: 0 | Cadastrados: 0')
-        self.lbl_stats.pack(side='left', padx=10)
-        tk.Button(top, text='Importar Planilha', command=self.importar).pack(side='left', padx=5)
-        self.ent_filter = tk.Entry(top)
-        self.ent_filter.pack(side='left', padx=5)
-        tk.Button(top, text='Filtrar', command=self.aplicar_filtro).pack(side='left', padx=5)
-        tk.Button(top, text='Selecionar/Desmarcar Todos', command=self.selecionar_todos).pack(side='left', padx=5)
-        # --- Botão novo ---
-        tk.Button(top, text='Buscar Dados Bancos', command=self.abrir_janela_busca_cpfs).pack(side='left', padx=5)
-        tk.Button(top, text='Cadastrar Selecionados', command=self.cadastrar).pack(side='left', padx=5)
+        # ====== GRID BASE ======
+        self.root.grid_columnconfigure(0, weight=1)
+        self.root.grid_rowconfigure(2, weight=1)  # Treeview cresce
 
-        frame = tk.Frame(self.root)
-        frame.pack(expand=True, fill='both')
-        sb = ttk.Scrollbar(frame, orient='vertical')
-        sb.pack(side='right', fill='y')
-        self.tree = ttk.Treeview(frame, show='headings', selectmode='none', yscrollcommand=sb.set)
-        self.tree.pack(expand=True, fill='both')
+        # ====== Barra 1 ======
+        bar1 = ttk.Frame(self.root, padding=(6, 4, 6, 0))
+        bar1.grid(row=0, column=0, sticky="ew")
+
+        self.lbl_stats = ttk.Label(bar1, text='Total: 0 | Selecionados: 0 | Cadastrados: 0')
+        self.lbl_stats.pack(side="left", padx=(0, 10))
+
+        ttk.Button(bar1, text='Importar Planilha', command=self.importar).pack(side="left", padx=3)
+        self.ent_filter = ttk.Entry(bar1, width=30)
+        self.ent_filter.pack(side="left", padx=3)
+        ttk.Button(bar1, text='Filtrar', command=self.aplicar_filtro).pack(side="left", padx=3)
+
+        # ====== Barra 2 ======
+        bar2 = ttk.Frame(self.root, padding=(6, 2, 6, 4))
+        bar2.grid(row=1, column=0, sticky="ew")
+
+        ttk.Button(bar2, text='Selecionar/Desmarcar Todos', command=self.selecionar_todos).pack(side="left", padx=3)
+        ttk.Button(bar2, text='Buscar Dados Bancos', command=self.abrir_janela_busca_cpfs).pack(side="left", padx=3)
+        ttk.Button(bar2, text='Cadastrar Selecionados', command=self.cadastrar).pack(side="left", padx=3)
+        ttk.Button(bar2, text='Extrair Comprovantes PDF (TXT/PDF)', command=self.abrir_convert_extrator).pack(side="left", padx=3)
+
+        # ====== Centro: PanedWindow (Treeview ↑ / Log ↓) ======
+        paned = ttk.Panedwindow(self.root, orient="vertical")
+        paned.grid(row=2, column=0, sticky="nsew", padx=6, pady=(0, 6))
+
+        # ---- Treeview
+        tree_frame = ttk.Frame(paned)
+        tree_frame.grid_rowconfigure(0, weight=1)
+        tree_frame.grid_columnconfigure(0, weight=1)
+
+        sb = ttk.Scrollbar(tree_frame, orient='vertical')
+        self.tree = ttk.Treeview(tree_frame, show='headings', selectmode='none', yscrollcommand=sb.set)
+        self.tree.grid(row=0, column=0, sticky="nsew")
+        sb.grid(row=0, column=1, sticky="ns")
         sb.config(command=self.tree.yview)
         self.tree.bind('<Double-1>', self._toggle)
 
-        log_frame = tk.Frame(self.root)
-        log_frame.pack(fill='x')
+        paned.add(tree_frame, weight=4)
+
+        # ---- Log
+        log_frame = ttk.Frame(paned)
+        log_frame.grid_columnconfigure(0, weight=1)
+
         self.txt = tk.Text(log_frame, height=8)
-        self.txt.pack(side='left', expand=True, fill='x')
+        self.txt.grid(row=0, column=0, sticky="ew")
         log_scroll = ttk.Scrollbar(log_frame, orient='vertical', command=self.txt.yview)
-        log_scroll.pack(side='right', fill='y')
+        log_scroll.grid(row=0, column=1, sticky="ns")
         self.txt.config(yscrollcommand=log_scroll.set)
+
+        paned.add(log_frame, weight=1)
+
+        # ====== Rodapé com Imagem ======
+        self._carregar_rodape()
+
 
     def importar(self):
         file = filedialog.askopenfilename(filetypes=[('Excel', '*.xlsx')])
@@ -607,10 +642,151 @@ class App:
 
         BuscaCPFWindow(self.root, on_confirm=integrar_banco)
 
+    def abrir_convert_extrator(self):
+        # Evita abrir 2x
+        if getattr(self, 'convert_process', None) and self.convert_process.poll() is None:
+            messagebox.showinfo("Extrator já aberto", "A janela de extração já está aberta.")
+            return
+
+        # Desabilita a janela principal enquanto a rotina roda
+        self.root.attributes("-disabled", True)
+
+        try:
+            # Chama o MESMO executável com a flag especial
+            self.convert_process = subprocess.Popen([sys.executable, '--run-convert'])
+            # Reabilita quando fechar
+            self.root.after(1000, self._verifica_convert_fechado)
+        except Exception as e:
+            self.root.attributes("-disabled", False)
+            messagebox.showerror("Erro", f"Falha ao abrir rotina de extração:\n{e}")
+
+
+    def _verifica_convert_fechado(self):
+        if self.convert_process.poll() is None:
+            # Ainda rodando: agenda checagem novamente
+            self.root.after(1000, self._verifica_convert_fechado)
+        else:
+            # Terminou: reabilita a janela
+            self.root.attributes("-disabled", False)
+            self.convert_process = None
+    def _carregar_rodape(self):
+        """Carrega e exibe a imagem do rodapé redimensionada para preencher toda a largura"""
+        try:
+            # Obtém o diretório onde o script está localizado
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            rodape_path = os.path.join(script_dir, "rodape.png")
+            if os.path.exists(rodape_path):
+                # Carregar a imagem do rodapé (100x107)
+                img = Image.open(rodape_path)
+                
+                # Usar largura fixa da janela
+                largura_janela = 1000
+                
+                # Calcular nova altura mantendo a proporção original
+                proporcao_original = img.height / img.width  # 107/100 = 1.07
+                nova_altura = int(largura_janela * proporcao_original)
+                
+                # Redimensionar para preencher toda a largura
+                img_redimensionada = img.resize((largura_janela, nova_altura), Image.Resampling.LANCZOS)
+                
+                # Converter para PhotoImage
+                self.rodape_img = ImageTk.PhotoImage(img_redimensionada)
+                
+                # Criar frame para o rodapé
+                self.rodape_frame = tk.Frame(self.root)
+                self.rodape_frame.grid(row=3, column=0, sticky="ew")
+                self.rodape_frame.grid_columnconfigure(0, weight=1)
+                
+                # Criar label com a imagem do rodapé
+                self.rodape_label = tk.Label(self.rodape_frame, image=self.rodape_img, bd=0)
+                self.rodape_label.grid(row=0, column=0, sticky="ew")
+                
+                # Binding para redimensionar quando a janela mudar de tamanho
+                self.root.bind('<Configure>', self._redimensionar_rodape)
+                
+            else:
+                # Se não encontrar o rodapé, criar uma barra simples
+                self._criar_rodape_simples()
+                
+        except Exception as e:
+            # Em caso de erro, criar rodapé simples
+            self._criar_rodape_simples()
+            print(f"Erro ao carregar rodapé: {e}")
+    
+    def _criar_rodape_simples(self):
+        """Cria um rodapé simples caso não encontre a imagem"""
+        footer_frame = ttk.Frame(self.root, padding=(10, 8, 10, 8))
+        footer_frame.grid(row=3, column=0, sticky="ew")
+        footer_frame.grid_columnconfigure(1, weight=1)
+        
+        # Logo/Nome à esquerda
+        ttk.Label(footer_frame, text="BONANZA SUPERMERCADOS", 
+                 font=("Segoe UI", 10, "bold"), 
+                 foreground="#2E86AB").grid(row=0, column=0, sticky="w")
+        
+        # Informações à direita
+        info_text = "Setor de Desenvolvimento • © 2025 Sistema de Cadastro"
+        ttk.Label(footer_frame, text=info_text, 
+                 font=("Segoe UI", 8), 
+                 foreground="gray").grid(row=0, column=2, sticky="e")
+    
+    def _redimensionar_rodape(self, event=None):
+        """Redimensiona o rodapé quando a janela é redimensionada"""
+        # Só processar eventos da janela principal, não de widgets filhos
+        if event and event.widget != self.root:
+            return
+            
+        if hasattr(self, 'rodape_img') and hasattr(self, 'rodape_label'):
+            try:
+                rodape_path = "rodape.png"
+                if os.path.exists(rodape_path):
+                    # Obter nova largura da janela
+                    nova_largura = self.root.winfo_width()
+                    
+                    # Só redimensionar se a largura mudou significativamente (evitar loops)
+                    if abs(nova_largura - getattr(self, '_ultima_largura', 1000)) < 10:
+                        return
+                    
+                    self._ultima_largura = nova_largura
+                    
+                    # Recarregar imagem original
+                    img = Image.open(rodape_path)
+                    proporcao_original = img.height / img.width  # 107/100
+                    nova_altura = int(nova_largura * proporcao_original)
+                    
+                    # Redimensionar mantendo proporção
+                    img_redimensionada = img.resize((nova_largura, nova_altura), Image.Resampling.LANCZOS)
+                    self.rodape_img = ImageTk.PhotoImage(img_redimensionada)
+                    
+                    # Atualizar o label do rodapé
+                    self.rodape_label.configure(image=self.rodape_img)
+                    
+            except Exception as e:
+                print(f"Erro ao redimensionar rodapé: {e}")
+
+
 if __name__ == '__main__':
+    # --- Modo especial: executar a rotina convert dentro do mesmo .exe ---
+    if '--run-convert' in sys.argv:
+        # Importa o módulo empacotado e chama sua função principal
+        import convert
+        # Ajuste o nome da função abaixo se diferente
+        code = 0
+        if hasattr(convert, 'main') and callable(convert.main):
+            code = convert.main()
+        sys.exit(code if isinstance(code, int) else 0)
+    # --- fim do modo especial ---
+
     root = tk.Tk()
     root.title('Cadastro de Pessoas(F) Consinco')
     root.geometry('1000x700')
+    try:
+        style = ttk.Style()
+        style.theme_use('vista' if 'vista' in style.theme_names() else 'clam')
+        style.configure('TButton', padding=(6, 2))  # altura menor
+    except Exception:
+        pass
+
     App(root)
     # Centralizar após construir toda a interface
     root.update_idletasks()

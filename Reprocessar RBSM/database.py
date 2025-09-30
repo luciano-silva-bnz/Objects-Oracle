@@ -1,4 +1,4 @@
-import cx_Oracle
+import oracledb as cx_Oracle
 from datetime import datetime, timedelta
 import concurrent.futures
 import threading

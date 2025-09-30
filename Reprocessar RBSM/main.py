@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
 from tkcalendar import DateEntry
-import cx_Oracle
 from datetime import datetime, timedelta
 import threading
 import json

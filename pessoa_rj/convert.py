@@ -13,10 +13,12 @@ import re
 import sys
 import unicodedata
 import zipfile
-import traceback
 import warnings
 from pathlib import Path
 from typing import Iterable
+from pessoa_rj.logging_config import get_logger
+
+logger = get_logger(__name__)
 # Preferência: pypdf > PyPDF2
 try:
     from pypdf import PdfReader, PdfWriter
@@ -222,6 +224,7 @@ def extrair_comprovantes(relatorio_txt: str, macro_pdf_paths: str | Iterable[str
 
     out_dir = Path(pasta_saida)
     out_dir.mkdir(parents=True, exist_ok=True)
+    logger.info('Iniciando extração: txt=%s, pdfs=%d, saída=%s', relatorio_txt, len(macro_list), out_dir)
 
     # 1) Ler (codigo, nome) do TXT e pré-calcular expressões
     pessoas = ler_pessoas_do_relatorio_txt(relatorio_txt)
@@ -234,6 +237,7 @@ def extrair_comprovantes(relatorio_txt: str, macro_pdf_paths: str | Iterable[str
     # Itera por cada PDF macro informado
     for macro_pdf in macro_list:
         macro_reader = PdfReader(macro_pdf)
+        macro_base = Path(macro_pdf).stem
         macro_textos = read_pdf_texts(macro_pdf)
         macro_norm = [norm_text(t) for t in macro_textos]
 
@@ -257,7 +261,6 @@ def extrair_comprovantes(relatorio_txt: str, macro_pdf_paths: str | Iterable[str
                     nome_slug = re.sub(r"\s+", "_", nome_original.strip())
 
                     # inclui o nome do arquivo macro na linha de resumo para rastreabilidade
-                    macro_base = Path(macro_pdf).stem
 
                     fname_humano = f"{codigo}-{nome_slug}-{paginas_str}-({data_credito_fn})"
                     fname = safe_filename(fname_humano) + ".pdf"
@@ -305,13 +308,15 @@ def extrair_comprovantes(relatorio_txt: str, macro_pdf_paths: str | Iterable[str
                 zf.write(path, arcname=Path(path).name)
 
 
-    return {
+    summary = {
         "total_registros_no_relatorio": len(pessoas),
         "total_comprovantes_gerados": total_gerados,
         "pasta_saida": str(out_dir.resolve()),
         "excel": str(xlsx_path.resolve()),
         "zip": str(zip_path.resolve()),
     }
+    logger.info('Extração concluída: %s', summary)
+    return summary
 # --- GUI ----------------------------------------------------------------------
 
 class App(tk.Tk):
@@ -384,13 +389,16 @@ class App(tk.Tk):
         ]
 
         if not rel or not macro_list:
+            logger.warning('Seleção inválida: relatorio=%s, pdfs=%d', rel, len(macro_list))
             messagebox.showwarning("Faltando arquivo", "Selecione o RELATÓRIO (TXT) e pelo menos um PDF de COMPROVANTES.")
             return
         if not os.path.isfile(rel) or not rel.lower().endswith(".txt"):
+            logger.warning('Relatório inválido selecionado: %s', rel)
             messagebox.showerror("Arquivo inválido", "O RELATÓRIO deve ser um arquivo .TXT válido.")
             return
         bad = [p for p in macro_list if not (os.path.isfile(p) and p.lower().endswith(".pdf"))]
         if bad:
+            logger.warning('PDFs inválidos informados: %s', bad)
             messagebox.showerror("Arquivo inválido", f"Estes caminhos não são PDFs válidos:\n\n" + "\n".join(bad))
             return
 
@@ -399,6 +407,7 @@ class App(tk.Tk):
             self.update_idletasks()
             result = extrair_comprovantes(rel, macro_list, out)   # <— agora passa lista
             self.status.set("Concluído.")
+            logger.info('Processamento finalizado para %s: %s', rel, result)
             msg = (
                 "Concluído!\n\n"
                 f"Registros no relatório: {result['total_registros_no_relatorio']}\n"
@@ -417,12 +426,13 @@ class App(tk.Tk):
                     pass
         except Exception as e:
             self.status.set("Erro.")
-            traceback.print_exc()
+            logger.exception('Erro ao gerar comprovantes')
             messagebox.showerror("Erro ao gerar", f"{type(e).__name__}: {e}")
 
 
 def main():
     # Sua App já herda de tk.Tk e constrói toda a UI no __init__
+    logger.info('Iniciando extrator de comprovantes (GUI)')
     app = App()
     # (opcional) um tema/estilo básico
     try:
@@ -432,7 +442,10 @@ def main():
     except Exception:
         pass
     app.mainloop()
+    logger.info('Extrator de comprovantes encerrado')
     return 0
 
 if __name__ == '__main__':
     sys.exit(main())
+
+

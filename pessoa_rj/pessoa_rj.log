@@ -1,0 +1,10 @@
+2025-09-30 11:30:59,389 [INFO] pessoa_rj.__main__: Inicializando gerador de comprovantes RJ
+2025-09-30 11:30:59,395 [INFO] pessoa_rj.__main__: Aplicação de comprovantes iniciada
+2025-09-30 11:32:02,320 [INFO] pessoa_rj.__main__: Planilha Base RJ carregada (670 linhas) a partir de S:/Fontes/Comprov RJ/pagamento RJ.xlsx
+2025-09-30 11:32:05,518 [INFO] pessoa_rj.__main__: Planilha C5 carregada (519 linhas) a partir de S:/Fontes/Comprov RJ/program de pgto.xlsx
+2025-09-30 11:32:06,543 [INFO] pessoa_rj.__main__: Dados combinados: base=670, programações=70
+2025-09-30 11:32:25,105 [INFO] pessoa_rj.__main__: Exportação única selecionada: ANA CAROLINA LYRA DE AGUIAR -> C:/Users/Luciano/Desktop/ANA CAROLINA LYRA DE AGUIAR(correto).pdf
+2025-09-30 11:32:25,108 [INFO] pessoa_rj.__main__: Gerando PDF para ANA CAROLINA LYRA DE AGUIAR em C:/Users/Luciano/Desktop/ANA CAROLINA LYRA DE AGUIAR(correto).pdf
+2025-09-30 11:32:25,109 [INFO] pessoa_rj.__main__: PDF salvo em C:/Users/Luciano/Desktop/ANA CAROLINA LYRA DE AGUIAR(correto).pdf
+2025-09-30 11:32:25,109 [INFO] pessoa_rj.__main__: PDF gerado com sucesso: C:/Users/Luciano/Desktop/ANA CAROLINA LYRA DE AGUIAR(correto).pdf
+2025-09-30 11:32:28,022 [INFO] pessoa_rj.__main__: Aplicação de comprovantes encerrada

@@ -8,3 +8,91 @@
 2025-09-30 11:32:25,109 [INFO] pessoa_rj.__main__: PDF salvo em C:/Users/Luciano/Desktop/ANA CAROLINA LYRA DE AGUIAR(correto).pdf
 2025-09-30 11:32:25,109 [INFO] pessoa_rj.__main__: PDF gerado com sucesso: C:/Users/Luciano/Desktop/ANA CAROLINA LYRA DE AGUIAR(correto).pdf
 2025-09-30 11:32:28,022 [INFO] pessoa_rj.__main__: Aplicação de comprovantes encerrada
+2025-10-02 14:31:22,545 [INFO] pessoa_rj.__main__: Inicializando gerador de comprovantes RJ
+2025-10-02 14:31:22,554 [INFO] pessoa_rj.__main__: Aplicação de comprovantes iniciada
+2025-10-02 14:31:28,141 [INFO] pessoa_rj.__main__: Planilha Base RJ carregada (665 linhas) a partir de S:/Fontes/Comprov RJ/pagamento RJ.xlsx
+2025-10-02 14:31:31,683 [INFO] pessoa_rj.__main__: Planilha C5 carregada (745 linhas) a partir de S:/Fontes/Comprov RJ/TRABALHISTA_RJ.xlsx
+2025-10-02 14:31:33,045 [INFO] pessoa_rj.__main__: Dados combinados: base=665, programações=97, dados bancários=97
+2025-10-02 14:31:45,436 [INFO] pessoa_rj.__main__: Planilha Base RJ carregada (665 linhas) a partir de S:/Fontes/Comprov RJ/Bonanza - Fluxo de Pagamento (Classe I) - Planilha base-V 19-09-25.xlsx
+2025-10-02 14:31:49,226 [INFO] pessoa_rj.__main__: Planilha C5 carregada (745 linhas) a partir de S:/Fontes/Comprov RJ/TRABALHISTA_RJ.xlsx
+2025-10-02 14:31:50,229 [INFO] pessoa_rj.__main__: Dados combinados: base=665, programações=97, dados bancários=97
+2025-10-02 14:32:13,394 [INFO] pessoa_rj.__main__: Gerando PDF em lote: S:/Fontes/Comprov RJ\AISLAN ALVES DE OLIVEIRA CINTRA.pdf
+2025-10-02 14:32:13,394 [INFO] pessoa_rj.__main__: Gerando PDF para AISLAN ALVES DE OLIVEIRA CINTRA em S:/Fontes/Comprov RJ\AISLAN ALVES DE OLIVEIRA CINTRA.pdf
+2025-10-02 14:32:13,483 [INFO] pessoa_rj.__main__: PDF salvo em S:/Fontes/Comprov RJ\AISLAN ALVES DE OLIVEIRA CINTRA.pdf
+2025-10-02 14:32:13,483 [INFO] pessoa_rj.__main__: Gerando PDF em lote: S:/Fontes/Comprov RJ\ANA CECILIA DOS SANTOS SALGUES.pdf
+2025-10-02 14:32:13,483 [INFO] pessoa_rj.__main__: Gerando PDF para ANA CECILIA DOS SANTOS SALGUES em S:/Fontes/Comprov RJ\ANA CECILIA DOS SANTOS SALGUES.pdf
+2025-10-02 14:32:13,571 [INFO] pessoa_rj.__main__: PDF salvo em S:/Fontes/Comprov RJ\ANA CECILIA DOS SANTOS SALGUES.pdf
+2025-10-02 14:32:13,571 [INFO] pessoa_rj.__main__: Gerando PDF em lote: S:/Fontes/Comprov RJ\JOSE EDUARDO DA SILVA.pdf
+2025-10-02 14:32:13,571 [INFO] pessoa_rj.__main__: Gerando PDF para JOSE EDUARDO DA SILVA em S:/Fontes/Comprov RJ\JOSE EDUARDO DA SILVA.pdf
+2025-10-02 14:32:13,659 [INFO] pessoa_rj.__main__: PDF salvo em S:/Fontes/Comprov RJ\JOSE EDUARDO DA SILVA.pdf
+2025-10-02 14:32:13,659 [INFO] pessoa_rj.__main__: Exportação múltipla concluída: sucesso=3, falhas=0, destino=S:/Fontes/Comprov RJ
+2025-10-02 15:32:30,703 [INFO] pessoa_rj.__main__: Aplicação de comprovantes encerrada
+2025-10-03 07:38:56,888 [INFO] pessoa_rj.__main__: Inicializando gerador de comprovantes RJ
+2025-10-03 07:38:56,896 [INFO] pessoa_rj.__main__: Aplicação de comprovantes iniciada
+2025-10-03 07:39:18,266 [INFO] pessoa_rj.__main__: Planilha Base RJ carregada (665 linhas) a partir de S:/Fontes/Comprov RJ/pagamento RJ.xlsx
+2025-10-03 07:39:22,336 [ERROR] pessoa_rj.__main__: Erro ao carregar planilha C5: S:/Fontes/Comprov RJ/Bonanza - Fluxo de Pagamento (Classe I) - Planilha base-V 19-09-25.xlsx
+Traceback (most recent call last):
+  File "d:\tds\python\consinco\pessoa_rj\comprov.py", line 298, in load_programacao
+    df = pd.read_excel(filepath, sheet_name="MOV_TITULOS")
+  File "C:\Users\Luciano\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\excel\_base.py", line 508, in read_excel
+    data = io.parse(
+        sheet_name=sheet_name,
+    ...<21 lines>...
+        dtype_backend=dtype_backend,
+    )
+  File "C:\Users\Luciano\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\excel\_base.py", line 1616, in parse
+    return self._reader.parse(
+           ~~~~~~~~~~~~~~~~~~^
+        sheet_name=sheet_name,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<17 lines>...
+        **kwds,
+        ^^^^^^^
+    )
+    ^
+  File "C:\Users\Luciano\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\excel\_base.py", line 773, in parse
+    sheet = self.get_sheet_by_name(asheetname)
+  File "C:\Users\Luciano\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 582, in get_sheet_by_name
+    self.raise_if_bad_sheet_by_name(name)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Luciano\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\excel\_base.py", line 624, in raise_if_bad_sheet_by_name
+    raise ValueError(f"Worksheet named '{name}' not found")
+ValueError: Worksheet named 'MOV_TITULOS' not found
+2025-10-03 07:39:29,030 [INFO] pessoa_rj.__main__: Planilha C5 carregada (745 linhas) a partir de S:/Fontes/Comprov RJ/TRABALHISTA_RJ.xlsx
+2025-10-03 07:39:30,144 [INFO] pessoa_rj.__main__: Dados combinados: base=665, programações=97, dados bancários=97
+2025-10-03 07:40:02,205 [INFO] pessoa_rj.__main__: Gerando PDF em lote: S:/Fontes/Comprov RJ\ANA CECILIA DOS SANTOS SALGUES.pdf
+2025-10-03 07:40:02,205 [INFO] pessoa_rj.__main__: Gerando PDF para ANA CECILIA DOS SANTOS SALGUES em S:/Fontes/Comprov RJ\ANA CECILIA DOS SANTOS SALGUES.pdf
+2025-10-03 07:40:02,290 [INFO] pessoa_rj.__main__: PDF salvo em S:/Fontes/Comprov RJ\ANA CECILIA DOS SANTOS SALGUES.pdf
+2025-10-03 07:40:02,291 [INFO] pessoa_rj.__main__: Gerando PDF em lote: S:/Fontes/Comprov RJ\CARLOS CEZAR PEDROSA GUERRA.pdf
+2025-10-03 07:40:02,291 [INFO] pessoa_rj.__main__: Gerando PDF para CARLOS CEZAR PEDROSA GUERRA em S:/Fontes/Comprov RJ\CARLOS CEZAR PEDROSA GUERRA.pdf
+2025-10-03 07:40:02,377 [INFO] pessoa_rj.__main__: PDF salvo em S:/Fontes/Comprov RJ\CARLOS CEZAR PEDROSA GUERRA.pdf
+2025-10-03 07:40:02,377 [INFO] pessoa_rj.__main__: Gerando PDF em lote: S:/Fontes/Comprov RJ\ELIANDRO OLIVEIRA DE MACEDO.pdf
+2025-10-03 07:40:02,377 [INFO] pessoa_rj.__main__: Gerando PDF para ELIANDRO OLIVEIRA DE MACEDO em S:/Fontes/Comprov RJ\ELIANDRO OLIVEIRA DE MACEDO.pdf
+2025-10-03 07:40:02,463 [INFO] pessoa_rj.__main__: PDF salvo em S:/Fontes/Comprov RJ\ELIANDRO OLIVEIRA DE MACEDO.pdf
+2025-10-03 07:40:02,463 [INFO] pessoa_rj.__main__: Exportação múltipla concluída: sucesso=3, falhas=0, destino=S:/Fontes/Comprov RJ
+2025-10-03 07:40:42,456 [INFO] pessoa_rj.__main__: Planilha Base RJ carregada (665 linhas) a partir de S:/Fontes/Comprov RJ/Bonanza - Fluxo de Pagamento (Classe I) - Planilha base-V 19-09-25.xlsx
+2025-10-03 07:40:47,195 [INFO] pessoa_rj.__main__: Planilha C5 carregada (745 linhas) a partir de S:/Fontes/Comprov RJ/TRABALHISTA_RJ.xlsx
+2025-10-03 07:40:48,251 [INFO] pessoa_rj.__main__: Dados combinados: base=665, programações=97, dados bancários=97
+2025-10-03 07:41:00,262 [INFO] pessoa_rj.__main__: Aplicação de comprovantes encerrada
+2025-10-03 07:41:12,881 [INFO] pessoa_rj.__main__: Inicializando gerador de comprovantes RJ
+2025-10-03 07:41:12,888 [INFO] pessoa_rj.__main__: Aplicação de comprovantes iniciada
+2025-10-03 07:41:17,388 [INFO] pessoa_rj.__main__: Planilha Base RJ carregada (665 linhas) a partir de S:/Fontes/Comprov RJ/Bonanza - Fluxo de Pagamento (Classe I) - Planilha base-V 19-09-25.xlsx
+2025-10-03 07:41:20,683 [INFO] pessoa_rj.__main__: Planilha C5 carregada (745 linhas) a partir de S:/Fontes/Comprov RJ/TRABALHISTA_RJ.xlsx
+2025-10-03 07:41:21,680 [INFO] pessoa_rj.__main__: Dados combinados: base=665, programações=97, dados bancários=97
+2025-10-03 07:41:57,711 [INFO] pessoa_rj.__main__: Aplicação de comprovantes encerrada
+2025-10-06 09:00:09,439 [INFO] pessoa_rj.__main__: Inicializando gerador de comprovantes RJ
+2025-10-06 09:00:09,488 [INFO] pessoa_rj.__main__: Aplicação de comprovantes iniciada
+2025-10-06 09:00:20,289 [INFO] pessoa_rj.__main__: Planilha Base RJ carregada (665 linhas) a partir de S:/Fontes/Comprov RJ/pagamento RJ.xlsx
+2025-10-06 09:00:24,875 [INFO] pessoa_rj.__main__: Planilha C5 carregada (745 linhas) a partir de S:/Fontes/Comprov RJ/TRABALHISTA_RJ.xlsx
+2025-10-06 09:00:25,912 [INFO] pessoa_rj.__main__: Dados combinados: base=665, programações=97, dados bancários=97
+2025-10-06 09:01:03,168 [INFO] pessoa_rj.__main__: Planilha Base RJ carregada (665 linhas) a partir de S:/Fontes/Comprov RJ/Bonanza - Fluxo de Pagamento (Classe I) - Planilha base-V 19-09-25.xlsx
+2025-10-06 09:01:07,796 [INFO] pessoa_rj.__main__: Planilha C5 carregada (745 linhas) a partir de S:/Fontes/Comprov RJ/TRABALHISTA_RJ.xlsx
+2025-10-06 09:01:08,929 [INFO] pessoa_rj.__main__: Dados combinados: base=665, programações=97, dados bancários=97
+2025-10-06 09:03:23,893 [INFO] pessoa_rj.__main__: Gerando PDF em lote: S:/Fontes/Comprov RJ\AISLAN ALVES DE OLIVEIRA CINTRA.pdf
+2025-10-06 09:03:23,894 [INFO] pessoa_rj.__main__: Gerando PDF para AISLAN ALVES DE OLIVEIRA CINTRA em S:/Fontes/Comprov RJ\AISLAN ALVES DE OLIVEIRA CINTRA.pdf
+2025-10-06 09:03:24,051 [INFO] pessoa_rj.__main__: PDF salvo em S:/Fontes/Comprov RJ\AISLAN ALVES DE OLIVEIRA CINTRA.pdf
+2025-10-06 09:03:24,052 [INFO] pessoa_rj.__main__: Gerando PDF em lote: S:/Fontes/Comprov RJ\BRUNNO AMAZONAS GALVAO.pdf
+2025-10-06 09:03:24,052 [INFO] pessoa_rj.__main__: Gerando PDF para BRUNNO AMAZONAS GALVAO em S:/Fontes/Comprov RJ\BRUNNO AMAZONAS GALVAO.pdf
+2025-10-06 09:03:24,138 [INFO] pessoa_rj.__main__: PDF salvo em S:/Fontes/Comprov RJ\BRUNNO AMAZONAS GALVAO.pdf
+2025-10-06 09:03:24,138 [INFO] pessoa_rj.__main__: Exportação múltipla concluída: sucesso=2, falhas=0, destino=S:/Fontes/Comprov RJ
+2025-10-06 09:04:08,521 [INFO] pessoa_rj.__main__: Aplicação de comprovantes encerrada

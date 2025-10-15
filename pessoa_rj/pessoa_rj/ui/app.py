@@ -417,7 +417,7 @@ class App:
 
 def run_app() -> None:
     root = tk.Tk()
-    root.title('Cadastro de Pessoas(F) Consinco V.2.0 - Bonanza Supermercados')
+    root.title('Cadastro de Pessoas(F) Consinco V.2.1 - Bonanza Supermercados')
     root.geometry('1000x700')
     try:
         style = ttk.Style()

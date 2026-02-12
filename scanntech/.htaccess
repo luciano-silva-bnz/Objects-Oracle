@@ -1,0 +1,13 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteRule ^(?:config|storage)(?:/|$) - [F,L,NC]
+    RewriteRule ^(?:\.env|\.gitignore|README\.md)$ - [F,L,NC]
+    RewriteRule (^|/)\. - [F,L]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>

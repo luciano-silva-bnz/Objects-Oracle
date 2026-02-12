@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Bonanza supermercados</title>
+  <desc id="logoDesc">Logotipo BONANZA supermercados</desc>
+  <rect width="1200" height="320" fill="transparent"/>
+  <text
+    x="12"
+    y="165"
+    fill="#df0d16"
+    font-size="164"
+    font-family="Arial Black, Impact, sans-serif"
+    font-weight="900"
+    letter-spacing="1"
+  >BONANZA</text>
+  <text
+    x="142"
+    y="282"
+    fill="#18479b"
+    font-size="112"
+    font-family="Arial Black, Impact, sans-serif"
+    font-weight="900"
+    letter-spacing="0.5"
+  >supermercados</text>
+</svg>

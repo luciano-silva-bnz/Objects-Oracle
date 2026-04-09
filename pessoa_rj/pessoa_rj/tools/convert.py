@@ -16,7 +16,8 @@ import zipfile
 import warnings
 from pathlib import Path
 from typing import Iterable
-from pessoa_rj.logging_config import get_logger
+from ..logging_config import get_logger
+from ..version import APP_VERSION, get_tool_window_title
 
 logger = get_logger(__name__)
 # Preferência: pypdf > PyPDF2
@@ -323,7 +324,7 @@ class App(tk.Tk):
     """Janela principal do extrator de comprovantes PDF (relatório TXT)."""
     def __init__(self):
         super().__init__()
-        self.title("Extrair Comprovantes")
+        self.title(get_tool_window_title("Extrair Comprovantes"))
         self.geometry("780x320")
         self.minsize(640, 240)
 
@@ -432,7 +433,7 @@ class App(tk.Tk):
 
 def main():
     # Sua App já herda de tk.Tk e constrói toda a UI no __init__
-    logger.info('Iniciando extrator de comprovantes (GUI)')
+    logger.info('Iniciando extrator de comprovantes (GUI) - versao %s', APP_VERSION)
     app = App()
     # (opcional) um tema/estilo básico
     try:
@@ -442,7 +443,7 @@ def main():
     except Exception:
         pass
     app.mainloop()
-    logger.info('Extrator de comprovantes encerrado')
+    logger.info('Extrator de comprovantes encerrado - versao %s', APP_VERSION)
     return 0
 
 if __name__ == '__main__':

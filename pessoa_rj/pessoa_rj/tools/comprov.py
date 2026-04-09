@@ -6,8 +6,9 @@ import pandas as pd
 from fpdf import FPDF
 import os
 from datetime import date
-from pessoa_rj.logging_config import get_logger
-from pessoa_rj.config import ASSETS_DIR
+from ..logging_config import get_logger
+from ..config import ASSETS_DIR
+from ..version import APP_VERSION, get_tool_window_title
 
 logger = get_logger(__name__)
 
@@ -75,7 +76,7 @@ class ReportPDF(FPDF):
 class App:
     def __init__(self, root):
         self.root = root
-        self.root.title("Extrair Dados - Base RJ + Mov. de Títulos C5")
+        self.root.title(get_tool_window_title("Extrair Dados - Base RJ + Mov. de Titulos C5"))
         self.root.geometry("1250x650")
         logger.info('Inicializando gerador de comprovantes RJ')
 
@@ -737,9 +738,9 @@ class App:
 def main():
     root = tk.Tk()
     app = App(root)
-    logger.info('Aplicação de comprovantes iniciada')
+    logger.info('Aplicacao de comprovantes iniciada - versao %s', APP_VERSION)
     root.mainloop()
-    logger.info('Aplicação de comprovantes encerrada')
+    logger.info('Aplicacao de comprovantes encerrada - versao %s', APP_VERSION)
 
 
 if __name__ == "__main__":

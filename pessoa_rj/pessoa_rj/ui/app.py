@@ -12,6 +12,7 @@ from PIL import Image, ImageTk
 from ..api import TotvsAPI
 from ..config import ASSETS_DIR
 from ..logging_config import get_logger
+from ..version import APP_VERSION, get_about_text, get_main_window_title
 from .dialogs import BuscaCPFWindow
 
 logger = get_logger(__name__)
@@ -29,13 +30,14 @@ class App:
         self.import_path: Path | None = None
         self.convert_process: subprocess.Popen[str] | None = None
         self.comprov_process: subprocess.Popen[str] | None = None
+        self.fgts_process: subprocess.Popen[str] | None = None
         self._build_login()
 
     def _build_login(self) -> None:
         self.root.withdraw()
 
         win = tk.Toplevel(self.root)
-        win.title("Login TOTVS-CONSINCO")
+        win.title(f"Login TOTVS-CONSINCO - v{APP_VERSION}")
         win.protocol("WM_DELETE_WINDOW", self.root.destroy)
         win.geometry("300x180")
         self._center(win, 300, 180)
@@ -73,7 +75,8 @@ class App:
 
     def _build_ui(self) -> None:
         self.root.grid_columnconfigure(0, weight=1)
-        self.root.grid_rowconfigure(2, weight=1)
+        self.root.grid_rowconfigure(1, weight=1)
+        self._build_menu()
 
         bar1 = ttk.Frame(self.root, padding=(6, 4, 6, 0))
         bar1.grid(row=0, column=0, sticky="ew")
@@ -85,18 +88,11 @@ class App:
         self.ent_filter = ttk.Entry(bar1, width=30)
         self.ent_filter.pack(side="left", padx=3)
         ttk.Button(bar1, text="Filtrar", command=self.aplicar_filtro).pack(side="left", padx=3)
-
-        bar2 = ttk.Frame(self.root, padding=(6, 2, 6, 4))
-        bar2.grid(row=1, column=0, sticky="ew")
-
-        ttk.Button(bar2, text="Selecionar/Desmarcar Todos", command=self.selecionar_todos).pack(side="left", padx=3)
-        ttk.Button(bar2, text="Buscar Dados Bancos", command=self.abrir_janela_busca_cpfs).pack(side="left", padx=3)
-        ttk.Button(bar2, text="Cadastrar Selecionados", command=self.cadastrar).pack(side="left", padx=3)
-        ttk.Button(bar2, text="Extrair Comprovantes PDF (TXT/PDF)", command=self.abrir_convert_extrator).pack(side="left", padx=3)
-        ttk.Button(bar2, text="Gerar Comprovante Trabalhista (RJ)", command=self.abrir_comprov_app).pack(side="left", padx=3)
+        ttk.Button(bar1, text="Selecionar/Desmarcar Todos", command=self.selecionar_todos).pack(side="left", padx=(12, 3))
+        ttk.Label(bar1, text="Demais acoes no menu superior", foreground="gray").pack(side="left", padx=(12, 0))
 
         paned = ttk.Panedwindow(self.root, orient="vertical")
-        paned.grid(row=2, column=0, sticky="nsew", padx=6, pady=(0, 6))
+        paned.grid(row=1, column=0, sticky="nsew", padx=6, pady=(4, 6))
 
         tree_frame = ttk.Frame(paned)
         tree_frame.grid_rowconfigure(0, weight=1)
@@ -123,6 +119,37 @@ class App:
         paned.add(log_frame, weight=1)
 
         self._carregar_rodape()
+
+    def _build_menu(self) -> None:
+        menubar = tk.Menu(self.root)
+
+        menu_arquivo = tk.Menu(menubar, tearoff=0)
+        menu_arquivo.add_command(label="Importar Planilha", command=self.importar)
+        menu_arquivo.add_separator()
+        menu_arquivo.add_command(label="Sair", command=self.root.destroy)
+        menubar.add_cascade(label="Arquivo", menu=menu_arquivo)
+
+        menu_cadastro = tk.Menu(menubar, tearoff=0)
+        menu_cadastro.add_command(label="Buscar Dados Bancos", command=self.abrir_janela_busca_cpfs)
+        menu_cadastro.add_command(label="Cadastrar Selecionados", command=self.cadastrar)
+        menubar.add_cascade(label="Cadastro", menu=menu_cadastro)
+
+        menu_ferramentas = tk.Menu(menubar, tearoff=0)
+        menu_ferramentas.add_command(label="Extrair Comprovantes PDF (TXT/PDF)", command=self.abrir_convert_extrator)
+        menu_ferramentas.add_command(label="Gerar Comprovante Trabalhista (RJ)", command=self.abrir_comprov_app)
+        menu_ferramentas.add_command(label="Extrato planilha FGTS", command=self.abrir_fgts_app)
+        menubar.add_cascade(label="Ferramentas", menu=menu_ferramentas)
+
+        menu_ajuda = tk.Menu(menubar, tearoff=0)
+        menu_ajuda.add_command(label="Sobre", command=self._show_about)
+        menubar.add_cascade(label="Ajuda", menu=menu_ajuda)
+
+        self.root.config(menu=menubar)
+        self.menubar = menubar
+
+    def _show_about(self) -> None:
+        runtime_path = sys.executable if getattr(sys, "frozen", False) else str(Path(sys.argv[0]).resolve())
+        messagebox.showinfo("Sobre", get_about_text(runtime_path))
 
     def importar(self) -> None:
         file_path = filedialog.askopenfilename(filetypes=[("Excel", "*.xlsx")])
@@ -328,6 +355,25 @@ class App:
             self._reativar_janela_se_possivel()
             messagebox.showerror('Erro', f'Falha ao abrir rotina de comprovante:\n{exc}')
 
+    def abrir_fgts_app(self) -> None:
+        if self._processo_em_execucao(self.fgts_process):
+            logger.info('Solicitacao ignorada: extrato planilha FGTS ja em execucao')
+            messagebox.showinfo('Extrato planilha FGTS ja aberto', 'A janela de Extrato planilha FGTS ja esta aberta.')
+            return
+
+        self.root.attributes('-disabled', True)
+
+        try:
+            cmd = self._montar_comando_reexecucao('--run-fgts')
+            logger.info('Abrindo Extrato planilha FGTS com comando: %s', cmd)
+            self.fgts_process = subprocess.Popen(cmd)
+            self.root.after(1000, self._verifica_fgts_fechado)
+        except Exception as exc:  # noqa: BLE001
+            logger.exception('Falha ao iniciar Extrato planilha FGTS')
+            self.fgts_process = None
+            self._reativar_janela_se_possivel()
+            messagebox.showerror('Erro', f'Falha ao abrir rotina de Extrato planilha FGTS:\n{exc}')
+
     def _verifica_convert_fechado(self) -> None:
         if self._processo_em_execucao(self.convert_process):
             self.root.after(1000, self._verifica_convert_fechado)
@@ -348,11 +394,25 @@ class App:
         self.comprov_process = None
         self._reativar_janela_se_possivel()
 
+    def _verifica_fgts_fechado(self) -> None:
+        if self._processo_em_execucao(self.fgts_process):
+            self.root.after(1000, self._verifica_fgts_fechado)
+            return
+        proc = self.fgts_process
+        return_code = proc.returncode if proc is not None else None
+        logger.info('Extrato planilha FGTS encerrado (retorno %s)', return_code)
+        self.fgts_process = None
+        self._reativar_janela_se_possivel()
+
     def _processo_em_execucao(self, proc: subprocess.Popen[str] | None) -> bool:
         return proc is not None and proc.poll() is None
 
     def _reativar_janela_se_possivel(self) -> None:
-        if not self._processo_em_execucao(self.convert_process) and not self._processo_em_execucao(self.comprov_process):
+        if (
+            not self._processo_em_execucao(self.convert_process)
+            and not self._processo_em_execucao(self.comprov_process)
+            and not self._processo_em_execucao(self.fgts_process)
+        ):
             logger.debug('Janela principal reativada')
             self.root.attributes('-disabled', False)
 
@@ -373,7 +433,7 @@ class App:
                 img_redimensionada = img.resize((largura, nova_altura), Image.Resampling.LANCZOS)
                 self.rodape_img = ImageTk.PhotoImage(img_redimensionada)
                 self.rodape_frame = tk.Frame(self.root)
-                self.rodape_frame.grid(row=3, column=0, sticky='ew')
+                self.rodape_frame.grid(row=2, column=0, sticky='ew')
                 self.rodape_frame.grid_columnconfigure(0, weight=1)
                 self.rodape_label = tk.Label(self.rodape_frame, image=self.rodape_img, bd=0)
                 self.rodape_label.grid(row=0, column=0, sticky='ew')
@@ -385,7 +445,7 @@ class App:
 
     def _criar_rodape_simples(self) -> None:
         footer_frame = ttk.Frame(self.root, padding=(10, 8, 10, 8))
-        footer_frame.grid(row=3, column=0, sticky='ew')
+        footer_frame.grid(row=2, column=0, sticky='ew')
         footer_frame.grid_columnconfigure(1, weight=1)
         ttk.Label(footer_frame, text='BONANZA SUPERMERCADOS', font=('Segoe UI', 10, 'bold'), foreground='#2E86AB').grid(row=0, column=0, sticky='w')
         info_text = 'Setor de Desenvolvimento - 2025 Sistema de Cadastro'
@@ -417,7 +477,7 @@ class App:
 
 def run_app() -> None:
     root = tk.Tk()
-    root.title('Cadastro de Pessoas(F) Consinco V.2.1 - Bonanza Supermercados')
+    root.title(get_main_window_title())
     root.geometry('1000x700')
     try:
         style = ttk.Style()
@@ -427,7 +487,7 @@ def run_app() -> None:
     except Exception:  # noqa: BLE001
         pass
 
-    logger.info('Aplicacao principal iniciada')
+    logger.info('Aplicacao principal iniciada - versao %s', APP_VERSION)
     App(root)
     root.update_idletasks()
     width = root.winfo_width() or 1000

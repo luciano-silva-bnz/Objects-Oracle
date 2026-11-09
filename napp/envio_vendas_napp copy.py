@@ -1,5 +1,5 @@
 import requests
-import cx_Oracle
+import oracledb as cx_Oracle
 import pandas as pd
 
 # Configurações do banco de dados e API
@@ -27,7 +27,7 @@ def get_auth_token():
 
 # Conectando ao banco de dados Oracle
 def get_connection_db():
-    return cx_Oracle.connect(DATABASE_USER, DATABASE_PASSWORD, DATABASE_DSN)
+    return cx_Oracle.connect(user=DATABASE_USER, password=DATABASE_PASSWORD, dsn=DATABASE_DSN)
 
 def get_data_from_db(query):
     connection = get_connection_db()

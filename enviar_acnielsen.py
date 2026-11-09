@@ -1,25 +1,44 @@
 import os
+import posixpath
 import shutil
-import pysftp
+import paramiko
+from contextlib import contextmanager
+
+
+@contextmanager
+def sftp_connection(host, username, password, port=22, compress=False):
+    """Manage both SSH and SFTP lifetimes; retain the existing host-key policy."""
+    with paramiko.SSHClient() as client:
+        client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+        client.connect(hostname=host, port=port, username=username,
+                       password=password, compress=compress,
+                       allow_agent=False, look_for_keys=False)
+        with client.open_sftp() as sftp:
+            yield sftp
+
+
+def download_preserving_mtime(sftp, remote_path, local_path):
+    """Paramiko equivalent of pysftp.get(..., preserve_mtime=True)."""
+    attributes = sftp.stat(remote_path)
+    sftp.get(remote_path, local_path)
+    os.utime(local_path, (attributes.st_atime, attributes.st_mtime))
 
 def enviar_arquivo(caminho_arquivo):
     try:
         # Configuração das credenciais SFTP
-        cnopts = pysftp.CnOpts()
-        cnopts.hostkeys = None  # Ignora a verificação da chave de host
 
         # Conecta-se ao servidor SFTP
-        with pysftp.Connection(
+        with sftp_connection(
             host="namft.nielseniq.com",
             username="mft@bonanza.br",
             password="GI&7%md6Bq%1",
-            cnopts=cnopts
+            compress=False
         ) as sftp:
             # Define o diretório remoto
             diretorio_remoto = "/DELIVERY"
             
             # Define o caminho de destino no servidor SFTP
-            caminho_destino_sftp = os.path.join(diretorio_remoto, os.path.basename(caminho_arquivo))
+            caminho_destino_sftp = posixpath.join(diretorio_remoto, os.path.basename(caminho_arquivo))
             
             # Envia o arquivo
             sftp.put(caminho_arquivo, caminho_destino_sftp)

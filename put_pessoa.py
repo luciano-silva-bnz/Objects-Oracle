@@ -49,14 +49,14 @@ def replace_nan(x):
 
 def incluir_pessoas_da_planilha(filename, token, log_filename):
     # Abre o arquivo de log para escrita
-    with open(log_filename, 'w') as log_file:
+    with open(log_filename, 'w', encoding="locale") as log_file:
         # Escreve o cabe�alho do arquivo de log
         log_file.write('NumeroCPFCNPJ;Status;idPessoa;Mensagem\n')
         # L� os dados da planilha
         df = ler_planilha(filename)
 
         # Remove os NAN
-        df = df.applymap(replace_nan)
+        df = df.map(replace_nan)
         # Itera sobre cada linha da planilha
         for index, row in df.iterrows():
             # Extrai os dados da linha

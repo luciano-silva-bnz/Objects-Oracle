@@ -1,3 +1,4 @@
 {
-    "totvsLanguageServer.welcomePage": false
+    "totvsLanguageServer.welcomePage": false,
+    "python.defaultInterpreterPath": "${env:LOCALAPPDATA}/Programs/Python/Python315/python.exe"
 }

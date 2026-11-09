@@ -11,7 +11,7 @@ documento_atual = None
 linha_atual = None
 
 # Percorre cada linha do arquivo
-with open('loja 09_EMP9 2_EMP9_CST.TXT', 'r') as arquivo:
+with open('loja 09_EMP9 2_EMP9_CST.TXT', 'r', encoding="locale") as arquivo:
     for linha in arquivo:
         campos = linha.split('|')
         # Verifica se é um registro C100
@@ -54,7 +54,7 @@ for i in range(len(linhas_corrigidas)):
             linhas_corrigidas[i] = '|'.join(list(chave) + [str(valor).replace('.', ',') for valor in valores_acumulados[chave]]) + '||\n'
 
 # Sobrescreve o arquivo com as linhas corrigidas
-with open('loja 09_EMP9 2_EMP9_CST.TXT_corrigido.txt', 'w') as arquivo_corrigido:
+with open('loja 09_EMP9 2_EMP9_CST.TXT_corrigido.txt', 'w', encoding="locale") as arquivo_corrigido:
     for linha in linhas_corrigidas:
         arquivo_corrigido.write(linha)
 

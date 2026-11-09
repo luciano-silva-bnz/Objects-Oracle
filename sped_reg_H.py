@@ -1,5 +1,5 @@
 # Primeiro, vamos ler o arquivo
-with open('arquivo.txt', 'r') as f:
+with open('arquivo.txt', 'r', encoding="locale") as f:
     linhas = f.readlines()
 
 registros = []
@@ -29,7 +29,7 @@ for registro in registros[2:-1]:
         registro["vl_item_ir"] = registro["vl_item"]
 
 # Agora os registros estão atualizados
-with open('arquivo_atualizado.txt', 'w') as f:
+with open('arquivo_atualizado.txt', 'w', encoding="locale") as f:
     for registro in registros:
         if registro["tipo"] == "H001" or registro["tipo"] == "H990":
             f.write(f"|{registro['tipo']}|{registro['valor']}|\n")

@@ -37,6 +37,6 @@ for index, row in df.iterrows():
     sql_queries.append(query)
 
 # Escreva as consultas SQL em um arquivo de script
-with open('script.sql', 'w') as f:
+with open('script.sql', 'w', encoding="locale") as f:
     for query in sql_queries:
         f.write(query + "\n")

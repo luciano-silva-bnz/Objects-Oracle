@@ -138,7 +138,7 @@ class AppPrincipal(tk.Tk):
     def carregar_historico(self):
         if os.path.exists(self.historico_file):
             try:
-                with open(self.historico_file, 'r') as f:
+                with open(self.historico_file, 'r', encoding="locale") as f:
                     return json.load(f)
             except:
                 return {}

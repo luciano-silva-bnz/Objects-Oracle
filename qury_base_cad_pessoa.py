@@ -192,13 +192,13 @@ def consulta_banco(user, password, dsn, query):
 
 # ========== TOKEN TOTVS ==========
 def salvar_tokens(data: dict):
-    with open(TOKEN_STORAGE_FILE, 'w') as f:
+    with open(TOKEN_STORAGE_FILE, 'w', encoding="locale") as f:
         json.dump(data, f, indent=4)
 
 def carregar_refresh_token() -> str | None:
     if TOKEN_STORAGE_FILE.exists():
         try:
-            d = json.loads(TOKEN_STORAGE_FILE.read_text())
+            d = json.loads(TOKEN_STORAGE_FILE.read_text(encoding="locale"))
             return d.get('refreshToken') or d.get('refresh_token')
         except json.JSONDecodeError:
             return None

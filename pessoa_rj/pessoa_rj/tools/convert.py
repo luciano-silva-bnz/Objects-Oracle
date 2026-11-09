@@ -65,7 +65,7 @@ def read_pdf_texts(pdf_path: str):
 
 def safe_filename(name: str) -> str:
     """
-    Mantém apenas [A-Za-z0-9-_.() ] e troca / e \ por '-'.
+    Mantém apenas [A-Za-z0-9-_.() ] e troca / e \\ por '-'.
     NÃO troca espaço por underscore; quem chama decide o formato.
     """
     base = name or "sem_nome"

@@ -1,4 +1,5 @@
 import re
+from numbers import Number
 from pathlib import Path
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
@@ -179,36 +180,94 @@ class App:
         self.btn_export.pack(pady=8)
 
     # ---------- Helpers ---------- #
-    def format_currency(self, val):
-        if val is None:
+    def _clean_text(self, value):
+        if value is None or pd.isna(value):
             return ""
-        if isinstance(val, str):
-            cleaned = val.strip()
-            if not cleaned or cleaned.lower() == "nan":
+        text = str(value).strip()
+        return "" if text.lower() == "nan" else text
+
+    def _digits_from_excel_identifier(self, value):
+        if value is None or pd.isna(value):
+            return ""
+        if isinstance(value, Number) and not isinstance(value, bool):
+            number = float(value)
+            if pd.isna(number):
                 return ""
-            candidate = cleaned
+            if number.is_integer():
+                return str(int(number))
+
+        text = self._clean_text(value)
+        if not text:
+            return ""
+        if re.fullmatch(r"\d+[,.]0{1,2}", text):
+            text = re.sub(r"[,.]0{1,2}$", "", text)
+        return re.sub(r"\D", "", text)
+
+    def _normalize_cpf(self, value):
+        digits = self._digits_from_excel_identifier(value)
+        return digits.zfill(11) if digits else ""
+
+    def _parse_decimal_value(self, value):
+        if value is None or pd.isna(value):
+            return None
+        if isinstance(value, Number) and not isinstance(value, bool):
+            return float(value)
+
+        text = str(value).strip()
+        if not text or text.lower() == "nan":
+            return None
+
+        negative = text.startswith("(") and text.endswith(")")
+        cleaned = re.sub(r"[^0-9,.\-]", "", text)
+        if "-" in cleaned:
+            negative = True
+            cleaned = cleaned.replace("-", "")
+        if not cleaned:
+            return None
+
+        has_comma = "," in cleaned
+        has_dot = "." in cleaned
+        if has_comma and has_dot:
+            if cleaned.rfind(",") > cleaned.rfind("."):
+                normalized = cleaned.replace(".", "").replace(",", ".")
+            else:
+                normalized = cleaned.replace(",", "")
+        elif has_comma:
+            normalized = cleaned.replace(".", "").replace(",", ".")
+        elif has_dot:
+            parts = cleaned.split(".")
+            is_thousands = (
+                len(parts) > 1
+                and 1 <= len(parts[0]) <= 3
+                and all(len(part) == 3 for part in parts[1:])
+            )
+            normalized = "".join(parts) if is_thousands else cleaned
         else:
-            candidate = val
+            normalized = cleaned
+
         try:
-            number = float(candidate)
+            number = float(normalized)
         except Exception:
-            try:
-                number = float(str(candidate).replace('.', '').replace(',', '.'))
-            except Exception:
-                return ""
+            return None
+        return -number if negative else number
+
+    def format_currency(self, val):
+        number = self._parse_decimal_value(val)
+        if number is None:
+            return ""
         if pd.isna(number) or number != number:
             return ""
         return f"R$ {number:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
     def mask_cpf(self, cpf_original, cpf_norm):
         # Sempre prioriza o CPF normalizado (11 dígitos) para mascarar corretamente
-        d = re.sub(r"\D", "", str(cpf_norm or ""))
-        d = d.zfill(11)
+        d = self._digits_from_excel_identifier(cpf_norm)
+        d = d.zfill(11) if d else ""
         if len(d) == 11:
             return f"{d[0:3]}.{d[3:6]}.{d[6:9]}-{d[9:11]}"
         # fallback no original (quase nunca)
-        d2 = re.sub(r"\D", "", str(cpf_original or ""))
-        d2 = d2.zfill(11)
+        d2 = self._digits_from_excel_identifier(cpf_original)
+        d2 = d2.zfill(11) if d2 else ""
         if len(d2) == 11:
             return f"{d2[0:3]}.{d2[3:6]}.{d2[6:9]}-{d2[9:11]}"
         return str(cpf_original or cpf_norm)
@@ -223,14 +282,7 @@ class App:
 
     # ---------- Seleções ---------- #
     def _to_decimal(self, series):
-        if pd.api.types.is_numeric_dtype(series):
-            return pd.to_numeric(series, errors="coerce")
-        return pd.to_numeric(
-            series.astype(str)
-            .str.replace('.', '', regex=False)
-            .str.replace(',', '.', regex=False),
-            errors="coerce",
-        )
+        return pd.to_numeric(series.map(self._parse_decimal_value), errors="coerce").round(2)
 
     def load_trabalhista(self):
         filepath = filedialog.askopenfilename(
@@ -263,10 +315,10 @@ class App:
             df["FGTS"] = self._to_decimal(df["FGTS"])
             df["VERBA RESCISÓRIA"] = self._to_decimal(df["VERBA RESCISÓRIA"])
             df["VALOR PARCELA"] = self._to_decimal(df["VALOR PARCELA"])
-            df["QTD PARCELAS"] = pd.to_numeric(df["QTD PARCELAS"], errors="coerce")
+            df["QTD PARCELAS"] = self._to_decimal(df["QTD PARCELAS"])
 
-            df["CPF_ORIGINAL"] = df["CPF"].astype(str)
-            df["CPF_NORM"] = df["CPF_ORIGINAL"].str.replace(r"\D", "", regex=True).str.zfill(11)
+            df["CPF_ORIGINAL"] = df["CPF"].map(self._clean_text)
+            df["CPF_NORM"] = df["CPF"].map(self._normalize_cpf)
 
             self.trabalhista = df.dropna(how="all").reset_index(drop=True)
             logger.info('Planilha Base RJ carregada (%d linhas) a partir de %s', len(self.trabalhista), filepath)
@@ -312,22 +364,13 @@ class App:
             )
 
             for col in ["BANCO", "AGENCIA", "DIGAGENCIA", "NROCONTA", "DIGCONTA", "TIPO_CONTA", "CPF"]:
-                df[col] = df[col].astype(str).fillna("").str.strip()
+                df[col] = df[col].map(self._clean_text)
 
             df["CPF_ORIGINAL"] = df["CPF"]
-            df["CPF_NORM"] = df["CPF_ORIGINAL"].str.replace(r"\D", "", regex=True).str.zfill(11)
+            df["CPF_NORM"] = df["CPF_ORIGINAL"].map(self._normalize_cpf)
             df["PROGRAMACAO_DATA"] = pd.to_datetime(df["DATA_VENCIMENTO"], errors="coerce")
 
-            if pd.api.types.is_numeric_dtype(df["VALOR_NOMINAL"]):
-                df["VALOR_PROG"] = pd.to_numeric(df["VALOR_NOMINAL"], errors="coerce")
-            else:
-                valor_normalizado = (
-                    df["VALOR_NOMINAL"]
-                    .astype(str)
-                    .str.replace('.', '', regex=False)
-                    .str.replace(',', '.', regex=False)
-                )
-                df["VALOR_PROG"] = pd.to_numeric(valor_normalizado, errors="coerce")
+            df["VALOR_PROG"] = self._to_decimal(df["VALOR_NOMINAL"])
 
             self.programacao = df[df["CPF_NORM"].astype(str).str.strip() != ""].reset_index(drop=True)
             logger.info('Planilha C5 carregada (%d linhas) a partir de %s', len(self.programacao), filepath)
@@ -342,12 +385,10 @@ class App:
         prog = self.programacao.copy()
 
         def clean_str(value):
-            if pd.isna(value):
-                return ""
-            return str(value).strip()
+            return self._clean_text(value)
 
         def digits_only(value):
-            return re.sub(r"\D", "", clean_str(value))
+            return self._digits_from_excel_identifier(value)
 
         def first_valid(series):
             for value in series:

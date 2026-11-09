@@ -1,0 +1,16 @@
+2026-06-26 17:13:11,293 [INFO] pessoa_rj.ui.app: Aplicacao principal iniciada - versao 2.2.0
+2026-06-26 17:13:17,521 [INFO] pessoa_rj.api: Autenticacao bem-sucedida para LUCIANO
+2026-06-26 17:13:17,521 [INFO] pessoa_rj.ui.app: Login bem-sucedido para LUCIANO
+2026-06-26 17:13:20,349 [INFO] pessoa_rj.ui.app: Abrindo gerador de comprovante com comando: ['C:\\Users\\Luciano\\AppData\\Local\\Programs\\Python\\Python313\\python.exe', 'D:\\tds\\python\\consinco\\pessoa_rj\\cadastro_pessoa_gui.py', '--run-comprov']
+2026-06-26 17:13:22,165 [INFO] pessoa_rj.tools.comprov: Inicializando gerador de comprovantes RJ
+2026-06-26 17:13:22,172 [INFO] pessoa_rj.tools.comprov: Aplicacao de comprovantes iniciada - versao 2.2.0
+2026-06-26 17:14:07,502 [INFO] pessoa_rj.tools.comprov: Aplicacao de comprovantes encerrada - versao 2.2.0
+2026-06-26 17:14:08,542 [INFO] pessoa_rj.ui.app: Gerador de comprovante encerrado (retorno 0)
+2026-06-26 17:16:08,793 [INFO] pessoa_rj.ui.app: Abrindo gerador de comprovante com comando: ['C:\\Users\\Luciano\\AppData\\Local\\Programs\\Python\\Python313\\python.exe', 'D:\\tds\\python\\consinco\\pessoa_rj\\cadastro_pessoa_gui.py', '--run-comprov']
+2026-06-26 17:16:10,623 [INFO] pessoa_rj.tools.comprov: Inicializando gerador de comprovantes RJ
+2026-06-26 17:16:10,632 [INFO] pessoa_rj.tools.comprov: Aplicacao de comprovantes iniciada - versao 2.2.0
+2026-06-26 17:16:26,274 [INFO] pessoa_rj.tools.comprov: Planilha Base RJ carregada (664 linhas) a partir de D:/CONSINCO/FINANCEIRO/Bonanza - Fluxo de Pagamento (Classe I) - Planilha base-V11-19-06-26.xlsx
+2026-06-26 17:16:29,931 [INFO] pessoa_rj.tools.comprov: Planilha C5 carregada (1350 linhas) a partir de D:/CONSINCO/FINANCEIRO/TRABALHISTA_RJ.xlsx
+2026-06-26 17:16:31,141 [INFO] pessoa_rj.tools.comprov: Dados combinados: base=664, programações=160, dados bancários=160
+2026-06-26 17:20:42,722 [INFO] pessoa_rj.tools.comprov: Aplicacao de comprovantes encerrada - versao 2.2.0
+2026-06-26 17:20:43,469 [INFO] pessoa_rj.ui.app: Gerador de comprovante encerrado (retorno 0)

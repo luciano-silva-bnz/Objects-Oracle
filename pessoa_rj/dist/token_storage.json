@@ -1,0 +1,21 @@
+{
+    "access_token": "vhphN1jGGhrpi7xUUsFVJEdMWhTsk_medPA6Dzoo9wF1BDxY95KwIZ9BfJxjriPn8XsPFYeq-RO0bFYQVw5-7oxCIT9OV2Jg1nlVQryP3RLdQrItG8ZqAuvu_LIvOFqM23otoojXlxZjUngGvI9TICTBkVt4VwuBk77TiTgZC3r8ZCtWMINyz3MqZ08b54oamAn1Y5OW_5M4CkOl-6ba9BtxmZySdcWORtZ8_VI_LxEDXywybSJXy2lSp692UIEJVDHXGlFjZuWGKTQL_mCy5DryLhl9iBXvGSMsXUF2Xg3t6yJ8oPivVPgQrcLCG36Ezqn5ez9BEqkk5Y8EENZvtHpENOA-WYYhPniIobAs2-LM76-gSFByNdCnk54scM5dNaksVtuNsaG3cX0NtFbUGkuA-G4uBHu59eQOHG_MDTljREPGJRbaPfqTamdXyicr6YGQgFGbRVayp890JxmO9X3VGvykiHcTPGpXV_8mZwYnEoxV_gxWjz1To2fZ8pbyAewY_K7F5360UJZUUg3HSSDoHGZblk7XA8KxDz-EKdQv4qDm_n2PMHh-c7vZn5IlcXtAincA_oKb1xxmFbnbHDEKBsZjvmj-itcwESrUjCuYJCroDdyCfSiVaFmuQikMk60zLwyPNK4Pe0g17hIpiofWylpMrk-qw4g8Ept731Q1aSnAZoLP0XTdCG9-W-pgJCpPS3aqprh5wOd93kaJlhZ0Y80kORkWL-6d4DQ9EoZDH8XI",
+    "token_type": "bearer",
+    "expires_in": 14399,
+    "refresh_token": "36fde5e0-9a27-4d43-8645-11aedb43eddb",
+    "username": "LUCIANO",
+    "id": "2827",
+    "name": "LUCIANO",
+    "email": "luciano@bonanza.com.br",
+    "userSequence": "2827",
+    "company": "1",
+    "companyType": "E",
+    "userCode": "LUCIANO",
+    "permissionRole": "Administrator",
+    "loginId": "05818280462",
+    "isExt": "False",
+    "productLine": "CONSINCO",
+    "ADUser": "",
+    ".issued": "Fri, 26 Jun 2026 20:31:07 GMT",
+    ".expires": "Sat, 27 Jun 2026 00:31:07 GMT"
+}

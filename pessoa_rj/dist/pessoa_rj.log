@@ -1,0 +1,5 @@
+2026-06-26 17:30:49,080 [INFO] pessoa_rj.ui.app: Aplicacao principal iniciada - versao 2.2.0
+2026-06-26 17:31:07,480 [INFO] pessoa_rj.api: Autenticacao bem-sucedida para LUCIANO
+2026-06-26 17:31:07,480 [INFO] pessoa_rj.ui.app: Login bem-sucedido para LUCIANO
+2026-06-26 17:31:10,577 [INFO] pessoa_rj.ui.app: Abrindo gerador de comprovante com comando: ['D:\\tds\\python\\consinco\\pessoa_rj\\dist\\cadastro_pessoa_gui.exe', '--run-comprov']
+2026-06-26 17:31:25,683 [INFO] pessoa_rj.ui.app: Gerador de comprovante encerrado (retorno 1)
